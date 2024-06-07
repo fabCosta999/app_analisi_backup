@@ -1,0 +1,17 @@
+standard#
+{7}#
+Date due funzioni f(x) e g(x) se sono vere le equazioni sotto allora[Immagine]tf;2;lim[x->m1]f(x)=m2;lim[x->m1]g(x)=m3#
+{lim--}#-1#
+Date due funzioni f(x) e g(x) se sono vere le equazioni sotto allora[Immagine]tf;2;lim[x->m1]f(x)=m2;lim[x->m1]g(x)=m3#
+{lim--}#-1#
+Date due funzioni f(x) e g(x) se sono vere le equazioni sotto allora[Immagine]tf;2;lim[x->m1]f(x)=m2;lim[x->m1]g(x)=m3#
+{lim--}#-1#
+Se riesco a scomporre un limite di una funzione come la somma dei limiti delle funzioni separatamente mi basta sommarli per ottenere il
+risultato#
+Sempre vero; Vero solo se entrambi i risultati sono finiti; Vero a patto che non vengano due infiniti discordi; Falso#2#
+Calcolare il seguente limite[Immagine]tf;1;lim[x->m1](m2x+m3x<sup>2</sup>)[val]+;*;m2;m1;*;m3;^;m1;2#
+{lim---}#-1#
+Calcolare il seguente limite di una somma come somma di due limiti[Immagine]tf;1;lim[x->+inf](N1x+N2/x)#
+0; +[inf]; 1; forma indeterminata#1#
+Calcolare il seguente limite di una somma come somma di due limiti[Immagine]tf;1;lim[x->+inf](N1x-N2x<sup>2</sup>)#
+0; +[inf]; 1; forma indeterminata#3#

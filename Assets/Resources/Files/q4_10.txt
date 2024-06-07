@@ -1,0 +1,8 @@
+answerFixed#
+{5}#
+Diverge a +[inf]; Diverge a -[inf]; Converge a un numero positivo; Converge a un numero negativo; Non esiste#
+Il seguente integrale improprio[Immagine]{int---}#-1#
+Il seguente integrale improprio[Immagine]{int---}#-1#
+Il seguente integrale improprio[Immagine]{int---}#-1#
+Il seguente integrale improprio[Immagine]{int---}#-1#
+Il seguente integrale improprio[Immagine]{int---}#-1#

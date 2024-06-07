@@ -1,0 +1,29 @@
+[3]#
+{0}#
+[Testo]#
+Le derivate ci forniscono un nuovo strumento per la risoluzione
+dei limiti, in particolare delle forme indeterminate del tipo <math>[inf]/[inf] o 0/0</math>
+dove infatti vale sempre che <math>lim[x[->]x<sub>0</sub>]f(x)/g(x) = lim[x[->]x<sub>0</sub>]f'(x)/g'(x)</math>#
+[Popup]#
+Attenti non si fa la derivata del rapporto| si fanno separatamente le derivate
+del numeratore e del denominatiore#
+{1}#
+[Testo]#
+Ad esempio in passato avevamo detto in lezioni precedenti che <math>lim[x[->]0]x[*]ln(x)+1=1</math>questo implica che
+<math>lim[x[->]0]x[*]ln(x) = 0</math>per dimostrarlo si può usare de l'Hopital.#
+[Popup]#
+Le forme <math>0[*][inf]</math> sono un po' come <math>0/0 o [inf]/[inf]</math> | basta considerare il reciproco di una delle
+due funzioni come denominatore| per dire qui <math>x[*]ln(x)</math> che sarebbe una forma indeterminata <math>0[*]-[inf]</math> 
+|la riscriviamo come <math>ln(x)/(1/x)</math> una forma indeterminata del tipo <math>-[inf]/[inf]</math>#
+[Immagine]#
+tf;4;
+lim[x->0]x*ln(x) =;
+lim[x->0]ln(x)/(1/x) =;
+lim[x->0](1/x)/(-1/x<sup>2</sup>) =;
+lim[x->0]-x = 0#
+{2}#
+[Popup]#
+La regola di de l'Hopital è utilissima vi ritroverete a risolvere un sacco di limiti così|
+uno dei suoi pregi è che si sbarazza dei logaritmi, come fa qui sfruttando che <math>d/dx(ln(x))=1/x</math>|
+ma un altro vantaggio è che semplifica le potenze riducendone l'esponente|comunque ricordatevi di
+usarlo solo quando si può|ovvero nelle forme <math>0/0 [inf]/[inf]</math>| in generale non è vero che <math>f(x)/g(x) = f'(x)/g'(x)</math>#

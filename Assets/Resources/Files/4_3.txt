@@ -1,0 +1,56 @@
+[6]#
+{0}#
+[Testo]#
+Sfruttiamo anche la regola di derivazione delle funzioni composte:
+sappiamo che <math>(f(g(x)))'=f'(g(x))[*]g'(x)</math>#
+[Popup]#
+Per esempio la derivata di <math>sin(3x<sup>2</sup>)</math> è <math>cos(3x<sup>2</sup>)[*]6x</math>#
+{1}#
+[Testo]#
+Possiamo utilizzare questa conoscenza per svolgere facilmente integrali in 
+cui compaiono, moltiplicate tra loro una funzione composta e la derivata della 
+funzione interna, come nell'esempio sotto.#
+[Immagine]#
+tf;1;
+int((ln(|x|))<sup>3</sup>/x dx) = (ln(|x|))<sup>4</sup>/4 + c#
+{2}#
+[Testo]#
+Nel calcolo di questo integrale abbiamo notato che la derivata
+di (ln(|x|))<sup>4</sup> conteneva sia (ln(|x|))<sup>3</sup> sia 1/x e abbiamo sfruttato
+questa osservazione.#
+[Immagine]#
+tf;1;
+int((ln(|x|))<sup>3</sup>/x dx) = (ln(|x|))<sup>4</sup>/4 + c#
+{3}#
+[Testo]#
+In situazioni simili può anche essere applicata la strategia del cambio variabile:
+quando si sceglie di utilizzare il cambio variabile tutte le x, compreso il dx,
+vanno sostituite con una nuova variabile, legata a x tramite una funzione.
+Per esempio in questo caso possiamo scegliere t=ln(|x|).#
+[Popup]#
+Parliamone nella prossima pagina#
+{4}#
+[Testo]#
+se abbiamo <math>[int]((ln(|x|))<sup>3</sup>/x dx)</math> e vogliamo sostituire tutte
+le x con delle t utilizzando la relazione t=ln(|x|) dobbiamo
+prima di tutto scoprire la relazione tra dt e dx derivando
+la definizione di t:#
+[Immagine]#
+tf;3;
+t=ln(|x|);
+dt/dx = d/dx ln(|x|);
+dt = 1/x * dx#
+{5}#
+[Testo]#
+Adesso notiamo che nella formulazione originale dell'integrale,
+<math>[int]((ln(|x|))<sup>3</sup>/x dx)</math>  possiamo sostituire (ln(|x|))<sup>3</sup> con t<sup>3</sup>
+e 1/x dx con dt ottenendo il molto più semplice integrale <math>[int](t<sup>3</sup> dt)#
+[Popup]#
+A volte non è sufficiente definire t in funzione di x| e trovare dt in 
+funzione di dx per sostituire tutto| e risulta necessario anche scoprire
+quanto vale x in funzione di t per sostituire tutte quelle rimaste#
+[Immagine]#
+tf;3;
+int(ln(|x|)<sup>3</sup>/x dx) =;
+int(t<sup>3</sup> dt) =;
+t<sup>4</sup>/4 + c = ln(|x|)<sup>4</sup>/4 + c#

@@ -1,0 +1,9 @@
+8;2#
+>#maggiore#
+<#minore#
+>=#maggiore o uguale#
+<=#minore o uguale#
+=#uguale#
+∀#per ogni#
+∃#esiste almeno un#
+:#tale che#

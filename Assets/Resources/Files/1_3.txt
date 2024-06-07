@@ -1,0 +1,38 @@
+[4]#
+{0}#
+[Testo]#
+In questa lezione capiremo come distinguere una relazione qualsiasi tra due variabili, x e y
+da una funzione con variabile indipendente x e variabile dipendente y.#
+[Popup]#
+In realtà la definizione data già dovrebbe bastare ma spesso c'è molto dubbio|
+per dire <math>x<sup>2</sup>+y<sup>2</sup>=25 è una funzione? e x = 3y? e x+y-5=0?</math>#
+{1}#
+[Testo]#
+Le funzioni si riconoscono dal fatto che per ogni valore di x tra quelli ammessi dalla funzione (che definiremo meglio tra poco)
+viene associato un solo valore di y.#
+[Popup]#
+Ci possono essere più valori diversi di x associati alla stessa y ovvero tante diverse x possono condividere lo stesso risultato|
+ma non va bene se per uno stesso valore di x ve ne sono più di uno per y|
+nei nostri esempi <math>x<sup>2</sup>+y<sup>2</sup>=25</math> non è una funzione: per esempio per x=3 perché l'uguaglianza sia rispettata va bene sia y=-4 sia y=4|
+gli altri due esempi invece erano funzioni valide, facendo un attimo di passaggi algebrici si possono ricondurre alle forme y=x/3 e 
+y = -x+5| in generale se si riesce a scrivere y=(calcoli dipendenti da x con risultati univoci per ogni x scelta) siamo sicuri che sia una funzione|
+se riprendiamo il controesempio per dire si riesce a passare dalla forma x<sup>2</sup>+y<sup>2</sup>=25 a quella <math>y=[+-]rad(25-x<sup>2</sup>)</math> <math>ma è quel [+-] il problema: i risultati non sono univoci</math>#
+{2}#
+[Testo]#
+Ogni funzione ha un dominio, che è l'insieme di partenza della funzione ovvero l'insieme di tutti i valori che
+x può assumere, il dominio deve essere dichiarato insieme alla funzione altrimenti non viene comunicata un'informazione completa.
+Se il dominio viene omesso significa che è composto da tutti i reali eccetto quelli non calcolabili nelle funzioni utilizzate.#
+[Popup]#
+Per esempio non si può fare la radice quadrata (o in generale una radice di indice pari) di numeri negativi quindi nel dominio
+di funzioni definite con radici è necessario che sia presente una condizione che imponga che l'argomento della radice sia positivo|
+un altro esempio sono le divisioni, in cui il denominatore non può essere 0| o i logaritmi in cui l'argomento non può essere negativo o nullo#
+{3}#
+[Testo]#
+Per ogni funzione è anche calcolabile l'immagine che è l'insieme di tutti i risultati possibili della funzione valutata nel suo dominio,
+l'immagine è sempre un sottoinsieme (anche improprio) del codominio che è l'insieme di arrivo della funzione (in quelle che studiamo noi f:D->R il 
+codominio è R)#
+[Popup]#
+In altre parole l'insieme di tutte le y 'toccate' dalla funzione metto un'immagine qua sotto spero sia chiara|
+la funzione è rossa, immagine e dominio sono rispettivamente blu e verde.#
+[Immagine]#
+i;6#

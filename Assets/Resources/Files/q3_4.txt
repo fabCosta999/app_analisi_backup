@@ -1,0 +1,14 @@
+standard#
+{6}#
+Se la funzione in un punto è continua e ha pendenza (coefficiente angolare della retta tangente) positiva allora#
+In quel punto è crescente; In quel punto è decrescente; Non possiamo determinarlo senza altre informazioni#0#
+Se la funzione in un punto è continua e ha pendenza (coefficiente angolare della retta tangente) negativa allora#
+In quel punto è crescente; In quel punto è decrescente; Non possiamo determinarlo senza altre informazioni#1#
+Se il grafico accanto mostra l'andamento di f'(x) (derivata di f(x)) allora f(x) è crescente[Immagine]g;-;^;x;2;1#
+Sempre; Mai; Per x>0; Per |x|>1; Per |x|<1#3#
+Se il grafico accanto mostra l'andamento di f'(x) (derivata di f(x)) allora f(x) è decrescente[Immagine]g;^;x;2#
+Sempre; Mai; Per x>0; Per |x|>1; Per |x|<1#1#
+La funzione mostrata nel grafico in x=5 avrà derivata[Immagine]g;log;e;x#
+Positiva; Negativa; Nulla; Inesistente#0#
+Una funzione continua e priva di punti di non derivabilità definita per x>0 che cresce in (0, 1), decresce in (1, +[inf]) ha#
+Derivata inesistente; Derivata positiva in (0, 1), nulla in 1, negativa in (1, +[inf]); Derivata positiva in (0, 1), inesistente in 1, negativa in (1, +[inf]); Derivata negativa in (0, 1), nulla in 1, positiva in (1, +[inf]); Derivata negativa in (0, 1), inesistente in 1, psoitiva in (1, +[inf])#1#

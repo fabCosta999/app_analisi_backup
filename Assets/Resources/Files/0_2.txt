@@ -1,0 +1,24 @@
+[2]#
+{0}#
+[Testo]#
+Le proposizioni composte che risultano sempre vere a prescindere della veridicità delle sotto-proposizioni che le compongono
+sono dette tautologie.#
+[Popup]#
+"p o non p" è una tautologia: è vera in tutti i casi possibili ovvero sia che p sia vera sia che p sia falsa#
+[Immagine]#
+v;3;
+p;
+q= non p;
+p o q#
+{1}#
+[Testo]#
+Le proposizioni composte che risultano sempre false a prescindere dalla veridicità delle sotto-proposizioni che le compongono
+sono dette contraddizioni.#
+[Popup]#
+"p e non p" è una contraddizione: il connettivo "e" rende la proposizione composta vera solo se sia p sia non p sono contemporaneamente 
+vere ma questo non può succedere#
+[Immagine]#
+v;3;
+p;
+q= non p;
+p e q#

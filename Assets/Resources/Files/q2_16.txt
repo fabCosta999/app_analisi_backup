@@ -1,0 +1,15 @@
+standard#
+{6}#
+Supponi che una funzione sia tale che f(1)=-1 e f(2)=1, in quale situazione sono sicuro che in (1, 2) ci sia almeno uno 0?#
+Se f(x) è continua in [1, 2]; Se f(x) è continua in (1, 2); Se f(x) è definita in [1, 2]; Se le discontinuità in (1, 2) sono tutte eliminabili#0#
+Se f è continua su tutto [R] e f(-1)=4 e f(1)=10 allora sicuramente esiste c in (-1, 1) tale che#
+f(c)=4; f(c)=0; f(c)=10; f(c)=5#3#
+In quali di questi casi posso applicare il teorema di Weiestrass sull'intervallo del dominio di estremi 0 e 1?#
+Funzione continua in (0, 1); Funzione continua in [0, 1) o (0, 1] 0 [0, 1]; Funzione continua su tutto [R]; funzione continua in un intorno di 0.5#2#
+Il teorema degli zeri dice che se una funzione è continua su un intervallo chiuso e i valori che assume agli estremi sono discordi,
+allora#
+è presente almeno uno zero nell'intervallo aperto; è presente esattamente uno zero nell'intervallo aperto; non sono presenti zeri nell'intervallo aperto#0#
+Se f è continua in [0, 1] (con la notazione f([0, 1]) si intende l'immagine di f ristretta a [0, 1])#
+f([0, 1]) = [R]; f([0, 1]) è un intervallo; f([0, 1]) contiene un numero finito di elementi#1#
+Se f è continua in [0, 1] e f(0)=0 e f(1)=1 (con la notazione f([0, 1]) si intende l'immagine di f ristretta a [0, 1])#
+[0, 1] è un sottoinsieme o è uguale a f([0, 1]); f([0, 1])=[0, 1]; f(0.5)=0.5; c'è almeno uno 0 nella restrizione del dominio (0, 1)#0#

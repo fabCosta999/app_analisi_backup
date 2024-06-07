@@ -1,0 +1,64 @@
+{7}#
+Abbiamo la funzione f(x)=1/x^2-1, rappresentata nell'immagine sotto;
+dopo averne trovato il dominio studiamone il segno e la crescenza
+ovvero scopriamo in quali intervalli questa funzione è positiva,
+in quali è negativa, in quali cresce e in quali decrsce.
+<b>Qual è il dominio della funzione?</b> esprimi il risultato come
+un intervallo delimitato da '[' '(' ')' ']' o come l'unione di più intervalli
+(utilizzando meno intervalli possibile), indicando con u l'unione.
+Se sono presenti punti singoli indicali come '{punto}'.
+Esempio di soluzione nel formato corretto; [1, 2] u {3} u [5, +inf)[Immagine]ga;-;/;1;^;x;2;1#
+(-inf, 0) u (0, +inf)#
+La risposta corretta è <b>(-inf, 0) unito (0, +inf)</b> ovvero tutti i numeri
+reali tranne lo 0, questo perché non può essere eseguita una divisione con denominatore
+0 per cui va imposto che x^2!=0 da ciò otteniamo x!=0.#
+Chiediamoci ora un po' di caratteristiche di questa funzione: <b>è continua?
+è iniettiva e/o suriettiva? è pari o dispari?</b> Per rispondere utilizza una sequenza di
+caratteri separati da spazi: c se continua, d se discontinua, i se solo iniettiva, s se solo
+suriettiva b se biettiva n se nessuna delle tre, p se pari, d se dispari, n se nessuna delle due.
+esempio di risposta valida: c n n[Immagine]ga;-;1;^;x;2;1#
+c n p#
+La risposta corretta è: <b>continua, né iniettiva né suriettiva, pari</b>
+l'unico punto che sembrerebbe di discontinuità, perché per disegnare la funzione stacchi
+la matita dal foglio è lo 0 ma questo non appartiene al dominio della funzione quindi per
+definire la continuità non ci interessa, non è iniettiva poiché per tutte le y>-1 ci sono due valori
+di x che soddisfano l'equazione e non è suriettiva perché per tutte le y<=-1 non ci sono valori di x
+che soddisfano l'equazione, è pari infatti si vede chiaramente la simmetria rispetto all'asse delle y,
+inoltre f(x)=f(-x) poiché x^2=(-x)^2 per cui 1/x^2-1 = 1/(-x)^2 -1#
+Troviamo ora gli zeri della funzione, punti rilevanti perché molto spesso (ma non sempre) sono in 
+corrispondenza dei cambi di segno della funzione stessa. <b>per quali x vale f(x)=0?</b>
+rispondere con un insieme contenente tutte le x in questione in ordine, per esempio {0, 1, 2}[Immagine]ga;-;1;^;x;2;1#
+{-1, 1}#
+La risposta corretta è: <b>{-1, 1}</b> infatti f(-1)=1/(-1)^2-1=0 e f(1)=1/1^2-1=0
+per arrivare a queste soluzioni potevi guardare il grafico o risolvere l'equaizone 1/x^2-1=0;
+1/x^2 = 1; x^2=1; x=1 o x=-1#
+Studiamo ora il segno: <b>per quali x la funzione data è strettamente positiva?</b>
+rispondere con la notazione a intervalli già utilizzata nella prima risposta.[Immagine]ga;-;1;^;x;2;1##
+(-1, 0) u (0, 1)#
+La risposta corretta è <b>(-1, 0) unito (0, 1)</b> attenzione a non includere lo 0: non fa parte del dominio 
+della funzione lì la funzione non esiste, non è né positiva né negativa. Per arrivare a questa risposta potevi guardare il grafico della funzione o risolvere la disequazione 1/x^2-1>0; (1-x^2)/x^2>0; denominatore sempre positivo, studio del segno del numeratore:
+-x^2+1>0; x^2<1; -1<x<1 ricordando di intersecare questa soluzione con il dominio della funzione si ottiene -1<x<0 o 0<x<1#
+Abbiamo ora il segno della funzione che è: negativa in (-inf, -1) unito (1, +inf), nulla in {-1, 1} e positiva in (-1, 0) unito (0, 1).
+Studiamo infine la crescenza; <b>basandosi sul grafico della funzione in che intervalli quest'ultima è crescente?</b> solita notazione
+[Immagine]ga;-;1;^;x;2;1#
+(-inf, 0)#
+La risposta corretta è: <b>(-inf, 0)</b> ovvero la funzione è crescente per x<0,
+per adesso potevi ottenere questo risultato solo guardando al grafico e notando che il valore
+della y aumenta in corrispondenza di queste x, per esempio f(-2)=-3/4 < f(-1)=0; in futuro
+questo risultato sarà ottenibile numericamente tramite dei calcoli, in particolare studiando
+quando <b>la derivata della funzione è positiva</b> questo non è l'argomento di queste lezioni
+ma comunque sappi che la derivvata di questa funzione è g(x)=-2/x^3, controlla se tutto torna
+ovvero se quando g(x) è positiva f(x) cresce e quando g(x) è negativa f(x) decresce.#
+Estendiamo ora la nostra funzione in modo che il dominio sia tutto R, definendo f(0)=0
+in altre parole adesso f(x)=1/x^2-1 se x!=0 e f(x)=0 se x=0.
+<b>Stabilire se queste proposizioni sono vere: La funzione non è più continua dopo questa estensione.
+La funzione non è più pari dopo questa estensione</b>. rispondi con una 'V' o una 'F' seguita da uno spazio
+e poi da un'altra 'V' o 'F', per esempio se vuoi rispondere che sono entrambe vere rispondi V V#
+V F#
+La funzione non è più continua poiché in 0 devo staccare la matita dal foglio per tracciare il punto singolo,
+0 è quindi un punto di discontinuità; la funzione comunque è ancora pari tanto è sempre vero che f(0)=f(-0)#
+Ultima domanda: <b>qual è la restrizione più grande possibile del dominio della funzione tale che la funzione sia
+iniettiva e sempre decrescente</b>[Immagine]ga;-;1;^;x;2;1#
+(0, +inf)#
+La risposta corretta è <b>(0, +inf)</b> puoi notare dal grafico che adesso ogni valore di y è toccato solo da una
+x, nota che la funzione non è più pari.#

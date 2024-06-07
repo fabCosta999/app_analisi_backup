@@ -1,0 +1,12 @@
+standard#
+{5}#
+Il limite mostrato può essere risolto con il metodo di De l'Hopital[Immagine]tf;1;lim[x->+inf](x<sup>2</sup>-e<sup>x</sup>)/arctan(x)#
+Vero; Falso#1#
+Il limite mostrato può essere risolto con il metodo di De l'Hopital[Immagine]tf;1;lim[x->0]ln(x)*sin(x)#
+Vero; Falso#0#
+Il primo passaggio per risolvere questo limite con De l'Hopital è:[Immagine]tf;1;lim[x->+inf]e<sup>x</sup>/x<sup>2</sup> =...#
+lim[x[->]0]e<sup>x</sup>/2x; lim[x[->]+[inf]]e<sup>x</sup>/2x; lim[x[->]0]2x/e<sup>x</sup>; lim[x[->]+[inf]]2x/e<sup>x</sup>; lim[x[->]+[inf]](e<sup>x</sup>[*]x<sup>2</sup>-2xe<sup>x</sup>)/x<sup>4</sup>#1#
+La forma indeterminata 0[*][inf] può sempre essere ricondotta a una forma su cui è possibile utilizzare De l'Hopital#
+Vero; Falso#0#
+è sempre vero che lim[x[->]x<sub>0</sub>]f(x)/g(x) = lim[x[->]x<sub>0</sub>]f'(x)/g'(x)#
+Vero; Falso#1#

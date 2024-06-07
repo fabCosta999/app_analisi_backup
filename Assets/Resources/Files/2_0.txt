@@ -1,0 +1,38 @@
+[3]#
+{0}#
+[Testo]#
+Prendendo una successione come <math>a<sub>n</sub>=1/n</math> si può notare il seguente comportamento:
+i termini della successione diminuiscono sempre di più, avvicinandosi
+sempre di più a 0, non ci sarà mai una n per cui a<sub>n</sub>=0 ma potrai trovare sempre
+aumentare n abbastanza per cui essa è più vicina a 0 di qualsiasi numero tu possa immaginare.#
+[Popup]#
+Pensa alla successione, sono i numeri <math>1, 1/2, 1/3, 1/4, 1/5 ...</math>|
+è chiaro che se aumento n ottengo un numero sempre più piccolo siccome sto aumentando il denominatore|
+ed è chiaro che è sempre positivo, sempre + diviso +| bene cerchiamo di spiegare la frase qui sopra:|
+prendete un numero, arbitariamente piccolo (quindi piccolo quanto vi pare)| boh tipo <math>y<sub>0</sub>=0.00001</math>|
+bene per ottenere usando la nostra successione un risultato più vicino a 0 di y<sub>0</sub> basta prendere un 
+qualsiasi n maggiore di 100000|qualsiasi scelta di y<sub>0</sub> potrai trovare un n tale che da lì in poi 
+il risultato è più vicino a 0#
+{1}#
+[Testo]#
+Per definire questo comportamento di vicinanza arbitraria a un valore utilizzeremo il concetto
+di limite.#
+[Popup]#
+Vi faccio vedere la funzione 1/x (non ho programmato un grafico per visualizzare successioni poi magari faccio)|
+ma tanto la successione 1/n non sono altro che alcuni punti su questa curva|
+ecco vedete come la curva man mano che x cresce si avvicina sempre di più a 0 senza mai arrivarci|
+anche dalla visualizzazione a slider si capisce bene#
+[Immagine]#
+ga;/;1;x#
+{2}#
+[Testo]#
+Si può studiare il limite di una successione solo per <math>n[->]+[inf]</math> (n tendente a infinito),
+ma definiremo il concetto di limite anche per le funzioni e in quel caso sarà sensato studiarli anche 
+in punti finiti in cui la funzione non è definita; prendiamo per esempio <math>f(x)=1/x<sup>2</sup></math>è una funzione con dominio
+R-{0} quindi in 0 non ha un risultato definito ma in tutti i punti attorno a 0 ha risultati ben definiti,
+in questo caso il limite studia il risultato della funzione man mano che ci si avvicina sempre di più a x=0.#
+[Popup]#
+<math>Il risultato in questo caso è +[inf]</math>avvicinandosi a 0 possiamo ottenere delle y arbitrariamente grandi|
+ne parleremo meglio poi#
+[Immagine]#
+ga;/;1;^;x;2#

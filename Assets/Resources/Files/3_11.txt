@@ -1,0 +1,52 @@
+[5]#
+{0}#
+[Testo]#
+Per calcolare lo sviluppo di Taylor di una funzione
+è necessario conoscere il valore della funzione nel punto in cui
+vogliamo approssimarla e il valore delle derivate della funzione in quel
+punto fino alla n-esima.#
+[Popup]#
+Facciamo per esempio lo sviluppo fino al grado 3 di <math>ln(1+x) in x[->]0</math>#
+[Immagine]#
+tf;4;
+f(x)=ln(1+x), ln(1)=0;
+f'(x)=1/(1+x), 1/(1+0)=1;
+f''(x)=-1/(1+x)<sup>2</sup>, -1/(1+0)<sup>2</sup> =1;
+f<sup>(3)</sup>(x)=2/(1+x)<sup>3</sup>, 2/(1+0)<sup>3</sup> = 2#
+{1}#
+[Testo]#
+Il polinomio che ha gli stessi risultati deve avere termine noto nullo,
+coefficiente di x pari a 1 in modo che la derivata sia 1, coefficiente di x<sup>2</sup>
+pari a -1/2 in modo che la derivata seconda sia -1 (ricordiamoci che derivando si moltiplica per l'esponente)
+e coefficiente di x<sup>3</sup> pari a 1/3 in modo che la derivata terza sia 2.#
+[Popup]#
+Quindi è questo polinomio, verificate graficamente che in 0 siano funzioni simili#
+[Immagine]#
+tf;1;
+ln(1+x)=x-x<sup>2</sup>/2+x<sup>3</sup>/3+o(x<sup>3</sup>)#
+{2}#
+[Testo]#
+In generale la formula per il polinomio di Taylor di una funzione in un punto x<sub>0</sub>
+è:#
+[Immagine]#
+tf;3;
+f(x) = f(x<sub>0</sub>) + f'(x<sub>0</sub>)*(x-x<sub>0</sub>) + f''(x<sub>0</sub>)*(x-x<sub>0</sub>)<sup>2</sup>/2 +;
+f<sup>(3)</sup>(x<sub>0</sub>)*(x-x<sub>0</sub>)<sup>3</sup>/6 + ...;
+... + f<sup>(n)</sup>(x<sub>0</sub>)*(x-x<sub>0</sub>)<sup>n</sup>/n! + o((x-x<sub>0</sub>)<sup>n</sup>)#
+{3}#
+[Testo]#
+Uno sviluppo di Taylor calcolato in 0 si chiama sviluppo di McLaurin.#
+{4}#
+[Testo]#
+Siccome lo sviluppo contiene le derivate di una funzione contiene molte indicazioni sul
+comportamento di questa in un intorno del punto in cui è calcolato: il termine noto del polinomio
+dice il valore assunto dalla funzione e quindi il suo segno, il coefficiente del termine
+di primo gardo si ricava tramite la derivata prima e quindi indica la crescenza, il coefficente 
+del termine di secondo grado tramite la seconda e quindi ci dice la convessità.#
+[Popup]#
+Si può quindi facilmente capire se il punto è critico, di flesso o robe così|
+ma ricordate solo ed esclusivamente il punto studiato| lo sviluppo non è più un
+approssimazione della funzione neanche 0.0001 più a destra o sinistra|poi vabbè
+io sono un ingegnere|per me la approssima eccome a 0.0001 più a sinistra o destra|
+ma sto cercando di fare il matematico finché scrivo testi di un app che insegna la matematica
+sai com'è#

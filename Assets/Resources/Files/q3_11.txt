@@ -1,0 +1,14 @@
+standard#
+{5}#
+Quali di questi è lo sviluppo fino al grado 2 per x[->]0 di [Immagine]tf;1;e<sup>x</sup>-x+x<sup>3</sup>#
+1-x+x<sup>2</sup>/2+x<sup>3</sup>+o(x<sup>2</sup>); 1+x<sup>2</sup>/2+o(x<sup>2</sup>); 1-x+x<sup>2</sup>+o(x<sup>2</sup>); 1+x<sup>2</sup>/2+x<sup>3</sup>+o(x<sup>2</sup>)#1#
+è vero che sin(x)=x+o(x)#
+Sì sempre; Solo in un intorno di 0#1#
+Se sono in x[->]+[inf] e dopo aver sostituito alcune funzioni con il loro sviluppo di Taylor e svolgo i calcoli e ottengo come 
+risultato il termine o(x<sup>3</sup>) introdotto dallo sviluppo#
+Significa che il risultato è 0 visto che è trascurabile; Non sappiamo il risultato e il limite non è risolvibile con Taylor;
+Non sappiamo il risultato ma potremmo risolvere il limite considerando lo sviluppo fino a un grado più elevato#2#
+Posso sempre sostituire una funzione derivabile infinite volte con il suo sviluppo di Taylor quando calcolo un limite#
+Vero, e posso cancellare il termine o(x<sup>n</sup>); Vero ma devo mantenere il termine o(x<sup>n</sup>); Falso, solo in situazioni specifiche#1#
+Se una funzione non è derivabile#
+Non posso calcolarne lo sviluppo di Taylor; il termine dello sviluppo di Taylor contenente la derivata prima sarà nullo#0#

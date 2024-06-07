@@ -1,0 +1,19 @@
+standard#
+{8}#
+Quale di queste sequenze Dominio[->]Codominio è tipica delle successioni?#
+[R][->][R]; [N][->][N]; [N][->][R]; [R][->][N]#2#
+La successione a<sub>n</sub>=(-1)<sup>n</sup>#
+è continua; ha come immagine [R]; ha come immagine {-1}#0#
+Quale delle seguenti successioni produce i seguenti valori?[Immagine]tf;3;a<sub>1</sub> =1;a<sub>2</sub> =-0.5; a<sub>4</sub> =-0.25#
+((-1)<sup>n</sup>)/n; 1/n; ((-1)<sup>n+1</sup>)/n; ((-1)<sup>2n</sup>)/n#2#
+Data una qualsiasi funzione reale di variabile reale è possibile prenderne una restrizione
+corrispondente a una successione?#
+Sì, basta restringere il dominio ai naturali; No, il dominio si può restringere a intervalli ma non a punti singoli#0#
+Data la successione a<sub>n</sub>=n<sup>2</sup>#
+La successione è sempre crescente; la successione decresce e poi cresce#0#
+Data la successione a<sub>n</sub>=n<sup>2</sup> quanto fa a<sub>3</sub>?#
+3; 9; non ha senso perché 3 non è nel dominio#1#
+Data la successione a<sub>n</sub>=n<sup>2</sup> quanto fa a<sub>2.5</sub>?#
+2.5; 6.25; non ha senso perché 2.5 non è nel dominio#2#
+Data una successione a<sub>n</sub> è possibile che a<sub>5</sub>=-[pi]#
+Sì; No perché -[pi] è un numero negativo; No perché -[pi] è un numero irrazionale#0#

@@ -1,0 +1,58 @@
+{7}#
+Data la funzione definita a tratti f(x)=2sin(x)/x se x>=0 e (x^2+1)/3x se x<0
+studiamone la continuità e gli asintoti, non tracceremo il grafico fino ad aver 
+analizzato completamente la funzione in modo da non essere influenzati
+dall'immagine.
+Studiamo prima di tutto <b>il doiminio</b>: scrivilo come una unione di intervalli
+e/o punti uniti tramite la lettera u: esempio soluzione in formato corretto [1, 2] u {3} u [5, +inf)#
+(-inf, 0) u (0, +inf)#
+La soluzione è <b>(-inf, 0) unito (0, +inf)</b>: l'unico punto da escludere nei reali è lo 0
+poiché nella restrizione che comprende lo 0, ovvero quella definita come 2sin(x)/x vi è
+al denominatore x.#
+La funzione è continua poiché combinazione di funzioni continue, nelle funzioni definite a tratti
+tipicamente l'estremo comune alle restrizioni può essere un punto di discontinuità ma in questo caso
+lo 0 non appartiene al dominio quindi non ci sono problemi.
+Cerchiamo ora gli asintoti: per gli eventuali asintoti verticali dobbiamo eseguire lim[x->x0]f(x)
+con x0 finito per controllare se il risultato è infinito, nella situazione in cui siamo (dominio: R-{0},
+f(x)=2sin(x)/x se x>=0 e (x^2+1)/3x se x<0) <b>in quali punti x0 dobbiamo fare il limite perché è plausibile 
+che ci sia un asintoto?</b> indicare i punti come numeri in ordine crescente, separati da ', ' esempio di soluzione
+nel formato corretto: -4, -1, 8#
+0#
+La soluzione era solo il punto <b>0</b>: per il teorema di Weiestrass una funzione continua su un intervallo chiuso
+ha immagine limitata quindi per dire se considero l'intervallo [1, 1000] sono sicuro che la funzione non tenderà mai a 
+infinito di conseguenza gli unici punti di cui ha senso controllare il limite sono quelli che non riescono ad assere inclusi in
+nessun intervallo chiuso in cui la funzione è <b>definita e continua</b>, lo 0, il punto in cui non è definita, è l'unico che rispetta
+tale requisito; in generale gli asintoti verticali vanno controllati nei punti di accumulazione non compresi nel dominio o nei punti
+di accumulazione in cui la funzione non è continua.#
+Cerchiamo quindi di risolvere lim[x->0]f(x) ma ci accorgiamo che se lo consideriamo da sinistra otteniamo lim[x->0-](x^2+1)/3x ovvero la funzione che c'è alla sinistra dello 0, mentre se lo consideriamo da destra otteniamo lim[x->0+]2sin(x)/x ovvero la funzione a destra,
+questo ci motiva a calcolare i limiti separatamente per poi analizzare entrambi i risultati, iniziamo da quest'ultimo:
+<b>lim[x->0+]2sin(x)/x</b> quanto fa (scrivi solo il numero o +inf o -inf o N per dire che non esiste)?#
+2#
+La soluzione è <b>2</b>, è sufficente ricordare il limite notevole sin(x)/x=1 e applicare la regola per cui il limite
+di un prodotto è uguale al prodotto dei limiti: lim[x->0+]2sin(x)/x = lim[x->0+]2 * lim[x->0+]sin(x)/x = 2 * 1 = 2#
+Calcoliamo ora <b>lim[x->0-](x^2+1)/3x</b> (scrivi solo il numero o +inf o -inf o N per dire che non esiste)#
+-inf#
+La risposta corretta è <b>-inf</b>: al numeratore abbiamo che x^2+1=1, 
+lim[x->0-]1/3x=(lim[x->0-]1/x)/3, ricordiamo che
+lim[x->0]1/x non esiste perché arriva a infiniti di segno opposto da sinistra e da destra ma qui stiamo considerando solo da sinistra quindi esiste, in particolare è 1/qualcosa di negativo tendente a 0 quindi poiché costante/0=inf e + * - = - abbiamo il risultato -inf.#
+Facciamo ora i limiti di f(x) per x->+inf e per x->-inf, per x->+inf abbiamo <b>lim[x->+inf]2sin(x)/x</b> trova il risultato (scrivi solo il numero o +inf o -inf o N per dire che non esiste)#
+0#
+Il risultato è <b>0</b> per il teorema del confronto: -1<=sin(x)<=1; -2<=2sin(x)<=2; in un intorno di +inf vale -2/x<=2sin(x)/x<=2/x
+inoltre lim[x->+inf]-2/x=0 e lim[x->+inf]2/x=0 quindi 0<=lim[x->+inf]2sin(x)/x<=0 lim[x->+inf]2sin(x)/x=0.
+Un paio di errori tipici in questo caso: errore numero 1 assumere che la funzione non abbia limite per via della natura oscillante del sin(x) per x->+inf, questo si verifica solo in alcuni casi; errore numero 2: utilizzo de limite notevole sin(x)/x=1, questo vale solo 
+per x->0 qui siamo in un intorno di +inf non in un intorno di 0#
+L'ultimo limite lim[x->-inf](x^2+1)/3x fa -inf poiché l'infinito al denominatore è di ordine superiore rispetto a quello al denominatore,
+o, se preferisci lim[x->-inf](x^2+1)/3x=lim[x->-inf](x^2+o(x^2))/3x=lim[x->-inf]x^2/3x=lim[x->-inf]x/3 = -inf o puoi anche farlo raccogliendo x^2 al numeratore e notando che 1/x^2=0 fai col metodo che preferisci, comunque sia questo significa che non c'è asintoto orizzontale ma per verificare quello obliquo dobbiamo calcolare <b>lim[x->-inf]((x^2+1)/3x)/x)=m</b> e <b>lim[x->-inf]((x^2+1)/3x-mx)=q</b>, calcolali e scrivi m e q, separati da virgola e spazio, se m non esiste basta che scrivi N, se m esiste ma q no scrivi il valore di m
+seguito da virgola spazio e poi da N; per esempio 5, N#
+1/3, 0#
+La risposta corretta è <b>1/3, 0</b> mi spiace se hai scritto in un altro formato e te la ha data sbagliata ahahhahah
+comunque lim[x->-inf]((x^2+1)/3x)/x)=lim[x->-inf](x^2+o(x^2))/3x^2=lim[x->-inf]x^2/3x^2=1/3; lim[x->-inf]((x^2+1)/3x - x/3)=
+lim[x->-inf](x^2+1-x^2)/3x=lim[x->-inf]1/3x=0#
+Oke quindi abbiamo lim[x->-inf]f(x)/x = 1/3, lim[x->-inf]f(x)-x/3=0, lim[x->0-]f(x)=-inf, lim[x->0+]f(x)=2, lim[x->+inf]f(x)=0
+di conseguenza <b>che asintoti ha la funzione</b>? rispondi con delle lettere singole separate da spazio che indicano rispettivamente
+l'asintoto per x->-inf, l'asintoto da sinistra in 0, l'asintoto da destra in 0, l'asintoto per x->+inf; utilizza o
+per l'asintoto orizzontale, v per il veriticale, b per l'obliquo e N per nessun asintoto; per esempio se credi che gli asintoti
+siano i primi due verticali e gli altri due obliqui dovresti rispondere v v b b#
+b v N o#
+La risposta è: <b>obliquo, verticale, nessun asintoto, orizzontale</b> riguarda le lezioi se non ti è chiaro il perché;
+comunque ammira il grafico della funzione e vedrai che sono tutti sensati, tutto torna![Immagine]ga;se>={0};/;*;2;sin;x;x;/;+;^;x;2;1;x#

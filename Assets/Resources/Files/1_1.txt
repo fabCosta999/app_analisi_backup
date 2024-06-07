@@ -1,0 +1,37 @@
+[3]#
+{0}#
+[Testo]#
+In questo capitolo illustriamo alcune funzioni essenziali: per prima la funzione
+parte intera che mappa x al più grande numero intero y minore di x.#
+[Popup]#
+Quindi con x=9.1 verrà y=9 essendo 9 l'intero più grande minore o uguale a 9.1|
+in generale per i numeri positivi basta ignorare i valori dopo la virgola (per questo 
+so chiama parte intera)| per i negativi invece devi stare più attento che devi prendere quello minore quindi
+f(-2.5) = -3 non f(-2.5)=-2| ne approfitto per dirti che il mio grafico ha un problemino:
+traccia la funzione come una riga unica (era molto più facile da programmare sorry ahhahah)|
+e quindi non può disegnare dei "salti" della linea, qui per esempio ce ne sarebbero: con x che va 
+da 0.9 a 1 y passa da 0 a 1 ma direttamente, saltando senza la riga verticale disegnata dal mio grafico,
+usate tool più potenti che ne trovate in giro| ah ultima cosa in inglese sta funzione si chiama 'floor' spesso
+la vedrete indicata così#
+[Immagine]#
+ga;floor;x#
+{1}#
+[Testo]#
+Passiamo ora alla funzione mantissa: è definita come <math>x - floor(x)</math> ovvero come il valore di x
+meno la sua parte intera.#
+[Popup]#
+questa volta è un po' come fosse la parte dopo la virgola, anche se attenzione di nuovo è ez per i positivi|
+f(3.1) = 0.1; f(9.2928) = 0.2928| ma di nuovo non così intuitivo per i negativi: f(-1.7) = 0.3, f(-9.1) = 0.9|
+di nuovo stesso problema dei salti sul grafico# 
+[Immagine]#
+ga;-;x;floor;x#
+{2}#
+[Testo]#
+Ultima per questa lezione il valore assoluto, indicato con |x| e anche detto modulo è definito come
+<math>y=x se x>=0 e y=-x se x<0</math>#
+[Popup]#
+Quello che fa il valore assoluto è 'positivizzare' il suo argomento (ciò che metti dentro le righette)|
+infatti il risultato sarà sempre un numero positivo essendo l'argomento stesso se è già positivo e il suo opposto se negativo|
+(l'opposto di un numero negativo è positivo, -*-=+)| per esempio <math>f(x)=abs(x) [->] f(3)=3, f(15)=15, f(-10)=10, f(-0.5)=0.5</math>#
+[Immagine]#
+ga;abs;x#

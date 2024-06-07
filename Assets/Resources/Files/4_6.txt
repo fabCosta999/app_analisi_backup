@@ -1,0 +1,60 @@
+[6]#
+{0}#
+[Testo]#
+Fino ad ora abbiamo calcolato primitive di funzioni tramite integrali indefiniti
+agli estremi del simbolo di integrale possono essere messi dei numeri
+per indicare il calcolo di un integrale definito, che restituisce un numero.#
+[Popup]#
+Quindi non restituisce una funzione come l'integrale indefinito|
+comunque traqnuillo/a come calcoli non si complica per nulla|
+in pratica fai lo stesso identico procedimento di calcolo della primitiva|
+solo che alla fine fai un passaggio in più#
+{1}#
+[Testo]#
+L'integrale definito calcola l'area compresa tra il grafico della funzione
+e l'asse delle x nell'intervallo indicato dagli estremi, conteggia l'area
+sopra l'asse delle x come positiva e quella sotto come negativa.#
+[Immagine]#
+i;13#
+{2}#
+[Testo]#
+Per calcolare l'integrale definito è sufficiente calcolare una qualsiasi primitiva
+(tipicamente quella con c=0) e valutarla nell'estremo superiore (chiamiamolo b)
+e da questo sottrarre la valutazione della stessa prmitiva nell'estremo inferiore (a).
+Quindi abbiamo che <math>int[a, b](f(x) dx) =</math><math> F(b)-F(a)</math> (detto teorema fondamentale del calcolo integrale).#
+[Popup]#
+Verifichiamo che l'area torni di una figura che conosciamo,|per esempio se consideri la funzione y=x
+nel suo intervallo da 0 a 1| l'area che si forma sotto è quella di un triangolo di base 1 e altezza 1|
+quindi 1/2|beh <math>int[0, 1](xdx) =</math><math> (x<sup>2</sup>/2)_[0, 1] =</math><math> 1<sup>2</sup>/2-0<sup>2</sup>/2 = 1/2</math>|
+e vi giuro che funziona con tutto#
+{3}#
+[Testo]#
+Scriviamo ora qualche proprietà:#
+[Immagine]#
+tf;5;
+int[a, b]((c*f(x) + d*g(x)) dx) =;
+c*int[a, b](f(x)dx) + d*int[a, b](g(x)dx);
+;
+int[a, b](f(x)dx) =;
+int[a, c](f(x)dx) + int[c, b](f(x)dx)#
+{4}#
+[Testo]#
+Ovviamente per fare l'integrale definito serve scegliere un intervallo
+in cui la funzione esiste e ha primitive (per esempio una funzione continua ha sempre
+primitive).#
+{5}#
+[Testo]#
+Se viene fatto un cambio di variabile anche gli estremi devono cambiare di conseguenza
+e non è necessario tornare alla variabile iniziale, il risultato numerico ottenuto è già quello
+corretto.#
+[Popup]#
+Guarda l'esempio#
+[Immagine]#
+tf;7;
+int[1, 2](2x dx);
+t=2x -> dt = dx;
+x=1->t=2, x=2->t=4;
+int[1, 2](2x dx) =;
+int[2, 4](t dt) =;
+(t<sup>2</sup>/2)_[2, 4] =;
+4<sup>2</sup>/2 - 2<sup>2</sup>/2 = 6#

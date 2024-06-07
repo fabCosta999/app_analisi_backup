@@ -1,0 +1,28 @@
+[4]#
+{0}#
+[Testo]#
+In queste due ultime lezioni del capitolo non parleremo di funzioni reali di variabile
+reale (come quasi tutto il resto del corso) quindi di operatori D->R con R sottoinsieme di R
+ma parleremo do successioni ovvero operatori D->R con D sottoinsieme di N.#
+[Popup]#
+In pratica delle funzioni che mappano numeri naturali a numeri reali invece che reali a reali,
+funzioni reali di variabile naturale se volete.#
+{1}#
+[Testo]#
+Data una successione se ne può individuare una sotto-successione considerando solo una parte dei valori 
+di input secondo una regola ben definita, per esempio considerando solo i numeri pari/dispari.#
+[Popup]#
+Le successioni di solito si indicano con le lettere a partire dalla a, non dalla f come le funzioni|
+e la variabile utilizzata è una n invece che una x per evidenziare che si tratta di numeri naturali|
+un esempio di successione può essere a<sub>n</sub>=1/n con dominio <math>[N] - {0}</math>| quindi <math>n=1->a=1, n=2->a=1/2, n=3->a=1/3</math>
+e così via.#
+{2}#
+[Popup]#
+Le successioni sono sempre continue, so che fa strano visto che la penni la alzi dal foglio infinite volte|
+ma in verità ha senso, lo abbiamo detto che se il dominio è spezzettato è lecito no?#
+{3}#
+[Popup]#
+Un termine importante che incontrerai spesso nelle successioni è (-1)<sup>n</sup>|
+la successione <math>a<sub>n</sub>=(-1)<sup>n</sup></math> o in generale (-1)<sup>n</sup> moltiplicato a qualcos'altro sarà una successione oscillante|
+quindi con un alternanza di termini positivi e negativi| da notare anche la successione <math>a<sub>n</sub>=sin(n[pi])</math> che vale sempre 0|
+e la successione <math>a<sub>n</sub>=cos(n[pi])</math> che equivale a <math>(-1)<sup>n</sup></math>#

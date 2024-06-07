@@ -1,0 +1,35 @@
+[3]#
+{0}#
+[Testo]#
+Teorema di esistenza degli zeri: se una funzione è continua in un
+intervallo chiuso [a, b] ovvero f appartiene a C([a, b]) ed f(a) e f(b)
+hanno segno discorde allora la funzione interseca almeno una volta lo 0 in (a, b).#
+[Popup]#
+Pensaci la funzione deve passare in modo continuo quindi senza salti|
+da un punto in cui sta sotto l'asse a uno in cui sta sopra|o viceversa|
+tipo la funzione <math>y=x</math> è negativa in -1 e positiva in 2| quindi
+deve avere almeno uno 0 da qualche parte lì in mezzo| e infatti lo ha, in x=0#
+[Immagine]#
+ga;x#
+{1}#
+[Testo]#
+Stessa idea del teorema degli zeri ma traslato è il teorema dei valori intermedi
+che sempre partendo dall'ipotesi di continuità nell'intervallo [a, b] dice che
+la funzione deve assumere tutti i valori dell'intervallo <math>(min{f(a), f(b)}, max{f(a), f(b)})</math>
+nell'intervallo delle x <math>(a, b)</math>#
+[Popup]#
+Per esempio la funzione <math>y=x<sup>2</sup></math> in -1 fa 1 e in 2 fa 4| e nell'intervallo delle x tra -1 e 2
+assume tutti i valori tra 0 e 4| che comprendono tutti i valori tra 1 e 4 che son quelli garantiti dal
+teorema#
+[Immagine]#
+ga;^;x;2#
+{2}#
+[Testo]#
+Teorema di Weiestrass: se una funzione è continua in un intervallo chiuso [a, b]
+allora la sua immagine su quell'intervallo delle x sarà necessariamente anch'essa 
+un intervallo chiuso quindi un insieme avente sicuramente minimo e massimo.#
+[Popup]#
+Pensaci le funzioni sono illimitate in punti in cui non sono continue|
+quindi è impossibile che in un intervallo chiuso in cui la funzione è continua|
+essa non sia limitata|inoltre essendo continua e senza salti è impossibile che l'immagine
+sia composta da più intervallini| è sicuramente uno unico#

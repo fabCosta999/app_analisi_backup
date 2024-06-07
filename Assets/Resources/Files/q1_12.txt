@@ -1,0 +1,16 @@
+standard#
+{7}#
+Considera la successione a<sub>n</sub>=1/n, per n sempre più grandi il risultato si avvicina sempre di più a?#
+1 quindi a<sub>[inf]</sub>=1; 1 quindi la successione tende a 1; 0 quindi a<sub>[inf]</sub>=0; 0 quindi la successione tende a 0#3#
+Il numero 'e' appartiene ai naturali [N] essendo ciò a cui tende una successione#
+Vero; Falso#1#
+Il numero 'e' appartiene ai numeri razionali [Q]#
+Vero; Falso#1#
+Il numero 'e' è irrazionale ovvero appartiene a [R]-[Q]#
+Vero; Falso#0#
+La successione a<sub>n</sub>=2+1/n#
+Tende a 2; non ha senso; è crescente; è discontinua#0#
+Chiedersi 'a che cosa tende' una successione ovvero a che valore si avvicina man mano che n cresce porta a una risposta sensata#
+In alcune successioni ma non tutte (es (-1)<sup>n</sup>); In tutte le successioni; In nessuna successione#0#
+a<sub>n</sub>=(1+1/n)<sup>n</sup>=e questa uguaglianza è#
+corretta e vera; falsa per qualsiasi n[in][N]#1#

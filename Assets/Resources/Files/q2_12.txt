@@ -1,0 +1,14 @@
+standard#
+{6}#
+Date due funzioni f(x) e g(x) se sono vere le equazioni sotto allora[Immagine]tf;2;lim[x->m1]f(x)=m2;lim[x->m1]g(x)=m3#
+{lim-----}#-1#
+Date due funzioni f(x) e g(x) se sono vere le equazioni sotto allora[Immagine]tf;2;lim[x->m1]f(x)=m2;lim[x->m1]g(x)=m3#
+{lim-----}#-1#
+Date due funzioni f(x) e g(x) se sono vere le equazioni sotto allora[Immagine]tf;2;lim[x->m1]f(x)=m2;lim[x->m1]g(x)=m3#
+{lim-----}#-1#
+Se riesco a scomporre un limite di una funzione come la potenza dei limiti delle funzioni separatamente mi basta fare la potenza dei roisultati per ottenere il risultato finale#
+Sempre vero; Vero solo se entrambi i risultati sono finiti; Vero a patto che non si arrivi a 1<sup>[inf]</sup> [inf]<sup>0</sup> o 0<sup>0</sup>; Falso#2#
+Calcolare il segunte limite di una potenza come potenza tra due limiti[Immagine]tf;1;lim[x->+inf]x<sup>e<sup>x</sup></sup>#
+0; +[inf]; 1; forma indeterminata#1#
+Calcolare il segunte limite di una potenza come potenza tra due limiti[Immagine]tf;1;lim[x->+inf](1+1/x)<sup>x</sup>#
+0; +[inf]; 1; forma indeterminata#3#

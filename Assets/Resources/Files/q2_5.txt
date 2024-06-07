@@ -1,0 +1,14 @@
+standard#
+{6}#
+Data a<sub>n</sub>=m1+N1/n e f(x)=m2x+m3 quanto fa[Immagine]tf;1;lim[n->+inf]f(a<sub>n</sub>)#
+{lim}#-1#
+Data a<sub>n</sub>=m1+N1/n e f(x)=m2x+m3 quanto fa[Immagine]tf;1;lim[n->+inf]f(a<sub>n</sub>)#
+{lim}#-1#
+Data a<sub>n</sub>=N1n e f(x)=x<sup>p1</sup> quanto fa[Immagine]tf;1;lim[n->+inf]f(a<sub>n</sub>)#
+0; -[inf]; +[inf]; il limite non esiste#2#
+Data a<sub>n</sub>=2<sup>-n</sup> e f(x)=-1/x<sup>2</sup> quanto fa[Immagine]tf;1;lim[n->+inf]f(a<sub>n</sub>)#
+0; -[inf]; +[inf]; il limite non esiste#1#
+Data a<sub>n</sub>=2<sup>-n</sup> (nota bene a cosa tende e da quale verso (psoitivo o negativo)) e f(x)=-1/x quanto fa[Immagine]tf;1;lim[n->+inf]f(a<sub>n</sub>)#
+0; -[inf]; +[inf]; il limite non esiste#2#
+Data a<sub>n</sub>=arctan(n) e f(x)=sin(x), sapendo che lim[n[->]+[inf]]a<sub>n</sub>=[pi]/2, quanto fa[Immagine]tf;1;lim[n->+inf]f(a<sub>n</sub>)#
+-1; 0; 1; rad(2)/2; non esiste#2#

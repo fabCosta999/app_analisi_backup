@@ -1,0 +1,31 @@
+standard#
+{6}#
+Se esiste ed è finito il limite di f(x) in 5 allora#
+Sicuramente nell'insieme (4, 6) la funzione è limitata;
+Sicuramente nell'insieme (4.99, 5.01) la funzione è limitata;
+Entrambe vere;
+Entrambe False#3#
+lim[x[->]1]f(x)=0, da questo possiamo dedurre che#
+f(x) è limitata in un intorno di 0;
+f(x) è limitata in un intorno di 1;
+f(x) è positiva in un intorno di 0;
+f(x) è positiva in un intorno di 1;
+f(x) è negativa in un intorno di 0#1#
+lim[x[->]0]f(x)=1, da questo possiamo dedurre che#
+f(x) è limitata in un intorno di 0;
+f(x) è positiva in un intorno di 0;
+entrambe vere;
+entrambe false#2#
+Se lim[x[->]0]f(x) non esiste allora#
+La funzione non è limitata in ogni intorno di 0;
+La funzione assume valori sia positivi sia negativi in ogni intorno di 0;
+entrambe vere;
+entrambe false#3#
+Se lim[x[->]0]f(x) non è finito, come nell'esempio accanto[Immagine]g;/;1;^;x;2#
+La funzione non è limitata in ogni intorno di 0;
+La funzione assume valori sia positivi sia negativi in ogni intorno di 0;
+entrambe vere;
+entrambe false#0#
+Se f(x) è limitata in un intorno di x<sub>0</sub>#
+Allora lim[x[->]x<sub>0</sub>]f(x) esiste ed è finito;
+Non possiamo dirlo con certezza#1#

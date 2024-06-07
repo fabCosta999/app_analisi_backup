@@ -1,0 +1,45 @@
+[7]#
+{0}#
+[Testo]#
+Data una funzione f(x) se consideriamo <math>f(x+x<sub>0</sub>)</math> essa avrà un grafico
+identico alla funzione originale f(x) ma traslato verso sinistra di x<sub>0</sub>.
+se consideriamo invece <math>f(x)+y<sub>0</sub></math> essa avrà un grafico identico a f(x)
+ma traslato di y<sub>0</sub> verso l'alto.#
+[Popup]#
+obv se x<sub>0</sub> e y<sub>0</sub> fossero negativi le traslazioni sarebbero verso destra e il basso|
+vi mostro in questa pagina sin(x) e nelle seguenti sin(x+1) e sin(x)+1#
+[Immagine]#
+g;sin;x#
+{1}#
+[Popup]#
+ecco sin(x+1) noti che è identica ma 'decentrata'?#
+[Immagine]#
+g;sin;+;x;1#
+{2}#
+[Popup]#
+sin(x)+1#
+[Immagine]#
+g;+;sin;x;1#
+{3}#
+[Testo]#
+Data f(x) se consideriamo <math>f(a[*]x)</math> otteniamo una versione contratta in orizzontale di un fattore a,
+se consideriamo <math>b[*]f(x)</math> otteniamo una versione stirata in verticale di un fattore b.#
+[Popup]#
+Negativizzare le costanti qui specchia la funzione rispetto a uno degli assi|sperimentate un po'
+su degli editor per visualizzare i grafici|qui vi mostro sin(3x) e poi 3*sin(x)#
+[Immagine]#
+g;sin;3x#
+{4}#
+[Immagine]#
+g;*;3;sin;x#
+{5}#
+[Testo]#
+Infine, consideriamo f(|x|) e |f(x)|, la prima specchia la parte destra della funzione anche a sinistra
+la seconda specchia tutte le parti con y negative per renderle positive.#
+[Popup]#
+Eccovi sin(abs(x)) e abs(sin(x))#
+[Immagine]#
+g;sin;abs;x#
+{6}#
+[Immagine]#
+g;abs;sin;x#

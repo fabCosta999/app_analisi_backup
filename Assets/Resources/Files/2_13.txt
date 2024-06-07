@@ -1,0 +1,30 @@
+[3]#
+{0}#
+[Testo]#
+Elenchiamo ora una serie di limiti notevoli essenziali da ricordare.#
+[Immagine]#
+tf;7;
+lim[x->inf](1+1/x)<sup>x</sup> = e;
+lim[x->+inf](1+a/x)<sup>x</sup> = e<sup>a</sup>;
+lim[x->0]loga(1+x)/x = loga(e);
+lim[x->0](a<sup>x</sup>-1)/x = ln(a);
+lim[x->0]((1+x)<sup>c</sup>-1)/x = c;
+lim[x->0]sin(x)/x = 1;
+lim[x->0](1-cos(x))/x<sup>2</sup> = 1/2#
+{1}#
+[Testo]#
+Ancora qualcuno (meno frequente da incontrare di quelli sopra).#
+[Immagine]#
+tf;6;
+lim[x->0]tan(x)/x = 1;
+lim[x->0]arcsin(x)/x = 1;
+lim[x->0]arctan(x)/x = 1;
+lim[x->0]sinh(x)/x = 1;
+lim[x->0](cosh(x)-1)/x<sup>2</sup> = 1/2;
+lim[x->0]tanh(x)/x = 1#
+{2}#
+[Popup]#
+Per adesso dovete fidarvi che funziona|poi li spiegheremo|
+comunque per calcolare i limiti spesso ci si riconduce a ste forme qua|
+se vedete sono tutte forme indeterminate che quindi non sapremmo risolvere
+altrimenti#

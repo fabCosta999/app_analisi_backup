@@ -1,0 +1,14 @@
+standard#
+{6}#
+La funzione e<sup>x</sup> nel punto x=0 è ben approssimata dal polinomio di grado [<=] 2#
+1+x;x+x<sup>2</sup>/2; 1+2x+x<sup>2</sup>; 1+x/2+x<sup>2</sup>/2; 1+x+x<sup>2</sup>/2#4#
+L'unico modo di approssimare una funzione in un punto con un polinomio è trovare la retta tangente#
+Vero; Falso#1#
+Un modo di approssimare una funzione in un punto con un polinomio è trovare la retta tangente#
+Vero; Falso#0#
+Tutte le funzioni sono approssimabili a polinomi perché esiste sempre una retta tangente#
+Vero; Vero solo se derivabile; Falso, esistono anche funzioni derivabili senza retta tangente#1#
+Un polinomio approssimante di grado maggiore (scegliendo correttamente i coefficienti) è in grado di approssimare meglio una funzione qualsiasi#
+Vero; Falso#0#
+Immagina di dover apprrossimare la funzione f(x)=x+x<sup>2</sup>-x<sup>3</sup> nel punto x=0 quale ti aspetti che sia il polinomio approssimante migliore di grado [<=] 4?#
+x-2x<sup>3</sup>; x+x<sup>2</sup>-2x<sup>3</sup>+x<sup>4</sup>/10; x+x<sup>2</sup>-x<sup>3</sup>#2#

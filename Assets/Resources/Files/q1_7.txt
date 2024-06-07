@@ -1,0 +1,18 @@
+standard#
+{8}#
+Data f(x) crescente e g(x) crescente la funzione f(g(x))#
+è crescente; è decrescente; non si può sapere senza altre informazioni#0#
+Data f(x) decrescente e g(x) decrescente la funzione f(g(x))#
+è crescente; è decrescente; non si può sapere senza altre informazioni#0#
+Data f(x) crescente e g(x) decrescente la funzione f(g(x))#
+è crescente; è decrescente; non si può sapere senza altre informazioni#1#
+Se abbiamo g(x)=2x e f(x)=x<sup>2</sup> allora la funzione[Immagine]tf;1;y=2x<sup>2</sup>#
+è esprimibile come f(g(x)); è esprimibile come g(f(x)); in entrambi i modi; in nessuno dei due#1#
+Se abbiamo g(x)=x+1 e f(x)=x<sup>2</sup> allora la funzione[Immagine]tf;1;y=x<sup>2</sup>+2x+1#
+è esprimibile come f(g(x)); è esprimibile come g(f(x)); in entrambi i modi; in nessuno dei due#0#
+[Immagine]tf;1;f(g(x))=g(f(x))#
+Vero; Falso#1#
+Se il dominio di g(x) è D=[0, 10] allora il dominio di f(g(x)) è#
+anch'esso D; un insieme uguale a D o contenente D; un insieme uguale a D o un suo sottoinsieme; sono tutte affermazioni false#2#
+Se il dominio di g(x) è D=[0, 10] allora il dominio di g(f(x)) è#
+anch'esso D; un insieme uguale a D o contenente D; un insieme uguale a D o un suo sottoinsieme; sono tutte affermazioni false#3#

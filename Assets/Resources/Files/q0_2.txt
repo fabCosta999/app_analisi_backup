@@ -1,0 +1,12 @@
+answerFixed#
+{9}#
+è una tautologia; è una contraddizione; nessuna delle due#
+[Immagine]tf;1;p e (p e non p)#1#
+[Immagine]tf;1;p o (p e non p)#2#
+[Immagine]tf;1;p e non q#2#
+[Immagine]tf;1;q o (p o non p)#0#
+[Immagine]tf;1;q e (p o non p)#2#
+[Immagine]tf;1;p im p#0#
+[Immagine]tf;1;(p im q) eq (non q im non p)#0#
+[Immagine]tf;1;p eq non p#1#
+[Immagine]tf;1;(p e q) e (non p e q)#1#

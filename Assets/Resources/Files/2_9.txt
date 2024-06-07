@@ -1,0 +1,26 @@
+[2]#
+{0}#
+[Testo]#
+Teorema di limitatezza locale: se esiste ed è finito il limite di una funzione
+in un punto allora esiste un intorno di quel punto in cui la funzione è limitata.
+Se la funzione è continua in un punto lì il limite esiste sicuramente ed è
+sicuramente finito quindi questo teorema a volte viene detto con la continuità come ipotesi
+e funziona ugualmente.#
+[Popup]#
+In pratica stiamo dicendo che se in un punto la funzione ha un valore limitato...| ...e non ci sono salti
+improvvisi (altrimenti il limite non esisterebbe e la funzione non sarebbe continua)...|...allora 
+intorno a quel punto la funzione non schizza a infinito a caso, ha senso|ricordatevi che un intorno può 
+essere arbitrariamente piccolo|tipo la funzione 1/x è continua e ha limite finito (uguale a 1) in x=1|
+bene riesco a scegliere un intorno in cui è sempre limitata:|se scelgo un intorno troppo grande che comprende
+anche lo 0 tipo (-1, 3) fallisco| ma riesco senza problemi a individuarre almeno un intorno in cui è limitata, 
+tipo (0.5, 1.5)#
+[Immagine]#
+ga;/;1;x#
+{1}#
+[Testo]#
+Teorema di permanenza del segno: questo teorema riprende la filosofia di quello della limitetzza
+e dice che se il limite della funzione in un punto è positivo allora esisterà un intorno 
+di quel punto in cui la funzione è sempre positiva. Lo stesso vale per il segno negativo.#
+[Popup]#
+Anche qui stessa roba: se in un punto la funzione è positiva e non ci sono salti|
+allora intorno a quel punto la funzione non diventerà immediatamente negativa#

@@ -1,0 +1,20 @@
+standard#
+{9}#
+Calcola f<sup>(m1)</sup>(m2) data[Immagine]{der-}#
+{der-}#-1#
+Calcola f<sup>(m1)</sup>(m2) data[Immagine]{der-}#
+{der-}#-1#
+Calcola f<sup>(m1)</sup>(m2) data[Immagine]{der-}#
+{der-}#-1#
+Calcola f<sup>(m1)</sup>(m2) data[Immagine]{der-}#
+{der-}#-1#
+Per studiare la monotonia della funzione guardiamo la derivata#
+Prima; Seconda; Terza#0#
+Per studiare la concavità della funzione guardiamo la derivata#
+Prima; Seconda; Terza#1#
+Nell'intervallo [1, 2] la funzione x<sup>3</sup> è#
+Convessa; Concava#0#
+Nell'intervallo [0, 1] la funzione sin(x) è#
+Convessa; Concava#1#
+Calcola la derivata seconda di f(x)[Immagine]tf;1;f(x)=e<sup>x</sup>+sin(x)+ln(x)#
+e<sup>x</sup>+sin(x)+1/x<sup>2</sup>; e<sup>x</sup>-sin(x)+1/x<sup>2</sup>; e<sup>x</sup>-sin(x)-1/x<sup>2</sup>; e<sup>x</sup>+sin(x)-1/x<sup>2</sup>#2#

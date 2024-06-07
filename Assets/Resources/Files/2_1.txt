@@ -1,0 +1,42 @@
+[4]#
+{0}#
+[Testo]#
+Dato un valore x<sub>0</sub> un suo intorno è un intervallo aperto centrato in x<sub>0</sub>,
+si può anche definire un intorno di +infinito, come un qualsiasi intervallo <math>(M, +[inf])</math>
+o di -infinito come un qualsiasi intervallo <math>(-[inf], M)</math>#
+[Popup]#
+Quindi se prendiamo il punto x<sub>0</sub>=5 l'itervallo (5-2, 5+2) ovvero (3, 7) è un 
+suo intorno| <math>l'intervallo (4.5, 5.5) è un suo intorno</math>| <math>l'intervallo (10, +[inf]) 
+è un intorno di +[inf]</math>| <math>l'intervallo (-[inf], -500) è un intorno di -[inf]</math>#
+{1}#
+[Testo]#
+Il limite di una funzione (o successione) si può prendere solo di un punto
+di accumulazione, ovvero un punto x<sub>0</sub> per cui, qualsiasi intorno di x<sub>0</sub> scegli
+l'intersezione tra il dominio della funzione e l'intorno scelto contiene almeno un valore
+diverso da x<sub>0</sub>.#
+[Popup]#
+Ti ricordi che nella scorsa lezione abbiamo detto che nelle successioni i limiti possono
+essere presi solo in +infinito?| ecco tutto dovrebbe tornare con questa definizione, pensaci, consideriamo una successione con dominio N|
+se prendessimo il limite in un numero intero, per esempio per n->4 sarebbe facile individuare 
+almeno un intorno che non rispetta la definizione data qui sopra| per esempio (3.5, 4.5): 
+visto che il dominio è composto dai numeri naturali l'intersezione tra dominio e intorno è {4}|
+che è un insieme contenente solo il punto in cui volevamo fare il limite il che siginifica che non è un punto di accumulazione|
+invece +infinito lo è punto di accumulazione, pensaci scegliamo un intorno come <math>(600, +[inf])</math>|
+ecco, l'intersezione con il dominio della successione è <math>{600, 601, 602, ...}</math> ovvero un insieme contente 
+anche punti diversi da +infinito | (+infinito non è proprio contenuto nell'insieme ma questo è indifferente per
+considerarlo punto di accumulazione)#
+{2}#
+[Popup]#
+Se prendiamo invece una funzione|tutti i punti compresi, o agli estremi di un intervallo (non puntiforme)
+contenuto nel dominio della funzione sono punti di accumulazione| per esempio 0 è punto di accumulazione
+della funzione f(x)=ln(x) essendo il suo dominio <math>D=(0, +[inf])</math>|infatti prova a prendere qualsiasi intorno di 0, per esempio
+<math>(-0.01, 0.01)</math> bene l'intersezione con il dominio è <math>(0, 0.01)</math>| troverai punti nell'intersezione, a prescindere 
+di quanto prendi piccolo il tuo intorno#
+{3}#
+[Popup]#
+Quindi per essere chiari un punto finito è un punto di accumulazione di una funzione se
+nel dominio ci sono punti arbitariamente vicini| <math>+[inf] è punto di accumulazione
+se nel dominio ci sono punti arbitrariamente grandi</math> ovvero deve essere per forza un dominio con un intervallo del
+tipo <math>(M, +[inf])</math>|  <math>-[inf] è punto di accumulazione se nel dominio ci sono punti negativi
+arbitrariamente grandi in modulo</math> ovvero deve essere per forza un dominio con un intervallo del
+tipo <math>(-[inf], M)</math>#

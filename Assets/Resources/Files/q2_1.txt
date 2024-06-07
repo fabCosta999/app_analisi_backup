@@ -1,0 +1,13 @@
+answerFixed#
+{10}#
+è un punto di accumulazione; non è un punto di accumulazione#
+5 rispetto all'insieme (5, 10]#0#
+5 rispetto all'insieme [5, 10]#0#
+5 rispetto all'insieme (1, 10]#0#
+N1 rispetto all'insieme [N]#1# 
+n1 rispetto all'insieme [Q]#0#
+5 rispetto al'insieme (1, 4)#1#
++[inf] rispetto all'insieme [N]#0#
+-[inf] rispetto all'insime [N]#1#
+5 rispetto all'insieme [1, 4] unito {5} unito [6, 10)#1#
+n1 rispetto all'insieme [Z]#1#

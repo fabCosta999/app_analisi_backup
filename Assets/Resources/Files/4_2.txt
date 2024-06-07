@@ -1,0 +1,58 @@
+[6]#
+{0}#
+[Testo]#
+è possibile sfruttare la formula di derivazione
+di un prodotto per calcolare alcuni integrali di un
+prodotto.#
+{1}#
+[Testo]#
+La formula di derivazione di un prodotto è
+<math>(f(x)g(x))'=</math><math>f'(x)g(x)+f(x)g'(x)</math>possiamo riscriverla come
+<math>f'(x)g(x) =</math><math> (f(x)g(x))' - f(x)g'(x)</math> di conseguenza se 
+riusciamo a individuare nel nostro integrale una funzione
+da far corrispondere a f'(x) e una da far corrispondere a g(x)
+possiamo riformularlo, in alcuni casi semplificandolo.#
+{2}#
+[Testo]#
+Mettiamo per esempio di dover calcolare la primitiva di 
+x*e<sup>x</sup>: possiamo vederla come:#
+[Immagine]#
+tf;5;
+f'(x)*g(x)=x*e<sup>x</sup>;
+f'(x)=e<sup>x</sup> -> f(x)=e<sup>x</sup>;
+g(x)=x->g'(x)=1;
+f(x)*g(x)=x*e<sup>x</sup>;
+f(x)*g'(x)=1*e<sup>x</sup>#
+{3}#
+[Testo]#
+Quindi possiamo riscrivere il nostro integrale in questo modo:
+<math>[int]((x[*]e<sup>x</sup>)dx) =</math><math> [int]((x[*]e<sup>x</sup>)'dx) - [int](e<sup>x</sup>dx)</math>
+da notare che il primo termine nella parte destra è l'intergrale di una derivata
+ovvero la primitiva di una derivata ovvero la funzione stessa#
+[Immagine]#
+tf;3;
+int((x*e<sup>x</sup>)dx) =;
+int((x*e<sup>x</sup>)'dx) - int(e<sup>x</sup>dx) =;
+x*e<sup>x</sup> - e<sup>x</sup> + c#
+{4}#
+[Testo]#
+In generale la formula per l'integrazione per parti è:#
+[Immagine]#
+tf;2;
+int((f'(x)*g(x))dx) =;
+f(x)*g(x) - int((f(x)*g'(x))dx)#
+{5}#
+[Testo]#
+Alcune volte con funzioni come sin(x), cos(x), e<sup>x</sup> le cui
+derivate tornano ciclicamente alla funzione originale è possibile
+risolvere l'integrazione in modo ciclico, ecco un esempio.#
+[Popup]#
+Risolviamo l'integrale di <math>sin(x)[*]e<sup>x</sup></math>| nella prima integrazione per parti
+consideriamo <math>f'(x)=e<sup>x</sup> e g(x)=sin(x)</math>| ci sarà una seconda integrazione per parti#
+[Immagine]#
+tf;6;
+int((sin(x)*e<sup>x</sup>)dx)=sin(x)*e<sup>x</sup>-int((cos(x)*e<sup>x</sup>)dx);
+sin(x)*e<sup>x</sup>-int((cos(x)*e<sup>x</sup>)dx)=sin(x)*e<sup>x</sup>-(cos(x)*e<sup>x</sup>+c+int(sin(x)*e<sup>x</sup> dx));
+int((sin(x)*e<sup>x</sup>)dx) = sin(x)*e<sup>x</sup>-cos(x)*e<sup>x</sup>+c-int(sin(x)*e<sup>x</sup> dx);
+2*int((sin(x)*e<sup>x</sup>)dx) = sin(x)*e<sup>x</sup>-cos(x)*e<sup>x</sup> + c;
+int((sin(x)*e<sup>x</sup>)dx) = (sin(x)*e<sup>x</sup>-cos(x)*e<sup>x</sup>)/2 + c#

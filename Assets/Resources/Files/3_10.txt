@@ -1,0 +1,43 @@
+[4]#
+{0}#
+[Testo]#
+A volte può essere molto utile approssimare una funzione
+a un polinomio visto che è un oggetto con cui tipicamente 
+è molto semplice lavorare, noi approssimeremo funzioni a polinomi
+in singoli punti, un esempio di approssimazione a polinomio di grado
+1 è l'individuazione della retta tangente.#
+[Popup]#
+La retta tangente non solo ha lo stesso valore della funzione nel punto
+in cui la approssima| ha anche la stessa identca pendenza, detta in altre parole 
+la stessa derivata prima| questo garantisce che in un intorno del punto di approssimazione
+i valori della funzione originale e della retta approssimante siano simili|sono i più simili
+ottenibili#
+[Immagine]#
+gt;^;x;3|-;*;*;3;^;y;2;x;*;2;^;y;3#
+{1}#
+[Testo]#
+Possiamo ottenere un'approssimazione migliore utilizzando le parabole invece delle rette,
+o polinomi cubici invece delle parabole, e così via; la logica utilizzata per approssimare
+la funzione è la seguente: cercheremo il polinomio di grado n che passa esattamente dove passa
+la funzione e che condivide con essa tutte le derivate fino alla n-esima.#
+[Popup]#
+Prendiamo per esempio la funzione e<sup>x</sup> nel punto x=0|vale 1, così come la sua derivata,
+così come la sua derivata seconda e così via| quindi il polinomio approssimante di grado 1
+(la retta tangente) sarà la retta <math>1+x</math> (se sostitusico x=0 viene 1 e se calcolo la derivata in 0 viene 1)|
+il polinomio approssimante di grado 2 sarà <math>1+x+x<sup>2</sup>/2</math> (provate a calcolare derivata prima e seconda in 0, fanno 1)|
+e così via#
+{2}#
+[Testo]#
+In generale nei calcoli dei limiti (o di altro) potremo sostituire qualsiasi funzione
+con il proprio polinomio approssimante, a patto di ricordarci che non ci dà il valore esatto
+che aveva la funzione riportando la presenza di un termine trascurabile.#
+[Popup]#
+Ricordate Landau?#
+{3}#
+[Testo]#
+Quindi si potrà dire che:
+<math>lim[x[->]x<sub>0</sub>]f(x) = lim[x[->]x<sub>0</sub>](polinomio approssimante di grado n + o((x-x<sub>0</sub>)<sup>n</sup>))</math>#
+[Popup]#
+Nella prossima lezione vediamo bene come fare|per ora voglio solo che ti sia chiaro sto concetto:|
+si tratta di un polinomio avente esattamente le stesse derivate della funzione originale| ma solo
+nel punto in cui vogliamo approssimarla#

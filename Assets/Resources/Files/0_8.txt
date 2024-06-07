@@ -1,0 +1,33 @@
+[4]#
+{0}#
+[Testo]#
+Nell'introduzione agli insiemi abbiamo citato l'esistenza dell'insieme dei numeri razionali come
+sottoinsieme dei numeri reali implicando quindi che ci fossero alcuni numeri oltre quelli razionali
+ovvero che ci siano alcuni numeri non rappresentabili come frazione di due interi.#
+{1}#
+[Testo]#
+è lecito chiedersi il perché di questa cosa: come si deduce che non tutti i numeri sono rappresentabili in quel modo?
+qual'è un esempio di numero non razionale?#
+[Popup]#
+A dire il vero con i numeri reali non stiamo ancora descrivendo tutti i numeri che sino stati ideati, ci
+sono molti sistemi nuerici che non sfioreremo qui|ma l'obbiettivo è poter dire di avere tutti i numeri rappresentabili su 
+una retta continua#
+{2}#
+[Testo]#
+Per costruire un numero irrazionale e riportarlo sulla retta dei numeri è sufficiente disegnare un quadrato di lato 1 con un vertice
+sullo 0 della retta, con un compasso riportare il vertice opposto sulla retta, ecco questa distanza è necessariamente irrazionale
+e lo dimostreremo.#
+[Immagine]#
+i;5#
+{3}#
+[Testo]#
+Per il teorema di pitagora la distanza tracciata è pari a rad(2) se questo fosse un numero razionale si potrebbero trovare
+p e q interi e primi tra lori tale che <math>p/q = rad(2)</math> ovvero che p<sup>2</sup>/q<sup>2</sup> = 2, ma questo implica che p<sup>2</sup> = 2 q<sup>2</sup> che ci fa dedurre che p deve essere un numero pari
+(p<sup>2</sup> è il doppio di un intero quindi è sicuramente divisibile per 2) ma se è un numero pari si può scrivere come 2 volte un altro numero k:
+<math>p=2k [->] (2k)<sup>2</sup> = 2 q<sup>2</sup> [->]</math><math>[->] 4 k<sup>2</sup> = 2 q<sup>2</sup> [->] q<sup>2</sup> = 2 k<sup>2</sup></math> da qui deduciamo che anche q è pari, quindi q e p non sono coprimi tra loro il che rende assurda
+l'ipotesi di partenza#
+[Popup]#
+Sebbene una frazione con due numeri non corpimi tra loro abbia senso essa si potrà sempre semplificare e si potrà sempre ridurre
+numeratore e denominatore a numeri coprimi| per esempio 6/4 è uguale a 3/2| la prova sopra dimostra che p<sup>2</sup>/q<sup>2</sup> dovrà sempre avere numeratore e denomintore pari, 
+anche dopo la semplificazione, perché rad(2) possa essere un numero razionale| di conseguenza rad(2) è irrazionale e presente sulla retta dei numeri, altri esempi 
+di tali numeri sono pigreco, e, phi e tante radici#

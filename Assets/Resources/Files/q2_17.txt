@@ -1,0 +1,19 @@
+standard#
+{8}#
+Questa funzione per x[->]+[inf] ha un asintoto di che tipo?[Immagine]g;/;+;^;x;2;1;x#
+Orizzontale; Verticale; Obliquo#2#
+Questa funzione per x[->]-[inf] ha un asintoto di che tipo?[Immagine]g;min;^;e;x;^;x;2#
+Orizzontale; Verticale; Obliquo#0#
+Questa funzione per x[->]1 ha un asintoto di che tipo?[Immagine]g;/;-;^;e;^;x;2;e#
+Orizzontale; Verticale; Obliquo#1#
+Se lim[x[->]+[inf]]f(x)=5 allora#
+La funzione ha l'asintoto orizzontale x=5; La funzione ha l'asintoto orizzontale y=5;
+La funzione ha l'asintoto verticale x=5; La funzione ha l'asintoto verticale y=5#1#
+Se una funzione ha un asintoto orizzontale a destra (tende a una costante per x[->]+[inf]) allora lo ha anche a sinistra#
+Vero; Falso#1#
+Tutte le funzioni hanno almeno un asintoto#
+Vero; Falso#1#
+Gli asintoti verticali possono esistere solo in punti di accumulazione esclusi dal dominio della funzione#
+Vero; Falso#0#
+Se una funzione per x[->]+[inf] ha un asintoto obliquo significa necessariamente che il suo ordine di infinito è pari a quello di x#
+Vero; Falso#0#

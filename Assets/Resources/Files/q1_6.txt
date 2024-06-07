@@ -1,0 +1,12 @@
+answerFixed#
+{9}#
+è crescente; è decrescente; nessuna delle due#
+La funzione f(x)=x<sup>2</sup> nell'intervallo [-10, 10][Immagine]g;^;x;2#2#
+La funzione f(x)=x<sup>2</sup> nell'intervallo [-5, -2][Immagine]g;^;x;2#1#
+La funzione f(x)=ParteIntera(x) nell'intervallo (0, 2)[Immagine]g;floor;x#0#
+La funzione f(x)=x<sup>4</sup> nell'intervallo [-10, 10][Immagine]a;^;x;4#2#
+La funzione f(x)=sin(x) nell'intervallo [0, pi/2][Immagine]a;sin;x#0#
+La funzione f(x)=Mantissa(x) nell'intervallo (0, 1)#0#
+La funzione f(x)=1/x nell'intervallo [2, 3][Immagine]a;/;1;x#1#
+La funzione f(x)=-arctan(x) nell'intervallo [-5, 5][Immagine]g;*;-1;atan;x#1#
+La funzione f(x)=x<sup>3</sup>-x nell'intervallo [-10, 10][Immagine]a;-;^;x;3;x#2#

@@ -1,0 +1,36 @@
+[4]#
+{0}#
+[Testo]#
+Una funzione si dice iniettiva se ogni elemento del codominio ha al più una controimmagine nel dominio
+ovvero se ad ogni y corrispondono nessuna o una x.#
+[Popup]#
+Dal grafico si può notare immaginando righe orizzontali: se tutte le righe toccano una o nessuna volta la
+funzione allora è iniettiva|per esempio qui sotto metto rad(x) con dominio [0, +inf), vedete che se tracciate righe orizzontali 
+in corrispondenza di y positive queste toccano solo una volta la funzione, in corrispondenza di y negative nessuna volta#
+[Immagine]#
+g;^;x;/;1;2#
+{1}#
+[Testo]#
+Una funzione si dice suriettiva se ogni elemento del codominio ha almeno una controimmagine nel doominio
+ovvero se ad ogni y corrispondono una o più x.#
+[Popup]#
+Anche qui si può notare immaginando righe orizzontali: se tutte le righe toccano una o più volte la
+funzione allora è suriettiva|per esempio qui sotto metto <math>tan(x) con dominio (-[inf], +[inf]) - {[pi]/2+k[pi] con k[in][Z]}</math>, vedete che 
+se tracciate righe orizzontali queste toccano la funzione infinite voltae#
+[Immagine]#
+g;tan;x#
+{2}#
+[Testo]#
+Una funzione può essere sia iniettiva sia suriettiva contemporaneamente: questo tipo di funzioni sono 
+tali che ogni elemento del codominio ha esattamente una controimmagine nel dominio ovvero ad ogni y
+corrisponde una sola x, una funzione con queste caratteristiche si chiama biiettiva (o biunivoca).#
+[Popup]#
+Di nuovo la strategia del verificare che nelle righe orizzontali tocchino sempre una sola volta la funzione.|
+metto qui la funzione x<sup>3</sup> con dominio R#
+[Immagine]#
+g;^;x;3#
+{3}#
+[Testo]#
+è sempre possibile considerare delle restrizioni del dominio di una funzione che la rendano iniettiva, e 
+per una funzione iniettiva è sempre possibile restringere il codominio, facendolo coincidere con l'immagine per renderla 
+biiettiva; questo sarà molto importante per il calcolo della funzione inversa che affronteremo nella prossima lezione.#

@@ -1,0 +1,12 @@
+standard#
+{5}#
+è vero che[Immagine]tf;1;int(f(x)*g(x)dx)=int(f(x)dx)*int(g(x)dx)#
+Sì; No#1#
+è vero che[Immagine]tf;1;int(f(x)*g(x)dx)=F(x)*g(x)-int(F(x)*g'(x)dx)#
+Sì; No#0#
+Utilizzando due volte la formula dell'integrazione per parti si può passare da [int](x<sup>2</sup>[*]e<sup>x</sup>dx) a#
+x<sup>2</sup>[*]e<sup>x</sup>-2x[*]e<sup>x</sup>+[int](e<sup>x</sup>dx); x<sup>2</sup>[*]e<sup>x</sup>-2x[*]e<sup>x</sup>+2[*][int](e<sup>x</sup>dx); x<sup>2</sup>[*]e<sup>x</sup>+2x[*]e<sup>x</sup>-2[*][int](e<sup>x</sup>dx); x<sup>2</sup>[*]e<sup>x</sup>+2x[*]e<sup>x</sup>-[int](e<sup>x</sup>dx)#1#
+Dato [int](f(x)[*]e<sup>x</sup>dx) dove f(x) è un monomio è meglio utilizzare l'integrazione per parti per arrivare a quale delle due forme?#
+f(x)[*]e<sup>x</sup>-int(f'(x)[*]e<sup>x</sup>dx) perché riduce il grado del monomio dentro l'integrale; F(x)[*]e<sup>x</sup>-[int](F(x)[*]e<sup>x</sup>dx) perché aumenta il grado del monomio dentro l'integrale#0#
+Risolvi il seguente integrale per parti (suggerimento: considera che ln(x)=1[*]ln(x))[Immagine]tf;1;int(ln(x)dx)#
+x[*]ln(x)-x; x[*]ln(x)-1+c; x[*]ln(x)-ln(x)+c; x(-1+ln(x))+c#3#

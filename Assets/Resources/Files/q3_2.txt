@@ -1,0 +1,9 @@
+answerFixed#
+{6}#
+Un punto angoloso; Una cuspide; Un flesso a tangente verticale#
+Se la funzione ha l'aspetto di uno spigolo (con angolo>0°) quello è un punto di non derivabilità, in particolare#0#
+Se la funzione ha l'aspetto di uno spigolo con angolo=0° quello è un punto di non derivabilità, in particolare#1#
+Se la funzione in un punto va dritto verso l'alto quello è un punto di non derivabilità, in particolare#2#
+La funzione mostrata, in x=0 ha[Immagine]g;*;2;abs;x#0#
+La funzione mostrata, in x=1 ha[Immagine]g;^;abs;-;x;1;/;1;2#1#
+La funzione mostrata, in x=-1 ha[Immagine]g;^;+;x;1;/;1;3#2#

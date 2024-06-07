@@ -1,0 +1,25 @@
+standard#
+{8}#
+Il limite di una successione è#
+Un valore a cui il risultato della successione si avvicina sempre di più al crescere di n;
+Un valore a cui si può arrivare arbitrariamente vicino con una giusta scelta di n;
+La prima e la seconda frase (contemporaneamente vere);
+La prima o la seconda frase (ne basta una delle due);
+Nessuna delle opzioni#2#
+Il limite della successione mostrata è:[Immagine]tf;1;a<sub>n</sub>=n#
++[inf] poiché raggiunge valori arbitrariamente grandi; non calcolabile poiché oscilla; 0 poiché raggiunge valori aribitrariamente vicini a 0#
+0#
+Il limite della successione mostrata è:[Immagine]tf;1;a<sub>n</sub>=1/n<sup>3</sup>#
++[inf] poiché raggiunge valori arbitrariamente grandi; non calcolabile poiché oscilla; 0 poiché raggiunge valori aribitrariamente vicini a 0#
+2#
+Il limite della successione mostrata è:[Immagine]tf;1;a<sub>n</sub>=(-1)<sup>n</sup>#
++[inf] poiché raggiunge valori arbitrariamente grandi; non calcolabile poiché oscilla; 0 poiché raggiunge valori aribitrariamente vicini a 0#
+1#
+Una successione può avere come limiti solo -[inf], 0, +[inf] o non esistente.#
+Vero; Falso#1#
+La successione 2+1/2<sup>n</sup> tende a#
+0; 1; 2; +[inf]; non calcolabile#2#
+Il limite della funzione mostrata per x[->]1 è?[Immagine]g;*;-1;/;1;^;-;x;1;2#
+0; -[inf]; +[inf]; non calcolabile#1#
+Il limite della funzione mostrata per x[->]-1 è?[Immagine]g;/;1;^;+;x;1;2#
+0; -[inf]; +[inf]; non calcolabile#2#

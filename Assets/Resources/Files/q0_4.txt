@@ -1,0 +1,15 @@
+answerFixed#
+{12}#
+Vero; Falso#
+Gli insiemi {1, 2, 3} e {2, 1, 3, 2} sono lo stesso insieme#0#
+L'insieme dei numeri reali [R] contiene il numero n1#0#
+L'insieme {1, -2, 3} è sottoinsieme dell'inseme dei naturali [N]#1#
+L'insieme {1, -2, 3} è sottoinsieme dell'insieme dei razionali [Q]#0#
+L'insieme {n[in][N]: n<-N1} è l'insieme vuoto#0#
+L'insieme {x[in][R]: x<sup>2</sup> =3} è un insieme contenente infiniti elementi#1#
+L'insieme {n[in][N]: n>N1} è un insieme contenente infiniti elementi#0#
+L'insieme {n[in][N]: n<N1} è un insieme contenente infiniti elementi#1#
+L'insieme {x[in][R]: x<n1} è un insieme contenente infiniti elementi#0#
+L'insieme {1, 2, 3} è sottoinsieme dell'insieme {1, 2}#1#
+L'insieme dei numeri naturali [N] contiene [pi]#1#
+L'insieme {x[in][R]: 0<x<1} è un insieme contenente un numero finito di elementi#1#

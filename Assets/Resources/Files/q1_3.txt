@@ -1,0 +1,34 @@
+standard#
+{13}#
+Questa è una funzione da x a y?[Immagine]tf;1;x<sup>2</sup>+y<sup>2</sup> =N1#
+Sì; No#1#
+Questa è una funzione da x a y?[Immagine]tf;1;x+y<sup>2</sup> =N1#
+Sì; No#1#
+Questa è una funzione da x a y?[Immagine]tf;1;x<sup>2</sup>+y=N1#
+Sì; No#0#
+Questa è una funzione da x a y?[Immagine]tf;1;y=x<sup>2</sup>#
+Sì; No#0#
+Questa è una funzione da x a y?[Immagine]tf;1;x=y<sup>2</sup>#
+Sì; No#1#
+Questa è una funzione da x a y?[Immagine]tf;1;y=2x#
+Sì; No#0#
+Questa è una funzione da x a y?[Immagine]tf;1;x=2y#
+Sì; No#0#
+Qual è il dominio della seguente funzione?
+[Immagine]tf;1;y=rad(x)#
+[-1, 1]; x<0; x>0; [0, +[inf])#3#
+Qual è il dominio della seguente funzione?
+[Immagine]g;asin;x#
+[-1, 1]; x<0; x>0; [0, +[inf])#0#
+Qual è il dominio della seguente funzione?
+[Immagine]a;acos;x#
+[-1, 1]; x<0; x>0; [0, +[inf]); [0, [pi]]#0#
+Qual è l'immagine della seguente funzione?
+[Immagine]g;/;^;e;x;10#
+y[>=]0;[R];y>0#2#
+Qual è l'immagine della seguente funzione?
+[Immagine]tf;1;y=sin(x)#
+-1<y<1; [-1, 1]; [R]; y[>=]0#1#
+Qual è l'immagine della seguente funzione?
+[Immagine]a;cos;x#
+-2<y<2; [-1, 1]; [R]; y[>=]0#1#

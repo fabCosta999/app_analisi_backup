@@ -1,0 +1,39 @@
+[4]#
+{0}#
+[Testo]#
+Dato un elenco di numeri se ne può fare la media sommandoli
+tutti e dividendo per quanti sono.
+Tale operazione può essere rappresentata graficamente sul piano cartesiano
+disegnando dei rettangoli di base 1 e altezza pari al numero dato, in
+questo senso si può dire che l'operazione trovi l'altezza media dei rettangoli
+che è anche la loro area media siccome la base è 1.#
+[Popup]#
+Tipo qui sotto ci sono i rettangoli dei numeri 3, 4, 5, 3, 2|
+la linea è l'altezza media ricavata tramite il calcolo <math>(3+4+5+3+2)/5</math>#
+[Immagine]#
+i;14#
+{1}#
+[Testo]#
+Questo ci motiva a definire la media integrale di una funzione come
+l'area totale sotto un certo intervallo diviso la lunghezza dell'intervallo
+stesso.#
+[Popup]#
+Riguarda l'esempio dei rettangoli: è proprio quello che facevamo no?|quel 5 al denominatore
+era il numero di rettangoli ma questo corrisponde alla lunghezza dell'intervallo siccome
+la lunghezza di base era 1 in ognuno.| La somma al numeratore invece era la somma delle altezze ma questo
+corrisponde alla somma delle aree|sempre perché le lunghezze di base sono 1.#
+{2}#
+[Testo]#
+La formula per la media integrale di una funzione su un intervallo [a, b],
+che quindi ci restituisce la y media assunta da quella funzione è:
+<math>([int][a, b](f(x)dx))/(b-a)#
+{3}#
+[Testo]#
+La media integrale è sempre compresa tra l'estremo inferiore e quello superiore delle y immagini
+dell'intervallo [a, b], se la funzione è continua in quell'intervallo allora
+c'è la garanzia che la funzione in un certo punto assume precisamente la media
+integrale come valore.#
+[Popup]#
+Vi faccio l'esempio della funzione x<sup>2</sup> nell'intervallo [-1, 3]#
+[Immagine]#
+i;16#

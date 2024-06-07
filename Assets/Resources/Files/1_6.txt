@@ -1,0 +1,48 @@
+[5]#
+{0}#
+[Testo]#
+Una funzione f si dice crescente in un intervallo I se vale che <math>
+[qualsiasi] a, b [in] I: a<b [im] f(a)[<=]f(b) (strettamente crescente se f(a)<f(b))</math>
+ricordati: la A capovolta significa "qualsiasi" o "per ogni" mentre la freccetta è l'implicazione quindi per ogni coppia a b dove a è minore di b deve valere che anche f(a) è minore (o uguale) di f(b)#
+[Popup]#
+La definizione rigorosa data sopra può spaventare ma in sostanza la crescenza di una
+funzione è molto intuitiva:| una funzione è crescente se nella visualizzazione a grafico man mano che vai
+a destra la funzione va più in alto| mentre nella visualizzaizione a slider la crescenza è verificata se 
+trascinando a destra l'input anche l'output si muove a destra| come detto la crescenza si trova in singoli intervalli,
+la funzione complessiva potrebbe avere sia intervalli crescenti sia intevralli decrescenti| come esempio di funzione crescente
+su tutto R vi metto semplicemente f(x)=x, è evidente che se x aumenta anche f(x) aumenta#
+[Immagine]#
+ga;x#
+{1}#
+[Testo]#
+Una funzione f si dice decrescente in un intervallo I se vale che
+<math>[qualsiasi] a, b [in] I: a<b [im] f(a)[>=]f(b) (strettamente decrescente se f(a)>f(b))</math>#
+[Popup]#
+Una funzione è crescente se nella visualizzazione a grafico man mano che vai
+a destra la funzione va più in basso| mentre nella visualizzaizione a slider la crescenza è verificata se 
+trascinando a destra l'input l'output si muove a sinistra| come esempio di funzione decrescente
+su tutto R vi metto semplicemente f(x)=-x, è evidente che se x aumenta anche f(x) diminuisce#
+[Immagine]#
+ga;-x#
+{2}#
+[Popup]#
+La funzione f(x)=x<sup>2</sup> <math>è decrescente nell'intervallo (-[inf], 0]</math> e <math>crescente nell'intervallo [0, +[inf])</math> riesci a vederlo?#
+[Immagine]#
+ga;^;x;2#
+{3}#
+[Testo]#
+Una funzione sempre crescente o sempre decrescente su tutto il suo dominio è detta monotona.
+Una funzione strettamente monotona (quindi sempre strettamente crescente o sempre strettamente decrescente)
+è sicuramente iniettiva, quindi anche se si restringe una funzione qualsiasi a un suo intervallo in cui è
+strettamente monotona si ottiene una funzione iniettiva.#
+{4}#
+[Testo]#
+Una funzione biiettiva è invertibile, ovvero si può trovare la funzione f<sup>-1</sup>(x) che mappa f(x) a x.#
+[Popup]#
+Per esempio la funzione inversa di f(x)=3x è f<sup>-1</sup>(x)=x/3: capiamo perché:|
+scriviamo y=3x, troviamo y in funzione di x dividendo da tutte e due le parti|
+y/3=x, bene ora sostituiamo la x con f<sup>-1</sup>(x) e la y con x e abbiamo trovato la funzione inevrsa!|
+testiamola un attimo: <math>f(3)=3[*]3=9, f<sup>-1</sup>(9)=9/3=3</math><math>f(-1)=-1[*]3=-3, f<sup>-1</sup>(-3)=-3/3=-1</math>|
+ricordiamo che se una funzione è iniettiva basta considerare solo la parte di codominio che ci interessa
+per renderla biettiva e quindi invertibile, infatti a volte viene detto direttamente che le funzioni iniettive sono invertibili|
+graficamente due funzioni tra loro inverse sono simmetriche rispetto alla diagonale del primo e del terzo quadrante#

@@ -1,0 +1,11 @@
+[1]#
+{0}#
+[Popup]#
+Yay hai terminato un intero capitolo|
+il test di questa lezione prenderà quiz dai database di tutte le lezioni sugli insiemi|
+quello finale avrà un set di domande diverse da quelle incontrate fino ad ora,| non saranno domande 
+sui singoli argomenti studiati ma su come essi interagiscono tra loro e su ciò che è necessario che tu
+sappia per comprendere al meglio i prossimi capitoli| inoltre avranno le spiegazioni delle soluzioni|
+si lo so che sarebbe bello ci fossero anche nelle altre| però senti sono da solo a lavorare su sta roba
+e non hai idea di quanto ci si metta a scrivere tutto| e a far capire al computer tutto|
+buon viaggio soldato ci vediamo al prossimo capitolo#

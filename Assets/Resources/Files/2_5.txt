@@ -1,0 +1,23 @@
+[2]#
+{0}#
+[Testo]#
+Data una funzione f(x) e una successione an si ha che
+<math>a<sub>n</sub>[->]x<sub>0</sub> per n[->]+[inf] [im] lim[n[->]+[inf]]f(a<sub>n</sub>)=lim[x[->]x<sub>0</sub>]f(x)</math>
+ovvero se la successione tende a x<sub>0</sub> la funzione composta tra la funzione e la successione tende a lim[x[->]x<sub>0</sub>]f(x)#
+[Popup]#
+Ok sembra una cosa sparata a caso e forse lo è ma voglio lasciarla fa un attimo ragionare il fatto è questo | 
+se il limite di una funzione calcolato in x<sub>0</sub> esiste ed è l significa che valori molto vicini a x<sub>0</sub> fanno risultati molto simili a l|
+per quanto sia banale è utile sottolineare che questo vale anche se l'input della funzione è un valore che viene calcolato da un altra funzione|
+o successione come qui|
+prendiamo f(x)=x/sin(x) | dal grafico e provando un po' di valori si può notare che
+il limite di questa funzione in 0 fa 1| bene se ora prendiamo la successione 1/n sappiamo che
+essa tende a 0| quindi f(1/n), che sarebbe (1/n)/(sin(1/n)) tenderà necessariamente a 1 per n che tende a infinito|
+perché stiamo calcolando f(a<sub>n</sub>) ma <math>a<sub>n</sub>[->]0</math> quindi in pratica calcoliamo <math>lim[x[->]0]f(x)</math> ha senso no?#
+{1}#
+[Popup]#
+ah come sapete non so fare qui nell'app i grafici delle successioni ma|
+posso comunque mostrarvi la funzione su cui giace la successione citata ovvero <math>(1/x)/(sin(1/x))</math>|
+tanto una funzione e una successione identiche tendono alla stessa roba a infinito|
+e qui si vede chiaramente come quella roba sia 1#
+[Immagine]#
+ga;/;/;1;x;sin;/;1;x#

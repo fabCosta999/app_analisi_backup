@@ -1,0 +1,26 @@
+standard#
+{5}#
+Il limite per n[->]+[inf] della successione a<sub>n</sub>=sin/cos(n)#
+Non esiste perché la successione oscilla tra -1 e 1;
+Esiste sicuramente perché la successione è monotona#0#
+Se una funzione è sempre crescente e f(5)=3 allora[Immagine]tf;1;lim[x->4]f(x)#
+Esiste ed è minore di 3;
+Esiste ed è maggiore di 3;
+Se esiste è minore di 3;
+Se esiste è maggiore di 3#2#
+Se una funzione è sempre crescente e continua, con dominio [R] e f(5)=3 allora[Immagine]tf;1;lim[x->4]f(x)#
+Esiste ed è minore di 3;
+Esiste ed è maggiore di 3;
+Se esiste è minore di 3;
+Se esiste è maggiore di 3#0#
+Quali di queste sono ragioni per cui un limite per x[->]x<sub>0</sub> può non esistere?#
+La funzione oscilla negli intorni di x<sub>0</sub>;
+x<sub>0</sub> non è nel dominio della funzione;
+x<sub>0</sub> non è punto di accumulazione;
+Tutte e 3 le risposte sopra;
+La prima e la terza risposta#4#
+Se x<sub>0</sub>[in][R] e lim[x[->]x<sub>0</sub>]f(x)=+[inf] allora#
+Se la funzione è continua sicuramente x<sub>0</sub> non è nel dominio;
+Sicuramente x<sub>0</sub> non è nel dominio;
+Sicuramente x<sub>0</sub> è nel dominio;
+Se la funzione è continua sicuramente x<sub>0</sub> è nel dominio#0#

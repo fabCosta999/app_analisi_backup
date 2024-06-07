@@ -1,0 +1,15 @@
+[2]#
+{0}#
+[Testo]#
+Altro paio di funzioni importanti per concludere lo scorso capitolo: la parte positiva di x
+è <math>x se x[>=]0 e 0 se x<0</math>anche esprimibile come <math>f(x)=max{0, x}</math> (la funzione max da come il risultato il massimo tra i suoi argomenti).#
+[Popup]#
+Non ho tanto da aggiungere in sta lezione sincero, spero non sentirai la mia mancanza#
+[Immagine]#
+ga;max;0;x#
+{1}#
+[Testo]#
+la parte negativa di x è <math>-x se x[<=]0 e 0 se x>0</math> 
+anche esprimibile come <math>f(x)=max{0, -x}#
+[Immagine]#
+ga;max;0;-x#

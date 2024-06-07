@@ -1,0 +1,42 @@
+[4]#
+{0}#
+[Popup]#
+Ci stiamo avviciando a capire come effettivamente vengono calcolati i limiti
+ma per farlo serve aggiungere ancora qualche regoletta.#
+{1}#
+[Testo]#
+sia dato <math>lim[x[->]x<sub>0</sub>]f(x) = l</math> e <math>lim[x[->]x<sub>0</sub>]g(x) = m</math>
+allora vale che <math>lim[x[->]x<sub>0</sub>](f(x)+g(x)) = l + m</math>#
+[Popup]#
+Magari ti sembra una cosa ovvia ma comunque è un risultato importante da sottolineare|
+perché significa che se abbiamo un limite di una somma da calcolare possiamo considerare 
+i due sottoproblemi più facili dei limiti dei singoli addendi| prendi la funzione
+<math>f(x)=(x/sin(x)) + (x[*]ln(x)+1)</math> e diciamo di volerne calcolare il limite in 0| 
+è una funzione molto complessa può sembrare difficle fare il limite|
+ma avevamo già fatto il limite di <math>x/sin(x)</math> e quello di <math>x[*]ln(x)+1</math> e facevano entrambi 1|
+quindi senza doverci preoccupare di studiare la funzione nella sua interezza e il suo grafico|
+possiamo dire tranquillamente che il limite in 0 fa 2#
+[Immagine]#
+ga;+;/;x;sin;x;+;*;x;log;e;x;1#
+{2}#
+[Testo]#
+Un altro modo di esprimere questa importantissima proprietà 
+è: <math>lim[x[->]x<sub>0</sub>](f(x)+g(x)) = lim[x[->]x<sub>0</sub>]f(x) + lim[x[->]x<sub>0</sub>]g(x)</math>
+Lo stesso vale per una sottrazione di funzioni per cui
+<math>lim[x[->]x<sub>0</sub>](f(x)-g(x))=lim[x[->]x<sub>0</sub>]f(x) - lim[x[->]x<sub>0</sub>]g(x)</math>#
+{3}#
+[Testo]#
+Se guardiamo a limiti esistenti ma con almeno uno dei due risultati illimitati allora vale comunque
+la regola sopra e:
+<math>+[inf] + l = +[inf]</math>
+<math>-[inf] + l = -[inf]</math>
+<math>+[inf] + [inf] = +[inf]</math>
+<math>-[inf] - [inf] = -[inf]</math>
+<math>+[inf] - [inf] = indeterminato</math> 
+quest'ultimo caso potrebbe portare a qualsiasi risultato non si può dire da qui, servono altri metodi di risoluzione#
+[Popup]#
+Quindi per esempio se prendo <math>1/x<sup>2</sup> + 1/x</math> e ne calcolo il limite in 0<sup>+</sup> ottengo
+sicuramente <math>+[inf]</math>| essendo <math>+[inf] + [inf]</math>| ma se lo calcolo in 0<sup>-</sup> come potete vedere dal grafico
+fa comunque <math>+[inf]</math>ma non è così chiaro il perché| quindi in questa situazione non posso fare 
+separatamente i due risultati e vedere come viene il totale| mi tocca in qualche modo capire
+quanto fa nel suo insieme, vedremo come in futuro| ste robacce si chiamano forme indeterminate#

@@ -1,0 +1,29 @@
+[3]#
+{0}#
+[Testo]#
+Un'altra possibile operazioni tra insiemi è il prodotto cartesiano, lo teniamo in una lezione separata
+rispetto alle altre per un semplice motivo: mentre tutte le operazioni viste fino ad ora davano 
+come risultato un insieme dello stesso tipo di quelli di partenza (ad esempio un intersezione tra due insiemi
+di numeri è anch'essa un insieme di numeri), il prodotto cartesiano produce un insieme di oggetti di cardinalità
+doppia di quella di partenza.#
+[Popup]#
+La cardinalità è la 'numerosità', quindi intendiamo per esempio che se facciamo il prodotto cartesiano tra due 
+insiemi numerici otterremo come risultato un insieme di coppie di numeri#
+{1}#
+[Testo]#
+Il prodotto cartesiano è l'insieme contenente tutte le possibili coppie ordinate di numeri (tuple/vettori)
+con il primo elemento preso dal primo insieme e il secondo elemento dal secondo.#
+[Popup]#
+Il prodotto cartesiano tra <math>A={1, 2, 3} e B={2, 4, 6}</math> è#
+[Immagine]#
+tf;3;
+A times B =;
+{(1, 2), (1, 4), (1, 6), (2, 2),;
+,(2, 4), (2, 6), (3, 2), (3, 4), (3, 6)}#
+{2}#
+[Testo]#
+Se indichiamo con R tutti i numeri reali essi sono rappresentabili su una retta; il prodotto cartesiano
+di R con R: R x R si indica con R<sup>2</sup> ed è visualizzabile come un piano, questo concetto sarà fondamentale per
+disegnare i grafici delle funzioni.#
+[Immagine]#
+i;4#

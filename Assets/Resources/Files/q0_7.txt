@@ -1,0 +1,28 @@
+standard#
+{13}#
+L'intervallo (_int_]#
+Non ha minimo; Non ha estremo superiore#0#
+L'intervallo (_int_)#
+Ha massimo e minimo; non ha estremo inferiore; non ha massimo né minimo#2#
+L'intervallo [_int_]#
+Ha massimo ma non estremo superiore; ha minimo ma non estremo inferiore; ha sia l'estremo inferiore sia quello superiore#2#
+L'insieme {x[in][R]: x[>=]3}#
+ha massimo; è un intervallo; non ha estremo inferiore#1#
+L'insieme {n[in][N]: 2<n<4}#
+è un intervallo; ha massimo; non ha minimo#1#
+L'insieme {x[in][R]: x<2 [o] 5<x[<=]6}#
+è un intervallo; ha massimo ma non minimo; non ha estremo inferiore; non ha senso#1#
+Se un insieme ha estremo superiore sup allora ha necessariamente massimo max e vale che max=sup#
+Vero; Falso#1#
+Se un insieme ha massimo max allora ha necessariamente un estremo superiore sup e vale che max=sup#
+Vero; Falso#0#
+Un intervallo inferiormente illimitato non può avere estremo inferiore#
+Vero; Falso, l'estremo inferiore è -[inf]#1#
+Un intervallo inferiormente illimitato non può avere minimo#
+Vero; Falso, il minimo è -[inf]#0#
+4 è maggiorante dell'intervallo (1, 4)#
+Vero; Falso#0#
+4 è maggiorante dell'intervallo [1, 4]#
+Vero; Falso#0#
+L'insieme {1/n: n[in][N]-{0}}#
+è un intervallo; ha minimo pari a 0; non ha minimo; non ha massimo#2#

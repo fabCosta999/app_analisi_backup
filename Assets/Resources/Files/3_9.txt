@@ -1,0 +1,21 @@
+[3]#
+{0}#
+[Testo]#
+Derivare una funzione ne inverte la parità: la derivata di una
+funzione pari è dispari e la derivata di una funzione dispari è pari.#
+[Popup]#
+Se non ve lo ricordaste a memoria potete sempre pensare ai polinomi|
+la derivata di un polinomio con solo termini di grado pari (sicuramente una funzione pari)|
+è un polinomio con solo termini di grado dispari siccome tutti i gradi vengono ridotti di 1#
+{1}#
+[Testo]#
+Qualche esempio:#
+[Immagine]#
+tf;3;
+d/dx(x<sup>3</sup>)=3x<sup>2</sup>;
+d/dx(sin(x))=cos(x);
+d/dx(x)=1#
+{2}#
+[Popup]#
+Non credo abbia senso fare esercizi su sta roba| cioè è davvero poca e semplice|
+quindi vi metto un primo riepilogo di esercizi precedenti qui, credo sia più utile#

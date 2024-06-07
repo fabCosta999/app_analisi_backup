@@ -1,0 +1,40 @@
+[4]#
+{0}#
+[Testo]#
+Oltre a studiare i punti in cui la funzione non è derivabile
+è anche importante studiare i punti in cui la derivata fa 0,
+detti punti critici.#
+[Popup]#
+Sono punti in cui il coefficiente della retta tangente è 0|
+ovvero punti in cui la retta tangente è orizzontale#
+{1}#
+[Testo]#
+Se la derivata è concorde prima e dopo il punto in cui si
+annulla allora si tratta di un punto di flesso a tangente orizzontale.#
+[Popup]#
+Come in 0 in f(x) = x<sup>3</sup>#
+[Immagine]#
+g;^;x;3#
+{2}#
+[Testo]#
+Se la derivata è positiva a sinistra dello 0 e negativa a destra
+allora si tratta di un punto di massimo locale della funzione.#
+[Popup]#
+Per massimo locale si intende che c'è un intorno in cui è il valore massimo assunto dalla funzione|
+un esempio è la funzione <math>-x<sup>2</sup></math> nel punto 0|se provate a disegnare le rette tangenti|vedrete che 
+a sinistra dello 0 è una retta a coefficiente angolare positivo| e a destra negativo|mentre in 0
+è una retta orizzontale| ed effettivamente è un punto di massimo della funzione|anche dallo slider si
+intuisce bene, spostandosi dallo 0 l'output decresce in entrmabe le direzioni#
+[Immagine]#
+ga;^;*;-1*x;2#
+{3}#
+Se la derivata è negativa a sinistra dello 0 e positiva a destra
+allora si tratta di un punto di minimo locale della funzione.#
+[Popup]#
+Per minimo locale si intende che c'è un intorno in cui è il valore minimo assunto dalla funzione obv|
+un esempio è la funzione <math>x<sup>2</sup></math> nel punto 0|se provate a disegnare le rette tangenti|vedrete che 
+a sinistra dello 0 è una retta a coefficiente angolare negativo| e a destra positivo|mentre in 0
+è una retta orizzontale| ed effettivamente è un punto di minimo della funzione|anche dallo slider si
+intuisce bene, spostandosi dallo 0 l'output cresce in entrambe le direzioni#
+[Immagine]#
+ga;^;x;2#

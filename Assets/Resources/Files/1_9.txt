@@ -1,0 +1,21 @@
+[2]#
+{0}#
+[Testo]#
+Introduciamo ora un concetto fondamentale: quello di funzioni continue.
+Una funzione è continua se su tutto il suo dominio non ci sono
+'salti'.#
+[Popup]#
+Puoi pensarla così: una funzione è continua se riesci a disegnarla con una riga unica senza
+staccare la penna dal foglio|(cioè quello che fa il mio stupido software anche per le funzioni non continue)|
+però c'è un grosso difetto in questo modo di vederla: funziona solo se il dominio è un unico intervallo|
+se il dominio è composto da più intervalli allora l'importante è che la cosa del disegnare senza staccare dal foglio
+valga per ogni intervallo|quindi per dire 1/x che ha come dominio <math>(-[inf], 0) [unito] (0, +[inf])</math> è continua
+(dovete immaginarla senza la riga verticale al centro)#
+[Immagine]#
+g;/;1;x#
+{1}#
+[Popup]#
+Mentre se volete un esempio di funzione non continua pensate alla parte intera|
+(ricordate anche qui non ci sono le righe verticali)#
+[Immagine]#
+g;floor;x#

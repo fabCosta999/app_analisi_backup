@@ -1,0 +1,13 @@
+answerFixed#
+{6}#
+Vero; Falso#
+Una funzione con dominio (2, 6) [unito] (6, +[inf])
+continua in (2, 6) e continua in (6, +[inf]) può essere
+complessivamente non continua se da destra e sinistra intorno al 6 arriva a 
+valori diversi in modo da saltare#1#
+La funzione seguente è continua[Immagine]g;log;e;x#0#
+Una funzione potrebbe essere continua in [1, 3] e in [2, 10]
+ma non essere continua in [1, 10]#1#
+Un polinomio è sicuramente una funzione continua#0#
+La funzione seno è continua[Immagine]g;sin;x#0#
+La funzione mantissa è continua[Immagine]g;-;x;floor;x#1#

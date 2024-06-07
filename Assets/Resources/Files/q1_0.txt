@@ -1,0 +1,18 @@
+standard#
+{6}#
+Data la sguente funzione quanto fa f(r)?[Immagine]tf;1;f(x)=m1x[val]m1x#
+{fun}#-1#
+Data la sguente funzione quanto fa f(r)?[Immagine]tf;1;f(x)=m1x[val]m1x#
+{fun}#-1#
+Data la funzione con il grafico mostrato sotto
+quanto fa f(r)?[Immagine]{fun-}#
+{fun-}#-1#
+Data la funzione con il grafico mostrato sotto
+quanto fa f(r)?[Immagine]{fun-}#
+{fun-}#-1#
+Data la funzione con la rappresentazione a slider mostrata sotto
+quanto fa f(r)?[Immagine]{fun--}#
+{fun--}#-1#
+Data la funzione con la rappresentazione a slider mostrata sotto
+quanto fa f(r)?[Immagine]{fun--}#
+{fun--}#-1#

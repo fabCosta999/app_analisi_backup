@@ -1,0 +1,54 @@
+[6]#
+{0}#
+[Testo]#
+Spesso di un integrale improprio non ci interessa il risultato finale
+ma solo se questo esista e sia finito o infinito.#
+[Popup]#
+Ci sono modi di studiare la convergenza di un integrale senza dover
+risolvere l'integrale |(senza trovare la primitiva per intenderci)#
+{1}#
+[Testo]#
+Per un intervallo di integrazione illimitato la prima condizione
+perché la funzione possa convergere <math>è che questa tenda a 0 in [inf]</math>
+è una condizione necessaria, non sufficiente.#
+[Popup]#
+Quindi per esempio <math>int[1, +[inf]](ln(x)dx)</math> è sicuramente divergente|
+l'area sotto è sicuramente infinita pensaci qui non è come in <math>1/x</math> che 
+l'area in un intorno di +infinito è la forma indeterminata <math>0[*][inf]</math>|qui l'area
+non si assottiglia sempre di più#
+[Immagine]#
+g;log;e;x#
+{2}#
+[Testo]#
+Un caso notevole sono le funzioni del tipo <math>1/(x-x<sub>0</sub>)<sup>a</sup></math><math>in [inf] esse
+convergono se e solo se a>1 e divergono altrimenti</math><math>in x<sub>0</sub> invece 
+convergono se e solo se a<1</math>#
+[Popup]#
+1/x diverge sia in 0 sia in infinito|1/rad(x) diverge in infinito e converge in 0|
+1/x<sup>2</sup> diverge in 0 e converge in infinito|guarda i grafici vedrai che ha senso:|
+più è alto il grado della x più la funzione è sottile in inf e spessa in 0#
+[Immagine]#
+i;15#
+{3}#
+[Testo]#
+Una funzione ha lo stesso comportamento (convergenza/divergenza) di un altra a patto che abbia
+lo stesso ordine di infinito/infinitesimo.#
+[Popup]#
+Per esempio <math>1/(x<sup>3</sup>+x<sup>2</sup>)</math> in 0 si comporta come <math>1/x<sup>2</sup></math> (diverge) e in infinito si comporta come <math>1/x<sup>3</sup></math> (converge)#
+{4}#
+[Testo]#
+Criterio del confronto: se una funzione in un intorno del punto in cui è impropria è sempre più
+grande in modulo di una divergente allora diverge anch'essa (sempre che esista il risultato,
+se la funzione oscilla potrebbe non esistere); se una funzione in un intorno del punto in
+cui è impropria è sempre minore in modulo di una convergente allora converge.#
+{5}#
+[Testo]#
+Criterio della convergenza assoluta: se |f(x)| converge su un certo intervallo allora f(x)
+si dice assolutamente convergente e si ha la garanzia che anche f(x) converga.
+Non vale il contrario quindi se so che f(x) converge non posso dedurre che |f(x)| converge.#
+[Popup]#
+Pensaci una funzione potrebbe benissimo divergere in -infinito in un punto e a +infinito in un altro|
+e quindi in totale convergere perché gli infiniti sommandosi si compensano a vicenda|
+quindi se f(x) converge non possiamo sapere se [abs]f(x)[abs] convergerà o divergerà |(positivizzando
+gli infiniti non si compenserebbero più a vicenda)|invece se [abs]f(x)[abs] converge allora sicuramente la funzione
+non divergeva in nessun punto| e quindi anche f(x) converge#

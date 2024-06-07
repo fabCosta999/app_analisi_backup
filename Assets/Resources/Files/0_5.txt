@@ -1,0 +1,53 @@
+[6]#
+{0}#
+[Testo]#
+Esistono molte operazioni fattibili tra due insiemi.#
+{1}#
+[Testo]#
+La prima che osserveremo si fa a dire il vero su un solo insieme, ed è il calcolo
+dell'insieme delle parti di quest'ultimo.
+L'insieme delle parti è un insieme di insiemi i cui elementi sono tutti i sottoinsiemi possibili
+dell'insieme di partenza, compresi quelli impropri ovvero l'insieme nullo e l'insieme di partenza stesso.#
+[Popup]#
+Supponiamo per esempio di avere l'insieme <math>A={1, 2, 3}</math>|Il suo insieme delle parti è:#
+[Immagine]#
+tf;3;
+P(A) = {{}, {1}, {2}, {3},;
+,{1, 2}, {1, 3}, {2, 3},;
+,{1, 2, 3}}#
+{2}#
+[Testo]#
+L'intersezione tra due insiemi è un insieme avente tutti gli elementi contenuti in entrambi
+gli insiemi di partenza; quindi A intersecato B equivale a <math> A[intersecato]B={x: x[in]A [e] x[in]B}.#
+[Popup]#
+L'intersezione tra gli insiemi <math>{1, 2, 3} e {2, 4, 6}</math> è l'insieme <math>{2}</math>|
+l'intersezione tra gli insiemi <math>{1, 2, 3} e {-4, -1}</math> è l'insieme vuoto<math>[vuoto]</math>#
+[Immagine]#
+i;0#
+{3}#
+[Testo]#
+L'unione tra due insiemi è un insieme avente tutti gli elementi contenuti in
+almeno uno degli insiemi di partenza; quindi A unito B equivale a <math>A[unito]B{x: x[in]A [o] x[in]B}.#
+[Popup]#
+L'unione tra gli insiemi <math>{1, 2, 3} e {2, 4, 6}</math> è l'insieme <math>{1, 2, 3, 4, 6}</math>|
+l'unione tra gli insiemi <math>{1, 2, 3} e {-4, -1}</math> è l'insieme <math>{-4, -1, 1, 2, 3}</math>#
+[Immagine]#
+i;1#
+{4}#
+[Testo]#
+La differenza tra due insiemi è un insieme avente tutti gli elementi del primo insieme
+non contenuti nel secondo; equivale a <math>A-B={x: x[in]A [e] x[nonin]B}.#
+[Popup]#
+La differenza tra gli insiemi <math>{1, 2, 3} e {2, 4, 6}</math> è l'insieme <math>{1, 3}</math>|
+la differenza tra gli insiemi <math>{1, 2, 3} e {-4, -1}</math> è l'insieme <math>{1, 2, 3}</math>#
+[Immagine]#
+i;2#
+{5}#
+[Testo]#
+La differenza tra due insiemi è un insieme avente tutti gli elementi del primo insieme o del secondo insieme
+non contenuti nell'altro insieme; quindi A differenza simmetrica B equivale a <math>A[Delta]B={x: x[in]A[unito]B [e] x[nonin]A[intersecato]B}.#
+[Popup]#
+La differenza simmetrica tra gli insiemi <math>{1, 2, 3} e {2, 4, 6}</math> è l'insieme <math>{1, 3, 4, 6}</math>|
+la differenza simetrica tra gli insiemi <math>{1, 2, 3} e {-4, -1}</math> è l'insieme <math>{-4, -1, 1, 2, 3}</math>#
+[Immagine]#
+i;3#

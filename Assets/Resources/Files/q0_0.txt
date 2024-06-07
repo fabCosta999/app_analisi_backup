@@ -1,0 +1,14 @@
+answerFixed#
+{11}#
+è una proposizione; è un predicato; nessuna delle due#
+n1<>n2#0#
+n1 è grande/piccolo#2#
+n1 è pari#0#
+x<>n1#1#
+ogni numero naturale è dis/pari#0#
+esiste almeno un numero intero <> n1#0#
+esistono almeno N1 numeri interi <> n2#0#
+x è dis/pari#1#
+x è grande/piccolo#2#
+x ha almeno N1 divisori#1#
+N1 ha almeno N2 divisori#0#

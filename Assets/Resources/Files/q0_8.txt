@@ -1,0 +1,13 @@
+answerFixed#
+{10}#
+Vero; Falso#
+L'insieme {x[in][Q]: x[>=]2 [e] x<5} è esprimibile con l'intervallo [2, 5)#1#
+Ci sono infiniti numeri irrazionali#0#
+Ci sono infiniti numeri razionali#0#
+Dato un numero x ha senso chiedersi qual'è il prossimo numero reale dopo di lui#1#
+Dato un numero x ha senso chiedersi qual'è il prossimo numero razionale dopo di lui#1#
+Dato un numero x ha senso chiedersi qual'è il prossimo numero intero dopo di lui#0#
+Dato un numero x ha senso chiedersi qual'è il prossimo numero naturale dopo di lui#0#
+Tra due numeri reali x<sub>1</sub> e x<sub>2</sub> diversi tra loro ci sono sempre infiniti numeri reali#0#
+Tra due numeri reali x<sub>1</sub> e x<sub>2</sub> diversi tra loro ci sono sempre infiniti numeri interi#1#
+rad(2) è esprimibile come una divisione tra due interi#1#

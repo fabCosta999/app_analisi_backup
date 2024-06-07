@@ -1,0 +1,25 @@
+[4]#
+{0}#
+[Testo]#
+Abbiamo affrontato il limite del prodotto e il limite della somma,
+ora tocca alla potenza ovvero a limiti di funzioni del tipo f(x)<sup>g(x)</sup>
+come x<sup>x</sup>.#
+{1}#
+[Testo]#
+Come reminder ripetiamo in somma e prodotti basta fare separatamente i limiti
+e vedere i risultati ma poi è un problema se si incontra una delle forme indeterminate:
+<math>+[inf]-[inf], [inf]/[inf], 0/0, 0[*][inf]</math>#
+[Popup]#
+Presto risolveremo anche qualche forma indeterminata promesso#
+{2}#
+[Testo]#
+Stessa cosa vale qui, si possono risolvere i limiti separatamente e fare la potenza,
+le forme indeterminate sono 0<sup>0</sup>, 1<sup>inf</sup>, inf<sup>0</sup>.#
+{3}#
+[Testo]#
+Un modo per riscrivere limiti del tipo f(x)<sup>g(x)</sup> per liberarsi della potenza
+e avere un prodotto è sfruttare il fatto che e<sup>ln(a)</sup> = a e scrivere quindi
+<math>f(x)<sup>g(x)</sup> = e<sup>g(x)[*]ln(f((x))</sup></math>#
+[Popup]#
+f(x)<sup>g(x)</sup>=e<sup>ln(f(x)^g(x))</sup> ma poi puoi portare fuori l'esponente del logaritmo|
+e arrivi appunto a <math>e<sup>g(x)[*]ln(f(x))</sup></math>#

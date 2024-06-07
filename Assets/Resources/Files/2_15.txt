@@ -1,0 +1,68 @@
+[7]#
+{0}#
+[Testo]#
+Nell'ultima lezione abbiamo calcolato alcuni limiti e risolto alcune
+forme del tipo <math>[inf]/[inf] e 0/0</math> raccogliendo la potenza maggiore o minore 
+e semplificando, ma potreste aver intuito che basta guardare la potenza 
+che raccoglieresti e capire il risultato del limite molto velocemente.#
+[Popup]#
+<math>in [inf]</math> guardi il termine di potenza maggiore, in 0 quello minore|
+per dire prendiamo la funzione <math>(3x<sup>3</sup>+x<sup>2</sup>+x)/(2x<sup>2</sup>+5x)</math>| se la studi in infinito è equivalente a 
+<math>3x<sup>3</sup>/2x<sup>2</sup></math> e fa infinito|se la studi in 0 è equivalente a <math>x/5x</math> e fa 1/5|
+quindi si vede molto a occhio ma diamo delle regole per estendere tutto ciò ad altri casi#
+{1}#
+[Testo]#
+In infinito le potenze di grado maggiore si dicono infiniti di ordine superiore rispetto a quelle
+di grado minore, inoltre i logaritmi sono infiniti di ordine inferiore a qualsiasi potenza
+e gli esponenziali sono infiniti di ordine superiore a qualsiasi potenza.#
+[Popup]#
+Quindi in infinito e<sup>x</sup> è un infinito di ordine superiore a x<sup>5</sup>|che è un infinito di ordine superiore
+a x| che è un infinito di ordine superiore a ln(x)#
+{2}#
+[Testo]#
+In 0 i polinomi senza termine noto tendono a 0 e sono per questo detti infinitesimi,
+anche qui ci sono infinitesimi di ordine superiore ad altri se sono potenze maggiori,
+e significa che sono più veloci a tendere a 0.#
+[Popup]#
+per valori di x vicini a 0 le potenze più grandi hanno y più vicine a 0|
+guardati x e x<sup>3</sup> confrontate, in un intorno di 0 x<sup>3</sup> è più piccolo|
+quindi x è un infinitesimo di ordine inferiore a x<sup>3</sup>#
+{3}#
+[Testo]#
+Per esprimere questo concetto di ordini superiori e inferiori si identificano, tutte le volte
+che si hanno delle somme di infiniti o infinitesimi i termini principali e quelli trascurabili.#
+[Popup]#
+I termini trascurabili danno un contributo così piccolo al limite che spesso sono del tutto
+ignorabili|questo spiega perché, come abbiamo detto prima (3x<sup>3</sup>+x<sup>2</sup>+x)/(2x<sup>2</sup>+5x) è equivalente a 
+3x<sup>3</sup>/2x<sup>2</sup>#
+{4}#
+[Testo]#
+Se in una funzione <math>h(x)=f(x)+g(x)</math> g(x) è trascurabile rispetto a f(x) si può scrivere
+<math>h(x)=f(x)+o(f(x))</math> un infinito di ordine inferiore ad un altro è trascurabile, un
+infinitesimo di ordine superiore a un altro è trascurabile quindi per esempio
+<math>x<sup>2</sup> = o(x) in 0</math> mentre <math>x = o(x<sup>2</sup>) in [inf]</math>#
+[Popup]#
+quindi tornando al nostro esempio <math>lim[x[->]+[inf]](3x<sup>3</sup>+x<sup>2</sup>+x)/(2x<sup>2</sup>+5x) = </math><math>= lim[x[->]+[inf]](3x<sup>3</sup>+o(x<sup>3</sup>))/(2x<sup>2</sup>+o(x<sup>2</sup>))</math>|
+in generale se si ha un prodotto o un quoziente tra due somme tra termini principali e trascurabili...|
+... puoi completamente ignorare quelli trascurabili| quindi <math>(f(x)+o(f(x)))/(g(x)+o(g(x)))=f/g</math>|
+mentre nelle somme non è così banale conviene portarsi dietro gli o piccoli|in quel caso se il risultato
+resta con parte principale e trascurabile consideri solo quella trascurabile|mentre se resta solo quella trascurabile
+non sai il risultato è devi provare in altri modi#
+{5}#
+[Testo]#
+Facciamo un paio di esempietti.#
+[Immagine]#
+tf;6;
+lim[x->3]((x-3)<sup>3</sup>+(x-3)<sup>2</sup>)/(sin(x-3)+(x-3)<sup>5</sup>) =;
+lim[t->0](t<sup>3</sup>+t<sup>2</sup>)/(sin(t)+t<sup>5</sup>) =;
+lim[t->0](t<sup>3</sup>+t<sup>2</sup>)/(t+t<sup>5</sup>) =;
+lim[t->0](t<sup>2</sup> + o(t<sup>2</sup>))/(t + o(t)) =;
+lim[t->0](t<sup>2</sup>)/(t) = lim[t->0]t;
+lim[t->0]t = 0#
+{6}#
+[Testo]#
+In generale in un quoziente l'ordine maggiore vince quindi
+<math>ordine superiore di infinito / ordine inferiore di infinito = [inf]</math>
+<math>ordine inferiore di infinito / ordine sueriore di infinito = 0</math>
+<math>ordine superiore di infinitesimo / ordine inferiore di infinitesimo = 0</math>
+<math>ordine inferiore di infinitesimo / ordine sueriore di infinitesimo = [inf]</math>#

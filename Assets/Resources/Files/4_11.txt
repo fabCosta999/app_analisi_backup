@@ -1,0 +1,9 @@
+[1]#
+{0}#
+[Popup]#
+Beh beh|con questo finisci il trio limite, derivate integrali|
+ovvero l'analisi delle funzioni reali|ora puoi procedere con l'analisi di funzioni 
+con più variabili|o con lo studio delle equazioni differenziali|in ogni caso
+complimenti soldato|se hai capito questi argomenti hai le basi solide per affrontare
+qualsiasi corso di analisi degli strumenti matematici essenziali in tutte le scienze|
+ti sfido a trovare un libro di fisica senza derivate|buon viaggio soldato#

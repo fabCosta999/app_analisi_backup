@@ -1,0 +1,81 @@
+[5]#
+{0}#
+[Testo]#
+Tante proposizioni possono essere messe in relazione tra loro per formarne una più grande, 
+per farlo si utilizzano dei connettivi logici come <math>non([non]) e([e]) o([o]) implica([im]) equivale([eq]).#
+[Popup]#
+Per studiare la veridicità delle proposizioni formate dalle sottoproposizioni messe in
+relazione con i connettivi useremo delle tavole di verità|saranno tabelle
+in cui sarà mostrata una <color=green>V</color> o una <color=red>F</color>
+a seconda che una proposizione sia vera o falsa| vedendole secondo me le capite meglio
+di quanto le capireste se io provassi a spiegare#
+{1}#
+[Testo]#
+Il connettivo logico "non" si applica a una proposizione P per negarla: se P è vera allora
+non P sarà falsa, se P è falsa allora non P sarà vera.#
+[Popup]#
+La negazione di una proposzione è l'affermazione opposta|<math>per esempio la negazione di
+3>5 è 3[<=]5</math>|oppure la negazione di <math> [qualsiasi] x [in] [N]: x>2 </math>(qualsiasi x in N è maggiore di 2) 
+è "non tutti gli x in N sono maggiori di 2", anche descrivibile come "esiste almeno un x in N minore o uguale a 2" ovvero
+<math>[esiste] x [in] [N]: x[<=]2#
+[Immagine]#
+v;2;
+p;
+non p#
+{2}#
+[Testo]#
+Il connettivo logico "e" mette in relazione due proposizioni p e q, la proposizone risultante
+è vera se p e q sono entrambe vere è invece falsa in tutti gli altri casi.
+Il connettivo "o" invece è falso solo se p e q sono entrambe false, vero in tutti gli altri 
+casi.#
+[Popup]#
+<math>10>6 e 3 non appartiene a N</math> è una proposizione falsa|<math>10>6 o 3 appartiene a N</math> è 
+una proposizione vera#
+[Immagine]#
+v;4;
+p;
+q;
+p e q;
+p o q#
+{3}#
+[Testo]#
+L'implicazione serve a indicare che se una proposizione p è vera di conseguenza un'altra proposizione q è anch'essa vera; l'equivalenza è un'implicazione in entrambi i versi:
+se p è vera allora q è vera e se q è vera allora p è vera.
+L'implicazione si può leggere come un "se", l'equivalenza come un "se e solo se".#
+[Popup]#
+Se A è un triangolo equilatero allora A è un triangolo isoscele è una valida implicazione 
+(infatti tutti i triangoli equilateri sono anche isosceli)|A è un triangolo equilatero 
+se e solo se A è un triangolo con tutti gli angoli di 60° è una valida equivalenza|
+Le tavole di verità di questi due operatori logici mostrano tutte le situazioni plausibili|
+se p implica q è una implicazione corretta allora non è plausibile che si verifichi 
+p falso e q vero|se invece si tratta di un equivalenza corretta non è plausibile nemmeno
+q falso e p vero.#
+[Immagine]#
+v;4;
+p;
+q;
+p im q;
+p eq q#
+{4}#
+[Testo]#
+Nell'ultima pagina abbiamo imparato l'implicazione e l'equivalenza, queste sono necessarie
+per affrontare il concetto fondamentale di "condizione necessaria" e "condizione sufficiente"
+quando diciamo che una proposizione p è condizione necessaria affinché q sia vera
+intendiamo che non è plasubile che p sia falsa ma q sia vera, questo concetto è identico
+a quello espresso dalla relazione p implica q.
+quando diciamo che una proposizione p è condizione sufficiente affinché q sia vera 
+intendiamo che non è plausibile che p sia vera ma q sia falsa, concetto identico a quello espresso dalla relazione q implica p.
+è possibile che una condizione sia contemporaneamente necessaria e sufficente, concetto
+identico a quello di equivalenza.#
+[Popup]#
+"n è un numero pari" è condizione necessaria perché sia vero che "n è divisibile per 4"
+infatti perché un numero sia divisbile per 4 è necessario che sia divisbile anche per 2 
+(quindi che sia pari)|
+"n è primo e maggiore di 3" è condizione sufficiente per dedurre che "n non è divisibile 
+per 3" poiché mi basta l'affermazione della prima frase per concludere che sia vera anche 
+quella della seconda|
+Si tratta quindi proprio di chiedersi se una cosa è necessaria per un'altra o se una cosa è  sufficiente per un'altra|
+Un esempio di condizione necessaria e sufficiente è |'A è un rombo con gli angoli di 90°'
+è necessario e sufficiente perché sia vero che 'A è un rettangolo con i lati di ugual lunghezza'| 
+infatti sono proposizioni equivalenti tra loro (ed equivalenti anche ad "A è un quadrato": 
+i rombi con gli angoli retti e i rettangoli con i lati uguali son quadrati)#

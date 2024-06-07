@@ -1,0 +1,23 @@
+[3]#
+{0}#
+[Testo]#
+Se consideriamo una funzione qualsiasi <math>in un punto x<sub>0</sub> e in
+un punto [Delta]x più avanti (x<sub>0</sub>+[Delta]x)</math> e calcoliamo <math>(f(x<sub>0</sub>+[Delta]x)-f(x<sub>0</sub>))/[Delta]x</math>otteniamo come risultato il coefficiente angolare della retta che interseca la funzione in quei punti#
+[Popup]#
+Potremmo esprimere questa quantità come <math>[Delta]y/[Delta]x</math> tieni a mente questa definzione, risulterà utile#
+[Immagine]#
+i;10#
+{1}#
+[Testo]#
+Diminuendo sempre di più il delta si ottiene una retta sempre più vicina ad essere tangente
+alla funzione nel punto, una retta ovvero con la stessa pendenza che ha f(x) esattamente in quel punto.#
+[Immagine]#
+ia;1#
+{2}#
+[Testo]#
+Se potessimo diminuire il delta in modo da renderlo infinitesimo otterremmo esattamente la pendenza
+della funzione in quel punto, beh si tratta smeplicemente di un limite no? questo si chiama limite
+del rapporto incrementale ed è la definizione di derivata di f(x) nel punto x<sub>0</sub>.#
+[Immagine]#
+tf;1#
+df/dx = lim[Deltax->0](f(x<sub>0</sub>+Deltax)-f(x<sub>0</sub>))/Deltax#

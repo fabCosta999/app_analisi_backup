@@ -1,0 +1,18 @@
+[3]#
+{0}#
+[Testo]#
+Se il limite del rapporto incrementale di una funzione esiste
+in un punto ed è un numero finito allora la funzione è
+derivabile.#
+{1}#
+[Testo]#
+Una funzione non può essere derivabile in un punto in cui non è
+continua, ma non è necessariamente derivabile se è continua.#
+{2}#
+[Testo]#
+Quindi la continuità è una condizione necessaria ma non sufficiente per
+la derivabilità, la derivabilità invece è una condizione sufficiente ma non 
+necessaria per la continuità.#
+[Popup]#
+quindi se una funzione è derivabile in un punto
+sai automaticamente che è continua#

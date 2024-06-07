@@ -1,0 +1,9 @@
+answerFixed#
+{6}#
+{fun---}#
+[PartePositiva][Immagine]{fun---}#-1#
+[PartePositiva][Immagine]{fun---}#-1#
+[PartePositiva][Immagine]{fun---}#-1#
+[ParteNegativa][Immagine]{fun---}#-1#
+[ParteNegativa][Immagine]{fun---}#-1#
+[ParteNegativa][Immagine]{fun---}#-1#

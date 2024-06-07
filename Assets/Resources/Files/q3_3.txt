@@ -1,0 +1,23 @@
+standard#
+{9}#
+Se una funzione in un punto ha la retta tangente orizzontale allora la sua derivata#
+Tende a +[inf]; Tende a -[inf]; Potrebbe essere sia +[inf] sia -[inf]; Vale 0#3#
+Supponi che f(x) sia derivabile in 0, e indicando con f'(x) la sua derivata vale che f'(x)=0,
+in un intorno sinistro di 0 vale f'(x)<0, in un intorno destro di 0 vale che f'(x)>0 allora#
+0 è un punto di minimo; 0 è un punto di massimo; 0 è un punto di flesso a tangente orizzontale; 0 è un punto di flesso a tangente verticale#0#
+Supponi che f(x) sia derivabile in 0, e indicando con f'(x) la sua derivata vale che f'(x)=0,
+in un intorno sinistro di 0 vale f'(x)>0, in un intorno destro di 0 vale che f'(x)>0 allora#
+0 è un punto di minimo; 0 è un punto di massimo; 0 è un punto di flesso a tangente orizzontale; 0 è un punto di flesso a tangente verticale#2#
+Supponi che f(x) sia derivabile in 0, e indicando con f'(x) la sua derivata vale che f'(x)=0,
+in un intorno sinistro di 0 vale f'(x)>0, in un intorno destro di 0 vale che f'(x)<0 allora#
+0 è un punto di minimo; 0 è un punto di massimo; 0 è un punto di flesso a tangente orizzontale; 0 è un punto di flesso a tangente verticale#1#
+Se questo è il grafico della derivata (non della funzione originale) f'(x) quanti punti critici ha f(x)?[Immagine]g;-;^;x;3;x#
+0; 1; 2; 3; infiniti#3#
+Se questo è il grafico della derivata (non della funzione originale) f'(x) quanti punti di massimo ha f(x)?[Immagine]g;-;^;x;3;x#
+0; 1; 2; 3; infiniti#1#
+Se questo è il grafico della derivata (non della funzione originale) f'(x) quanti punti di minimo ha f(x)?[Immagine]g;-;^;x;3;x#
+0; 1; 2; 3; infiniti#2#
+Se questo è il grafico della derivata (non della funzione originale) f'(x) quanti punti a tangente orizzontale ha f(x)?[Immagine]g;-;^;x;3;x#
+0; 1; 2; 3; infiniti#0#
+Se questo è il grafico della derivata (non della funzione originale) f'(x) quanti punti di non derivabilità ha f(x)?[Immagine]g;-;^;x;3;x#
+0; 1; 2; 3; infiniti#0#

@@ -1,0 +1,37 @@
+{4}#
+Considera la funzione f(x)=1/(1+x^2)+xe^(-x^2), rappresentata sotto;
+<b>trova tutte le sue primitive</b> rispondendo solo con la funzione risultante:
+per esempio se pensi che il risultato sia F(x)=ln(x)+e^-x+c allora scrivi solamente ln(x)+e^-x+c
+[Immagine]ga;+;/;1;+;1;^;x;2;*;x;^;e;*;-1;^;x;2#
+arctan(x)-e^(-x^2)/2+c#
+La risposta corretta è: <b>arctan(x)-e^(-x^2)/2+c</b>, ricorda il +c è fondamentale!
+sorry se hai risposto correttamente ma con un formato diverso e te la ha contata come sbagliata,
+provvederò a migliorare il codice dell'app.
+Comunque sia 1/(1+x^2) è una derivata notevole, una di quelle fondamentali in particolare quella di arctan(x),
+l'altra parte è leggermente più complicata da integrare ma comunque fattibile: si può notare che compare -x^2 come
+argomento della funzione e^[] e il tutto viene moltiplicato a x, che è la derivata di -x^2 stesso a meno di una
+costante moltiplicativa, per fare l'integrale dunque era sufficiente accorgersi di ciò e far comparire la derivata effettiva
+all'interno: int(xe^(-x^2) dx)=-(int(-2xe^(-x^2))dx)/2=-(e^(-x^2))/2, se ancora non ti è chiaro prova a ripartire dall'inizio
+e fare la sostituzione t=-x^2, potrebbe risultarti più comprensibile.#
+Visto il grafico della funzione, o alternativamente calcolandolo esplicitamente, <b>l'integrale definito della funzione
+nell'intervallo [-1, 0] da un risultato positivo o negativo?</b> rispondi con p o n
+ricordo che la funzione è f(x)=1/(1+x^2)+xe^(-x^2) e le sue primitive sono F(x)=arctan(x)-e^(-x^2)/2+c
+[Immagine]ga;+;/;1;+;1;^;x;2;*;x;^;e;*;-1;^;x;2#
+p#
+La funzione è tutta sopra l'asse x quindi l'area è tutta contata come <b>positiva</b> (vedi la lezione sugli integrali definiti)#
+<b>Calcola la specifica primitiva che trovi come risultato dell'integrale int[0, x](f(x) dx)</b>
+la funzione è f(x)=1/(1+x^2)+xe^(-x^2) e questo procedimento di calcolo di un integrale definito con
+la variabile all'interno si chiama 'funzione integrale'
+[Immagine]ga;+;/;1;+;1;^;x;2;*;x;^;e;*;-1;^;x;2#
+arctan(x)-e^(-x^2)/2+1/2#
+La risposta è: <b>arctan(x)-e^(-x^2)/2+1/2</b>, è sufficiente vederla come F(x)-F(0) dove F è una qualsiasi delle primitive
+ricavate in precedenza, per esempio quella con c=0, quindi arctan(x)-e^(-x^2)/2 - (arctan(0)-e^0/2) = arctan(x)-e^(-x^2)/2+1/2#
+Verifichiamo infine se l'area complessiva, sotto tutta alla funzione è finita, ovvero <b>se l'integrale
+int[-inf, inf](f(x)dx) converge o diverge</b>, scrivi c se pensi che converga, d se pensi che diverga e N se
+questo integrale non fornisce un risultato valido#
+c#
+La risposta corretta è: <b>converge</b> per verificarlo si può calcolare lim[x->+inf]F(x) - lim[x->-inf]F(x) = pi, equivalente
+a int[-inf, inf](f(x)dx) o alternativamente applicare le regole di convergenza: sia in +inf sia in -inf il termine 1/(1+x^2) è 
+equivalente a 1/x^2 e quindi convergente, perché diviso una potenza di x maggiore di 1; il termine x/e^(x^2) è anch'essa convergente
+avendo il denominatore maggiore di qualsiasi potenza e quindi, essendo minore di qualsiasi 1/x^n si possa immaginare; per il teorema
+del confronto, essendo minore di una funzione convergente, ach'essa converge.#

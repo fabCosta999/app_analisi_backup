@@ -1,0 +1,48 @@
+[5]#
+{0}#
+[Testo]#
+Calcoliamo la primitiva di <math>f(x)=x[*]e<sup>(x<sup>2</sup>)</sup>+2(x+5)<sup>3</sup>-sin(x)[*]x#
+[Immagine]#
+tf;2;
+int((x*e<sup>(x<sup>2</sup>)</sup>+2(x+5)<sup>3</sup>-sin(x)*x)dx) =;
+int((x*e<sup>(x<sup>2</sup>)</sup>)dx) + 2*int((x+5)<sup>3</sup>dx)-int(sin(x)*xdx)#
+{1}#
+[Testo]#
+La prima parte, <math>x[*]e<sup>x^2</sup></math> può essere risolta notando che x compare
+nella derivata di x<sup>2</sup> e che quindi <math>d/dx e<sup>(x<sup>2</sup>)</sup> =</math><math> e<sup>(x<sup>2</sup>)</sup>[*]2x</math>esattamente 
+il doppio di quello che abbiamo nell'integrale.#
+[Immagine]#
+tf;1;
+int((x*e<sup>(x<sup>2</sup>)</sup>)dx) = (e<sup>(x<sup>2</sup>)</sup>)/2 + c#
+{2}#
+[Testo]#
+Per il secondo termine si può adottare la sostituzione t=x+5
+dt=dx.#
+[Immagine]#
+tf;3;
+2*int((x+5)<sup>3</sup>dx) =;
+2*int(t<sup>3</sup>dt) =;
+t<sup>4</sup>/2 + c = (x+5)<sup>4</sup>/2 + c#
+{3}#
+[Testo]#
+Per l'ultimo termine si può procedere con un'integrazione per parti,
+con lo scopo di eliminare il termine x utilizziamo questo come g(x) in
+modo che la sua derivata sia una costante, questo forza la scelta f'(x)=sin(x)#
+[Immagine]#
+tf;3;
+-int(sin(x)*xdx) =;
+-(-cos(x)*x - int(-cos(x)dx)) =;
+cos(x)*x - sin(x) + c#
+{4}#
+[Testo]#
+Mettendo tutto insieme:#
+[Popup]#
+Ogni tanto guardate i grafici delle funzioni per verificare che tutto torni|
+la primitiva F(x) dovrebbe essere crescente quando f(x) è positiva|
+qui per vedere tutta la funzione insieme viene abbastanza schifoso il grafico|
+ma magari guardate i tre pezzi singolarmente#
+[Immagine]#
+tf;3;
+int((x*e<sup>(x<sup>2</sup>)</sup>+2(x+5)<sup>3</sup>-sin(x)*x)dx) =;
+int((x*e<sup>(x<sup>2</sup>)</sup>)dx) + 2*int((x+5)<sup>3</sup>dx)-int(sin(x)*xdx) =;
+(e<sup>(x<sup>2</sup>)</sup>)/2 + (x+5)<sup>4</sup>/2 + cos(x)*x - sin(x) + c#

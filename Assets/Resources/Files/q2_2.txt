@@ -1,0 +1,21 @@
+standard#
+{5}#
+Il limite per x[->]1 della funzione mostrata è:[Immagine]g;x#
+0; 1; 2; 3; non calcolabile#1#
+Il limite per x[->]1 della funzione mostrata è:[Immagine]g;2x#
+0; 1; 2; 3; non calcolabile#2#
+Data una funzione f(x) con dominio [R] lim[x[->]m1]f(x)=m2 se e solo se{lim-}#
+[esiste][epsilon]: [esiste][delta][\n]0<|x-m1|<[delta] [im] |f(x)-m2|<[epsilon];
+[qualsiasi][epsilon]: [qualsiasi][delta][\n]0<|x-m1|<[delta] [im] |f(x)-m2|<[epsilon];
+[qualsiasi][epsilon]: [esiste][delta][\n]0<|x-m1|<[delta] [im] |f(x)-m2|<[epsilon];
+[esiste][epsilon]: [qualsiasi][delta][\n]0<|x-m1|<[delta] [im] |f(x)-m2|<[epsilon]#2#
+Immagina la seguente situazione: una funzione f(x) è continua e tale che f(0.9999)=0.00000001 allora è vera la formula seguente?
+[Immagine]tf;1;lim[x->1]f(x)=0#
+Sì poiché con una x vicina a 1 abbiamo ottenuto un risultato vicino a 0;
+No per essere sicuri dovremmo controllare quanto fa f(1);
+No per essere sicuri dovremmo anche controllare f(1.00000001);
+No anche se arriva così vicino a 0 dalle informazioni date non sappiamo se può arrivare arbitrariamente vicino#3#
+Cosa è necessario perché sia plausibile che lim[x[->]x<sub>0</sub>]f(x)=l?#
+Che f(x<sub>0</sub>)=l;
+Che f(x) arrivi arbitrariamente vicino a l in intorni di x<sub>0</sub>;
+Che f(x) esista in x<sub>0</sub> (x<sub>0</sub> sia nel dominio della funzione)#1#

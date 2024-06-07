@@ -1,0 +1,18 @@
+standard#
+{6}#
+Quanti punti di salto ha la funzione f(x)=ParteIntera(x)[Immagine]g;floor;x#
+0; 1; 2; infiniti#3#
+Quanti punti di discontinuità eliminabile ha la funzione f(x)=ParteIntera(x)[Immagine]g;floor;x#
+0; 1; 2; infiniti#0#
+Quanti punti di discontinuità ha la funzione mostrata sapendo che il dominio è R?[Immagine]g;sign;x#
+0; 1; 2; infiniti#1#
+Quanti punti di discontinuità eliminabile ha la funzione mostrata sapendo che il dominio è [R]?[Immagine]g;sign;x#
+0; 1; 2; infiniti#0#
+La funzione f(x)=x<sup>2</sup>/x estesa su tutto [R] è identica alla funzione g(x)=x#
+su tutto [R]; su tutto [R] tranne in x=0 dove f(x) ha una dicontinuità eliminabile e g(x) no; dipende da come viene estesa f(x)#2#
+La funzione f(x)=ParteIntera(x) in x=0.5[Immagine]g;floor;x#
+non esiste; è continua; ha una discontnuità di salto; ha una discontinuità eliminabile#1#
+Una funzione definita come f(x)=sin(x) se x[!=]0, f(x)=8 se x=0#
+è continua su tutto il suo dominio; ha un punto di salto in 0; ha una discontinuità eliminabile in 0#2#
+La funzione mostrata nel grafico in x=1[Immagine]g;+;x;sign;x#
+è continua; ha un salto#0#

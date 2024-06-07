@@ -1,0 +1,65 @@
+[5]#
+{0}#
+[Testo]#
+Ultimo integrale che calcoliamo insieme per esercizio.#
+[Immagine]#
+tf;3;
+int[2, 3]((ln<sup>5</sup>(|x|)/x +; 
++1/(3+x<sup>2</sup>) +;
++(x<sup>3</sup>+4x-2)/(x<sup>2</sup>-1)) dx)#
+{1}#
+[Testo]#
+Il primo addendo è molto semplice poiché compare ln(|x|) come funzione
+interna di una composta e 1/x che è la sua derivata, di conseguenza la primitiva è semplicemente
+<math>ln<sup>6</sup>(|x|)/6</math> ma facciamolo con il cambio variabile.#
+[Immagine]#
+tf;6;
+t = ln(|x|) -> dt = 1/x dx;
+x=2->t=ln(2), x=2->t=ln(3);
+int[2, 3](ln<sup>5</sup>(|x|)/x dx) =;
+int[ln(2), ln(3)](t<sup>5</sup> dt) =;
+(t<sup>6</sup>/6)_[ln(2), ln(3)] =;
+(ln<sup>6</sup>(3)-ln<sup>6</sup>(2))/6#
+{2}#
+[Testo]#
+La seconda parte è quasi la derivata dell'arcotangente,
+il problema è quel 3: dovrebbe essere 1; di conseguenza
+lo raccogliamo fuori dalla frazione ma per farlo metteremo un
+/rad(3) dentro il quadrato della x scoprendo quindi che si tratta di un <math>arctan(x/rad(3))</math>
+e non arctan(x).#
+[Popup]#
+Tieni sempre a mente che essendo <math>arctan(x/rad(3))</math> e non <math>arctan(x)</math>| la sua derivata è
+<math>1/((x/rad(3))<sup>2</sup>+1)[*]1/rad(3)</math>|molti si dimeticano di quel <math>[*]1/rad(3)</math> che resta come derivata dell'argomento#
+[Immagine]#
+tf;6;
+int[2, 3](1/(3+x<sup>2</sup>) dx) =;
+int[2, 3](1/3(1+x<sup>2</sup>/3) dx) =;
+1/rad(3)*int[2, 3](1/rad(3)*1/(1+(x/rad(3))<sup>2</sup>) dx) =;
+1/rad(3)*(arctan(x/rad(3))_[2, 3] =;
+1/rad(3)*(arctan(rad(3))-arctan(2/rad(3)))#
+{3}#
+[Testo]#
+Infine l'ultimo è un integrale razionale con grado del numeratore maggiore
+del grado del denominatore.#
+[Popup]#
+<math>x<sup>3</sup>+4x-2</math> è esprimibile come <math>(x<sup>2</sup>-1)[*]x+(3x-2)|<math>(3x-2)/(x<sup>2</sup>-1)</math> è scomponibile in fratti semplici come
+<math>5/(2(x+1)) + 1/(2(x-1))</math>#
+[Immagine]#
+tf;9;
+int[2, 3]((x<sup>3</sup>+4x-2)/(x<sup>2</sup>-1) dx) =;
+int[2, 3](x dx) + int[2, 3]((3x-2)/(x<sup>2</sup>-1)) =;
+(x<sup>2</sup>/2)_[2, 3] +;
++ 5/2*int[2, 3](1/(x+1)dx) +; 
++1/2*int[2, 3](1/(x-1)dx) =;
+9/2-2 +;
++ 5/2*(ln(|x+1|)_[2, 3] +;
+1/2*ln(|x-1|)_[2, 3] =;
+5/2 + 5/2 ln(4/3) + 1/2 ln(2)#
+{4}#
+[Testo]#
+Mettendo insieme tutti questi risultati otteniamo il risultato complessivo#
+[Immagine]#
+tf;3;
+(ln<sup>6</sup>(3)-ln<sup>6</sup>(2))/6 +;
+1/rad(3)*(arctan(rad(3))-arctan(2/rad(3))) +;
++ 5/2 + 5/2 ln(4/3) + 1/2 ln(2)#

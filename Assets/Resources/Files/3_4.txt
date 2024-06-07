@@ -1,0 +1,32 @@
+[4]#
+{0}#
+[Testo]#
+Le derivate sono molto utili per determinare la monotonia di una funzione,
+ovvero per calcolare in quali intervalli la funzione è crescente e in quali
+è decrescente.#
+[Popup]#
+Riesci a intuire come?#
+{1}#
+[Testo]#
+Una funzione continua crescente avrà sempre retta tangente con pendenza
+(coefficiente angolare) positiva mentre una funzione decrescente ha sempre
+pendenza negativa.#
+[Immagine]#
+i;11#
+{2}#
+[Testo]#
+Quindi basta verificare il segno della derivata per determinare la crescenza:
+indicando la derivata con f'(x) abbiamo che f(x) <math>è crescente negli intervalli in cui
+f'(x)[>=]0</math> e <math>decrescente negli intervalli in cui f'(x)[<=]0.</math>#
+{3}#
+[Testo]#
+A intuito si può pensare che una funzione sia strettamente crescente solo dove
+f'(x)>0 ma non è corretto: una funzione è strettamente crescente anche se f'(x)>0
+eccetto alcuni punti isolati in qui f'(x)=0 (punti di flesso a tangente orizzontale).#
+[Popup]#
+Invece una funzione con derivata nulla su un intero intervallo è una funzione costante
+su quell'intervallo| e quindi non strettamente crescente|ah non lo ho specificato ma ovviamente per la decrescenza
+vale la stessa roba|comunque come esempio di funzione strettamente crescente ma un punto (x=0) a derivata nulla eccovi<math>
+x<sup>3</sup></math>#
+[Immagine]#
+ga;^;x;3#

@@ -1,0 +1,9 @@
+answerFixed#
+{6}#
+Vero; Falso#
+Data una funzione è sempre possibile calcolarne la derivata in un punto presente nel dominio#1#
+Una funzione continua in un punto è sicuramente derivabile in quel punto#1#
+Derivabilità e continuità sono equivalenti: quando una è vera anche l'altra lo è, idem se una è falsa#1#
+Una funzione derivabile in un punto è sicuramente continua in quel punto#0#
+La funzione f(x)=sign(x) (1 se x>0, -1 se x<0, 0 se x=0) non è derivabile in 0[Immagine]g;sign;x#0#
+Se una funzione non è continua in un punto sicuramente in quel punto non è neanche derivabile#0#

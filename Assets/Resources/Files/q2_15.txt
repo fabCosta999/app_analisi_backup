@@ -1,0 +1,30 @@
+standard#
+{14}#
+Infinito di ordine superiore/infinito di ordine inferiore#
+infinito; 0; numero finito diverso da 0; impossibile#0#
+Infinito di ordine inferiore/infinito di ordine superiore##
+infinito; 0; numero finito diverso da 0; impossibile#1#
+Infinito/infinito, numeratore e denominatore dello stesso ordine#
+infinito; 0; numero finito diverso da 0; impossibile#2#
+Infinitesimo di ordine superiore/infinitesimo di ordine inferiore#
+infinito; 0; numero finito diverso da 0; impossibile#1#
+Infinitesimo di ordine inferiore/infinitesimo di ordine superiore##
+infinito; 0; numero finito diverso da 0; impossibile#0#
+0/0, numeratore e denominatore dello stesso ordine di infinitesimo#
+infinito; 0; numero finito diverso da 0; impossibile#2#
+lim[x[->]+[inf]](e<sup>x</sup>+n1x<sup>2</sup>+n2)/(2e<sup>x</sup>+n1)#
++[inf]; 0; 1; 2; 1/2#4#
+Per x[->]+[inf] x<sup>N1</sup> è un ordine di infinito inferiore a#
+ln(x); e<sup>x</sup>; x<sup>1/2</sup>#1#
+è vero che per x[->]+[inf] x<sup>3</sup>+x<sup>2</sup>=#
+x<sup>3</sup>+o(x<sup>3</sup>); x<sup>2</sup>+o(x<sup>2</sup>); nessuna delle due#0#
+è vero che per x[->]0 x<sup>3</sup>+x<sup>2</sup>=#
+x<sup>3</sup>+o(x<sup>3</sup>); x<sup>2</sup>+o(x<sup>2</sup>); nessuna delle due#1#
+è vero che x<sup>3</sup>+x<sup>2</sup>=#
+x<sup>3</sup>+o(x<sup>3</sup>); x<sup>2</sup>+o(x<sup>2</sup>); nessuna delle due#2#
+è vero che lim[x[->]x<sub>0</sub>](3x+o(x))/x=#
+1; 3; dipende da cos'è o(x)#1#
+è vero che lim[x[->]x<sub>0</sub>](3x+o(x)-x)/x=#
+2x<sub>0</sub>; 2; 0; x<sub>0</sub>; dipende da cos'è o(x)#1#
+è vero che lim[x[->]x<sub>0</sub>](x+o(x)-x)/x=#
+0; x<sub>0</sub>; dipende da cos'è o(x)#2#

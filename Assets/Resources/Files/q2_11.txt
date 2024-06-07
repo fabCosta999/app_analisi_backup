@@ -1,0 +1,16 @@
+standard#
+{5}#
+Individua un cambio di variabile svolto correttamente per il seguente limite
+[Immagine]tf;1;lim[x->1](x-1)<sup>3</sup>*tan(x)#
+lim[t[->]1]t<sup>3</sup>[*]tan(t); lim[t[->]0]t<sup>3</sup>[*]tan(t); lim[t[->]0]t<sup>3</sup>[*]tan(t+1); lim[t[->]1]t<sup>3</sup>[*]tan(t+1)#2#
+Individua un cambio di variabile svolto correttamente per il seguente limite
+[Immagine]tf;1;lim[x->+inf]sin(1/x)/x#
+lim[t[->]+[inf]]sin(t)/t; lim[t[->]0]t[*]sin(t); lim[t[->]0]sin(t)/t; lim[t[->]+[inf]]t[*]sin(t)#1#
+Individua un cambio di variabile svolto correttamente per il seguente limite
+[Immagine]tf;1;lim[x->+inf](x+1)+(x+1)<sup>2</sup>#
+lim[t[->]+[inf]]t(1+t); lim[t[->]-1]t[*]t<sup>2</sup>#0#
+Data f(x) e t=g(x) è vero che (tricky consiglio di provare facendoti un esempietto a parte)[Immagine]tf;1;lim[x->x<sub>0</sub>]f(x)=#
+lim[t[->]x<sub>0</sub>]f(x); lim[t[->]g(x<sub>0</sub>)]f(t); lim[t[->]g(x<sub>0</sub>)]f(g<sup>-1</sup>(t)); lim[t[->]g(x<sub>0</sub>)]f(g(t)); lim[t[->]g(x<sub>0</sub>)]g(t)#2#
+Individua un cambio di variabile svolto correttamente per il seguente limite
+[Immagine]tf;1;lim[x->0]x<sup>tan(x)</sup>#
+lim[t[->]0]t<sup>t</sup>; lim[t[->]0]arctan(t)<sup>t</sup>; lim[t[->][pi]]t<sup>t</sup>; lim[t[->][pi]]arctan(t)<sup>t</sup>#1#

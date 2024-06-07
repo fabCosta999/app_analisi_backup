@@ -1,0 +1,14 @@
+standard#
+{6}#
+Date due funzioni f(x) e g(x) se sono vere le equazioni sotto allora[Immagine]tf;2;lim[x->m1]f(x)=m2;lim[x->m1]g(x)=m3#
+{lim----}#-1#
+Date due funzioni f(x) e g(x) se sono vere le equazioni sotto allora[Immagine]tf;2;lim[x->m1]f(x)=m2;lim[x->m1]g(x)=m3#
+{lim----}#-1#
+Date due funzioni f(x) e g(x) se sono vere le equazioni sotto allora[Immagine]tf;2;lim[x->m1]f(x)=m2;lim[x->m1]g(x)=m3#
+{lim----}#-1#
+Se riesco a scomporre un limite di una funzione come il prodotto dei limiti delle funzioni separatamente mi basta moltiplicarli per ottenere il risultato#
+Sempre vero; Vero solo se entrambi i risultati sono finiti; Vero a patto che non si arrivi a [inf][*]0 [inf]/[inf] o 0/0; Falso#2#
+Calcolare il segunte limite di un prodotto come prodotto di due limiti[Immagine]tf;1;lim[x->+inf](x*1/e<sup>x</sup>)#
+0; +[inf]; 1; forma indeterminata#3#
+Calcolare il segunte limite di una prodotto come prodotto di due limiti[Immagine]tf;1;lim[x->+inf](arctan(x)*x<sup>2</sup>)#
+0; +[inf]; 1; forma indeterminata#1#

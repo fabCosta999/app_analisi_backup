@@ -1,0 +1,40 @@
+[3]#
+{0}#
+[Testo]#
+sia dato <math>lim[x[->]x<sub>0</sub>]f(x) = l</math> e <math>lim[x[->]x<sub>0</sub>]g(x) = m</math> allora vale che 
+<math>lim[x[->]x<sub>0</sub>](f(x)[*]g(x)) = l [*] m</math>#
+[Popup]#
+Yes vale anche per il prodotto|vi mostro il prodotto delle solite due funzioni|
+cioè <math>(x/sin(x)) [*] (x*ln(x)+1)</math>#
+[Immagine]#
+ga;*;/;x;sin;x;+;*;x;log;e;x;1#
+{1}#
+[Testo]#
+Un altro modo di esprimere questa importantissima proprietà 
+è: <math>lim[x[->]x<sub>0</sub>](f(x)[*]g(x)) = lim[x[->]x<sub>0</sub>]f(x) [*] lim[x[->]x<sub>0</sub>]g(x)</math>
+Lo stesso vale per una divisione di funzioni per cui
+<math> lim[x[->]x<sub>0</sub>](f(x)/g(x))=lim[x[->]x<sub>0</sub>]f(x) / lim[x[->]x<sub>0</sub>]g(x)</math> questo a patto
+che g(x) non sia 0#
+[Popup]#
+Questo implica anche che <math>lim[x[->]x<sub>0</sub>]1/f(x) = 1/lim[x[->]x<sub>0</sub>](f(x))</math>|
+in pratica c'è quasi sempre questa possibilità di non fare il limite di tutto 
+complessivamente ma solo dei singoli pezzi| e quando si tratta di costanti il limite e
+quella stessa costante|come qui <math>lim[x[->]x<sub>0</sub>]1 = 1</math>#
+{2}#
+[Testo]#
+Estendendo ai casi infiniti si ha che, con l finito e diverso da 0:
+<math>[inf] [*] l = [inf]</math>
+<math>[inf] [*] [inf] = [inf]</math>
+<math>l / 0 = [inf] (a patto che il denominatore sia qualcosa che tende a 0 e non un valore precisamente uguale a 0)</math>
+<math>l/[inf] = 0</math>
+<math>[inf] [*] 0 = indeterminato</math>
+<math>0/0 = indeterminato</math>
+<math>[inf]/[inf] = indeterminato</math>
+tutti i risultati rispettano la regola dei segni dei prodotti (+*+=+, -*-=+, +*-=-)#
+[Popup]#
+Sono un bel po' di cose ma dovrebbero tornarti tutte a logica| tipo dividere per qualcosa che
+tende a 0 fa tendere il risultato a infinito ci sta denominatore più piccolo risultato più grande| 
+comunque abbiamo già visto un esempio di forma indeterminata del tipo 0/0| la funzione x/sin(x)|
+che faceva 1|ma per dire la funzione x<sup>2</sup>/sin(x) tende a 0 in 0#
+[Immagine]#
+ga;/;^;x;2;sin;x#

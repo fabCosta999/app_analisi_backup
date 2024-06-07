@@ -1,0 +1,61 @@
+[4]#
+{0}#
+[Testo]#
+Per calcolare la derivata di una funzione si può sempre calcolare il
+limite del rapporto incrementale come da definizione, per esempio la
+derivata di x<sup>3</sup> si calcola come:#
+[Immagine]#
+tf;5;
+lim[Deltax->0]((x+Deltax)<sup>3</sup>-x<sup>3</sup>)/Deltax =;
+lim[Deltax->0](x<sup>3</sup>+3x<sup>2</sup>Deltax+3xDeltax<sup>2</sup>+Deltax<sup>3</sup>-x<sup>3</sup>)/Deltax =;
+lim[Deltax->0](Deltax(3x<sup>2</sup>+3xDeltax+Deltax<sup>2</sup>))/Deltax =;
+lim[Deltax->0]3x<sup>2</sup>+3xDeltax+Deltax<sup>2</sup> =;
+3x<sup>2</sup>+0+0 = 3x<sup>2</sup>#
+{1}#
+[Testo]#
+In verità è una cosa che non viene praticamente mai fatta poiché abbiamo a disposizione
+il calcolo di una serie di derivate notevoli e regole di derivazione che ci semplificano
+molto la vita: in questa pagina elenchiamo le derivate di funzioni note semplici, nella prossima
+come calcolare derivate di somme, prodotti o composizioni di funzioni.#
+[Popup]#
+L'unica variabile è x, con k ed n intendiamo costanti.#
+[Immagine]#
+tf;12;
+f(x)=k -> f'(x)=0;
+f(x)=x<sup>n</sup> -> f'(x)=nx<sup>n-1</sup>;
+f(x)=sin(x) -> f'(x)=cos(x);
+f(x)=cos(x) -> f'(x)=-sin(x);
+f(x)=tan(x) -> f'(x)=1/cos<sup>2</sup>(x);
+f(x)=k<sup>x</sup> -> f'(x)=k<sup>x</sup>*ln(k);
+f(x)=log<sub>k</sub>(x) -> f'(x)=1/(x*ln(k));
+f(x)=arcsin(x) -> f'(x)=1/sqrt(1-x<sup>2</sup>);
+f(x)=arccos(x) -> f'(x)=-1/sqrt(1-x<sup>2</sup>);
+f(x)=arctan(x) -> f'(x)=1/(1+x<sup>2</sup>);
+f(x)=sinh(x) -> f'(x)=cosh(x);
+f(x)=cosh(x) -> f'(x)=sinh(x);#
+{2}#
+[Testo]#
+Segue una lista di proprietà per calcolare derivate di funzioni
+più complesse di quelle elencate sopra.#
+[Immagine]#
+tf;5;
+(f(x)+g(x))'=f'(x)+g'(x);
+(f(x)*g(x))'=f'(x)*g(x)+f(x)*g'(x);
+(k*f(x))'=k*f'(x);
+(f(x)/g(x))'=(f'(x)*g(x)-f(x)*g'(x))/(g(x))<sup>2</sup>;
+(f(g(x)))'=f'(g(x))*g'(x)#
+{3}#
+[Popup]#
+Vediamo un esempio che dite, calcoliamo la derivata di
+<math>sin(x)[*]e<sup>x</sup> + (-3x<sup>2</sup>+5)<sup>5</sup>/10</math>| nota che tratteremo <math>(-3x<sup>2</sup>+5)<sup>5</sup></math>
+come funzione composta tra <math>x<sup>5</sup></math> e <math>-3x<sup>2</sup>+5</math>|
+si sarrebbe anche potuto svolgere il calcolo per fare la derivata dei singoli monomi|dopo aver svolto la derivata
+prova a mettere su un grafico sia la funzione sia la derivata e vedere se torna|ovvero se quando la funzione decresce la
+derivata è negativa#
+[Immagine]#
+tf;5;
+d/dx(sin(x)*e<sup>x</sup> + (-3x<sup>2</sup>+5)<sup>5</sup>/10) =;
+d/dx(sin(x)*e<sup>x</sup>) + d/dx((-3x<sup>2</sup>+5)<sup>5</sup>)/10 =;
+d/dx(sin(x))*e<sup>x</sup> + sin(x)*d/dx(e<sup>x</sup>)+;
++d/d(-3x<sup>2</sup>+5)(-3x<sup>2</sup>+5)<sup>5</sup>*d/dx(-3x<sup>2</sup>+5)/10 =;
+cos(x)*e<sup>x</sup> + sin(x)*e<sup>x</sup>+5(-3x<sup>2</sup>+5)<sup>4</sup>*(-6x)/10#

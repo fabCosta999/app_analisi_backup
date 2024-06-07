@@ -1,0 +1,39 @@
+[3]#
+{0}#
+[Testo]#
+Quando si fa un integrale su un intervallo illimitato o
+su un intervallo in cui la funzione è illimitata allora si parla
+di integrale improprio.#
+[Popup]#
+Per dire immagina di dover calcolare l'area sotto la funzione 1/x nell'intervallo <math>[0,1]</math>|
+o nell'intervallo <math>[3, +[inf])</math>|in entrambi i casi da uno dei due lati c'è un'estensione infinita|
+puoi anche calcolare un intergrale sull'intervallo <math>[0, +[inf])</math> e avere un'estensione infinita da entrambi i lati#
+[Immagine]#
+g;/;1;x#
+{1}#
+[Testo]#
+Come prevedibile un integrale improprio può dare risultato infinito, nel caso
+si dice divergente ma può anche non avere risultato o avere risultato finito,
+in quest'ultimo caso si dice convergente.#
+[Popup]#
+Pensala così, immagina 1/x, è vero che in 0 la funzione tende a +infinito|ma è anche vero che
+diventa sempre infintamente più stretta|quindi l'area è come se fosse la forma indeterminata <math>0[*][inf]</math>|
+lo stesso succede per <math>x[->]+[inf]</math> è vero che l'area di base diventa infinita ma l'altezza diventa infinitesima|
+facciamo un esempio di integrale convergente: <math>[int][1, +(inf)](1/x<sup>2</sup> dx)</math>#
+[Immagine]#
+tf;3;
+int[1, +inf](1/x<sup>2</sup> dx) =;
+(-1/x)_[1, +inf] =;
+0 + 1 = 1#
+{2}#
+[Testo]#
+In generale l'unica cosa che conta davvero per la convergenza o divergenza di un integrale
+improprio è il comportamento di tale funzione in un intorno del punto in cui
+è impropria.#
+[Popup]#
+Per esempio l'integrale <math>[int][1, +[inf]](1/x dx)</math> è imporprio e divergente|infatti la sua primitiva è ln([abs]x[abs])
+e se fai <math>ln(+[inf])-ln(1)</math> ottieni <math>+[inf]</math>|ma l'unica parte che contiribuisce a quell'essere divergente è
+l'intorno di +infinito:|se mi fermassi prima, a qualsiasi reale anche enorme smetterebbe di essere divergente|
+per esempio <math>[int][1, 100000](1/x dx) = ln(100000)</math>|questo ci motiverà a studiare le funzioni solo in un intorno del punto 
+improprio per studiarne la convergenza|con tutte le facilitazioni che ne derivano: prima tra tutte
+l'approssimazione della funzione in quel punto con il polinomio di Taylor#

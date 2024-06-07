@@ -1,0 +1,15 @@
+answerFixed#
+{12}#
+è iniettiva ma non suriettiva; è suriettiva ma non iniettiva; è biettiva; nessuna delle tre#
+La funzione f(x)=rad(x)[Immagine]g;^;x;/;1;2#0#
+La funzione f(x)=e<sup>x</sup>[Immagine]g;^;e;x#0#
+La funzione f(x)=x<sup>3</sup>+rad(x)-2[Immagine]g;-;+;^;x;3;^;x;/;1;2;2#0#
+La funzione f(x)=tan(x)[Immagine]g;tan;x#1#
+La funzione f(x)=x+1/sin(x)[Immagine]g;+;x;/;1;sin;x#1#
+La funzione f(x)=(1/x<sup>2</sup>)-e<sup>x</sup>[Immagine]g;-;/;1;^;x;2;^;e;x#1#
+La funzione f(x)=x[Immagine]g;x#2#
+La funzione f(x)=ln(x)[Immagine]g;log;e;x#2#
+La funzione f(x)=x<sup>3</sup>/10[Immagine]g;/;^;x;3;10#2#
+La funzione f(x)=x<sup>2</sup>[Immagine]g;^;x;2#3#
+La funzione f(x)=ParteIntera(x)[Immagine]g;floor;x#3#
+La funzione f(x)=1/(sin(x)-1)[Immagine]g;/;1;-;sin;x;1#3#

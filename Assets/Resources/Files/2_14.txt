@@ -1,0 +1,54 @@
+[4]#
+{0}#
+[Testo]#
+Calcoliamo qualche limite per esercitarci:
+iniziamo da limiti di rapporti di polinomi in infinito.#
+[Popup]#
+Sarebbero forme indeterminate <math>[inf]/[inf]</math>|
+si deve cercare di raccogliere sopra e sotto la potenza di grado maggiore|
+per poi semplificare, resteranno tanti termini del tipo <math>k/x<sup>a</sup></math> che faranno 0|guardando i passaggi
+dovrebbe risultarti comprensibile quel che sta succedendo#
+[Immagine]#
+tf;4;
+lim[x->+inf](3x<sup>3</sup>-2x<sup>2</sup>+1)/(x<sup>2</sup>+x+5) =;
+lim[x->+inf](x<sup>3</sup>(3-2/x+1/x<sup>3</sup>))/(x<sup>2</sup>(1+1/x+5/x<sup>2</sup>)) =;
+lim[x->+inf]x(3-0+0)/(1+0+0) =;
+lim[x->+inf]3x = +inf#
+{1}#
+[Testo]#
+Un altro così.#
+[Immagine]#
+tf;3;
+lim[x->-inf](x<sup>5</sup>+2x<sup>3</sup>-1)/(-2x<sup>5</sup>+x<sup>4</sup>+x<sup>2</sup>) =;
+lim[x->-inf](x<sup>5</sup>(1+2/x<sup>2</sup>-1/x</sup>5<sup>))/(x<sup>5</sup>(-2+1/x+1/x<sup>3</sup>)) =;
+lim[x->-inf]1/(-2) = -1/2#
+{2}#
+[Testo]#
+Ora rapporto di polinomi privi di termine noto in 0#
+[Popup]#
+Sarebbero forme indeterminata di tipo <math>0/0</math>| qui si raccoglie il termine di grado minore|resteranno dei termini <math>kx<sup>s</sup></math> nulli#
+[Immagine]#
+tf;4;
+lim[x->0](x<sup>2</sup>+x)/(x<sup>3</sup>-x<sup>2</sup>) =;
+lim[x->0](x(x+1))/(x<sup>2</sup>(x-1)) =;
+lim[x->0](x(0+1))/(x<sup>2</sup>(0-1)) =;
+lim[x->0]-1/x = non esiste#
+{3}#
+[Testo]#
+Il limite prima non esisteva perché da sinistra e da destra faceva risultati diversi,
+facciamo un ultimo esempio utilizzando anche i limiti notevoli.#
+[Popup]#
+Quando incontriamo forme simili a quelle dei limiti notevoli| come qui <math>sin(x) con x[->]0</math>|
+e <math>1-cos(x) con x[->]0</math>| moltiplichiamo e dividiamo per ciò che manca per completare il limite notevole|
+(ricorda valgono solo se x tende alla cosa giusta)#
+[Immagine]#
+tf;9;
+lim[x->0](sin(x) * (2x<sup>2</sup>-3x))/((1-cos(x)) * (3x<sup>4</sup>)) =;
+lim[x->0](sin(x) * (2x<sup>2</sup>-3x) * x * x<sup>2</sup>)/;
+/((1-cos(x)) * (3x<sup>4</sup>) * x * x<sup>2</sup>) =;
+lim[x->0]((2x<sup>2</sup>-3x) * x * 2)/((3x<sup>4</sup>) * x<sup>2</sup>) =;
+lim[x->0]((4x<sup>3</sup>-6x<sup>2</sup>))/(3x<sup>6</sup>) =;
+lim[x->0](x<sup>2</sup>(4x-6))/(3x<sup>6</sup>) =;
+lim[x->0](x<sup>2</sup>(0-6))/(3x<sup>6</sup>) =;
+lim[x->0](-6)/(3x<sup>4</sup>) =;
+lim[x->0]-2/x<sup>4</sup> = -inf#

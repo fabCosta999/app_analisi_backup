@@ -1,0 +1,18 @@
+[2]#
+{0}#
+[Testo]#
+Data una funzione avente un certo dominio D prenderne una restrizione significa
+considerare solo un sottoinsieme del dominio completo.#
+[Popup]#
+L'immagine della funzione sin(x) con dominio corrispondente a tutto R è l'insieme [-1, 1]|
+l'immagine della funzione sin(x) considerando solo la restrizione [0, pi] è l'insieme [0, 1]#
+[Immagine]#
+i;7#
+{1}#
+[Testo]#
+Per estendere una funzione invece è sufficiente definire il comportamento di quella funzione
+al di fuori del suo dominio originale.#
+[Popup]#
+La funzione f(x)=1/x con dominio R - {0} è estendibile a tutto R definendo il comportamento in 0|
+per esempio si può scrivere <math>g(x)=1/x se x[in][R] - {0}; 0 se x=0</math> definendo così una funzione identica a f
+su tutto il dominio di f ma definita anche in punti in cui f non era definita#

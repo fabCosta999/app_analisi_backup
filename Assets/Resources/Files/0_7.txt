@@ -1,0 +1,54 @@
+[6]#
+{0}#
+[Testo]#
+Per indicare un intervallo nei reali si può utilizzare la scrittura [inizio_intervallo , fine_intervallo]
+con le parentesi quadre o tonde a seconda che l'estremo sia compreso o no (possono anche essere una quadra e una tonda)
+un intervallo non è altro che l'insieme di tutte le x reali minori (minori o uguali se estremo compreso) della fine_intervallo
+e maggiori (maggiori o uguali se estremo compreso) del inizio_intervallo.#
+[Popup]#
+Per <math>x[in][2, 6)</math> si intende l'insieme per cui vale <math>2[<=]x<6</math>|
+la cui scrittura più formale sarebbe <math>{x[in][R]: x[>=]2 [e] x<6}#
+{1}#
+[Testo]#
+Non tutti gli insiemi sono intervalli ma per descrivere un insieme più complesso si
+possono usare le operazioni insiemistiche viste fino ad ora.#
+[Popup]#
+Per esempio per descrivere tutti i numeri reali tranne lo 0 potremmo scrivere...|
+...<math>R - {0}</math>oppure...|<math>(-[inf], 0) [unito] (0, +[inf])</math>| da notare che ho usato le tonde in modo che
+anche <math>-[inf] e +[inf]</math> non fossero compresi nell'intervallo, questo perché questi ultimi non sono numeri reali
+|(non sono numeri e basta, sono simboli per esprimere il concetto di arbitrariamente grande)#
+{2}#
+[Testo]#
+Dato un insieme se ne possono definire gli estremi: prima di tutto definiamo come maggiorante di un insieme un numero
+maggiore o uguale a tutti i valori dell'insieme, definiamo come minorante un numero minore o uguale a tutti i valori
+dell'insieme.#
+[Popup]#
+Se <math>A = (-5, 8] [unito] {9}</math> allora tutti i valori maggiori o uguali a 9 sono maggioranti|
+per esempio 10 è maggiorante infatti qualsiasi numero prendi dall'insieme 10 è maggiore o uguale|
+invece tutti gli elementi minori o uguali di -5 sono minoranti#
+{3}#
+[Testo]#
+Un insieme con almeno un maggiorante si dice superiormente limitato, un insieme con almeno un
+minorante si dice inferiormente limitato, un insieme con almeno un maggiorante e un minorante si dice limitato.#
+[Popup]#
+Un insieme in cui uno degli intervalli ha come inizio -infinito o come fine +infinito non sarà limitato|
+per esempio l'insieme <math>(-[inf], 3] [unito] ([2, 6] - {3})</math> ha maggiorante ma non minorante di conseguenza è 
+superiormente limitato e inferiormente illimitato#
+{4}#
+[Testo]#
+Se un maggiorante di un insieme appartiene all'insieme stesso allora esso è detto massimo dell'insieme.
+Se un minorante di un insieme appartiene all'insieme stesso allora esso è detto minimo dell'insieme.
+Un insieme può non avere massimo e/o minimo.#
+[Popup]#
+L'insieme (-1, 4] ha massimo pari a 4 poiché il 4 è sia un maggiorante sia un numero dell'insieme|
+ma non ha minimo (-1 non appartiene all'insieme)#
+{5}#
+[Testo]#
+Per estremo superiore di un insieme si intende il minimo dei maggioranti, per estremo inferiore il massimo
+dei minoranti.
+Estremo superiore e inferiore esistono sempre, se l'insieme è (superiormente/inferiormente) illimitato l'estremo (superiore/inferiore) è <math>(+/-) [inf]</math>.#
+[Popup]#
+Riprendendo l'esempio di prima, <math>(-1, 4]</math> possiamo notare come i maggioranti siano i numeri in <math>[4, +[inf])</math> il cui minimo è quindi 4|
+i minoranti sono i numeri <math>(-[inf], -1]</math> il cui massimo è -1| quindi in questo caso l'estremo inferiore è -1 e quello superiore è 4|
+quando minimo e massimo esistono essi corrispondono sempre a estremo inferiore e estremo superiore|se l'insieme è <math>(-[inf], +[inf])</math> l'estremo inferiore
+è -infinito e quello superiore è +infinito#

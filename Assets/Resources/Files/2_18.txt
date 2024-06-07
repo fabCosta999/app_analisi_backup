@@ -1,0 +1,6 @@
+[1]#
+{0}#
+[Popup]#
+Buum hai completato il capitolo|
+il test di questa lezione prenderà quiz dai database di tutte le lezioni di questo capitolo|
+quello finale avrà principalmente esercizi di calcolo di limiti più lunghetti#

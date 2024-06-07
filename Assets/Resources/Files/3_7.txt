@@ -1,0 +1,36 @@
+[4]#
+{0}#
+[Testo]#
+Prendendo la derivata della derivata di una funzione si calcola la derivata
+seconda, idem per terza quarta eccetera, la derivata n-esima si può indicare come f<sup>(n)</sup>(x).#
+[Immagine]#
+tf;4;
+f(x)=x<sup>3</sup>+sin(x) -> f'(x)=3x<sup>2</sup>+cos(x);
+f'(x)=3x<sup>2</sup>+cos(x) -> f''(x)=6x-sin(x);
+f''(x)=6x-sin(x) -> f<sup>(3)</sup>(x)=6-cos(x);
+f<sup>(3)</sup>(x)=6-cos(x) -> f<sup>(4)</sup>(x)=sin(x)#
+{1}#
+[Testo]#
+Il segno della derivata prima ci dice la monotonia della funzione ovvero se essa
+è crescente o decrescente, il segno della derivata seconda invece ci dice la convessità
+della funzione ovvero se essa è concava o convessa.#
+{2}#
+[Testo]#
+Se la derivata seconda è positiva allora la funzione si dice convessa,
+se negativa si dice concava.#
+[Popup]#
+Se la funzione è convessa allora la retta tangente alla funzione è sotto di essa|
+come nel grafico di x<sup>2</sup> in cui infatti la derivata seconda è 2 ovvero sempre positiva|
+se la funzione è concava allora la retta tangente alla funzione le sta sopra#
+[Immagine]#
+gt;^;x;2|+;^;y;2;*;2y;-;x;y#
+{3}#
+[Testo]#
+Un punto in cui la derivata seconda è nulla e ha segno discorde subito a destra e subito
+a sinistra, ovvero un punto in cui cambia la convessità della funzione, si dice punto di flesso.#
+[Popup]#
+i punti di flesso che abbiamo già incontrato | a tangente verticale e orizzontale| non sono
+gli unici punti di flesso possibili| per esempio la funzione sin(x) ha punti di flesso ogni volta che interseca l'asse
+delle x#
+[Immagine]#
+gt;sin;x|+;sin;y;*;cos;y;-;x;y#

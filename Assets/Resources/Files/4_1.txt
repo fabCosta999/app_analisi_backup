@@ -1,0 +1,39 @@
+[3]#
+{0}#
+[Testo]#
+Le funzioni primitive sono sempre derivabili e quindi 
+sempre continue, se non fossero derivabili come farebbero
+ad avere come derivata la funzione da cui si parte?#
+{1}#
+[Testo]#
+Calcoliamo ora qualche integrale per esercizio, prima
+di tutto della funzione definita a tratti
+<math>f(x)=1 se x[<=]2,</math><math> f(x)=x-1 se x>2</math>#
+[Popup]#
+Come detto nella pagina prima dovremo imporre la continuità|
+scoprendo la relazione tra c<sub>1</sub> e c<sub>2</sub>#
+[Immagine]#
+tf;5;
+int(1dx)=x+c<sub>1</sub>;
+int((x-1)dx)=x<sup>2</sup>/2-x+c<sub>2</sub>;
+lim[x->2<sup>-</sup>]x+c<sub>1</sub> = lim[x->2<sup>+</sup>]x<sup>2</sup>/2-x+c<sub>2</sub>;
+2+c<sub>1</sub> = 2-2+c<sub>2</sub>;
+c<sub>2</sub> = 2+c<sub>1</sub>;
+F(x)=x+c se x<=2, x<sup>2</sup>/2-x+c+2 se x>2#
+{2}#
+[Testo]#
+Altro esercizio poi passiamo a nuove proprietà.
+<math>f(x)=3[*]cos(x)+1/x+(x+5)<sup>2</sup></math>#
+[Popup]#
+Vedete quel 1/x? uno può pensare che la primitiva sia ln(x)|
+e avrebbe senso perché <math>d/dx(ln(x))=1/x</math>|ma c'è un problema: ln(x)
+è definito solo in <math>(0, +[inf])</math> mentre 1/x anche in <math>(-[inf], 0)</math>|
+e vorremmo una primitiva che sia tale in tutto il dominio di 1/x|
+per questo utilizziamo ln([abs]x[abs])#
+[Immagine]#
+tf;5;
+int((3*cos(x)+1/x+(x+5)<sup>2</sup>)dx) =;
+3int(cos(x)dx) + int(1/x dx)+int((x<sup>2</sup>+10x+25)dx) =;
+3sin(x)+c1 + ln(|x|)+c2 +;
++int(3*x<sup>2</sup>dx)/3 + 5int(2*xdx)+int(25dx) =;
+3sin(x)+ln(|x|)+x<sup>3</sup>/3+5x<sup>2</sup>+25x+c#

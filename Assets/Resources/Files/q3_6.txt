@@ -1,0 +1,14 @@
+standard#
+{5}#
+Se una funzione definita in [0, 7] ha un punto di massimo in 7, in cui la funzione è derivabile, il teorema di Fermat ci garantisce che sia anche un punto critico#
+Vero; Falso perché serve che la funzione sia derivabile su tutto il dominio; Falso perché 7 è un estremo del dominio#2#
+Una funzione f(x) è continua e derivabile su tutto [R] ed è tale che f(1)=1 e f(5)=1, posso applicare il teorema di Rolle?#
+Sì e questo ci garantisce che esiste c in (1, 5) tale che f'(c)=0; Sì e questo ci garantisce che esiste c in (1, 5) tale che f(c)=0;
+No: gli intervalli di continuità e derivabilità dovrebbero essere [1, 5] e (1, 5) non [R] e [R]#0#
+Una funzione continua su [1, 10] e derivabile su (1, 5) è tale che f(1)=f(5), ne posso dedurre che#
+f(3)=0; f'(3)=0; esiste almeno un punto c in (1, 5) in cui f'(c)=0; esiste esattamente un punto c in (1, 5) in cui f'(c)=0#2#
+Se una funzione è continua e derivabile su [-1, 2] e f(-1)=5 f(2)=10 allora#
+Esiste un punto c in (-1, 2) in cui f'(c)=0; Esiste un punto c in (-1, 2) in cui f'(c)=5/3; Esiste un punto c in (-1, 2) in cui f'(c)=3/5;
+Esiste un punto c in (-1, 2) in cui f'(c)=5#1#
+I punti di massimo e minimo locale all'interno del dominio (non agli estremi) sono sicuramente punti con derivata nulla#
+Vero; Vero se la derivata esiste; Falso sono punti in cui la derivata sicuramente tende a [inf]#1#

@@ -1,0 +1,14 @@
+standard#
+{6}#
+Il prodotto cartesiano tra {1, 2} e {2, 3} è:#
+{{1, 2}, {1, 3}, {2, 2}, {2, 3}}; {{1, 2}, {1, 3}, {2}, {2, 3}}; {{1, 2}, {1, 3}, 2, {2, 3}}; {(2, 2), (1, 2), (1, 3), (2, 3)}; {(2, 2), (2, 1), (3, 2), (3, 1)}#3#
+Il prodotto cartesiano tra due insiemi contenenti infiniti elementi non si può fare#
+Vero; Falso#1#
+Perché si possa fare un prodotto cartesiano A[times]B A e B devono avere lo stesso numero di elementi#
+Vero; Falso#1#
+Il prodotto cartesiano [R][times][R] si indica con#
+[R]; [R]<sup>2</sup>; 2[R]#1#
+è possibile fare il prodotto cartesiano di un insieme con se stesso#
+No; Sì e ottieni l'insieme di partenza; Sì ma ottieni un insieme diverso da quello di partenza#2#
+è possibile che A[times]B = A?#
+Sì; No#1#

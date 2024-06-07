@@ -1,0 +1,6 @@
+[1]#
+{0}#
+[Popup]#
+Complimenti!|hai concluso le lezioni di logica|adesso dovresti conoscere le proposizioni e i predicati|
+essere in grado di comprendere le tavole di verità e i connettivi logici|ed essere un grado di riconoscere tautologie e contraddizioni.|
+Il test di questa lezione prenderà quiz dai database di tutte le lezioni precedenti#

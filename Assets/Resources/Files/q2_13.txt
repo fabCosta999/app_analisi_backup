@@ -1,0 +1,15 @@
+answerFixed#
+{12}#
+e; ln(3); 2; 1; 1/2#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->inf](1+1/x)<sup>x</sup>#0#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0]ln(1+x)/x#3#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0](3<sup>x</sup>-1)/x#1#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0]((1+x)<sup>2</sup>-1)/x#2#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0]sin(x)/x#3#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0](1-cos(x))/x<sup>2</sup>#4#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0]tan(x)/x#3#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0]arcsin(x)/x#3#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0]arctan(x)/x#3#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0]sinh(x)/x#3#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0](cosh(x)-1)/x<sup>2</sup>#4#
+Quanto fa il seguente limite notevole?[Immagine]tf;1;lim[x->0]tanh(x)/x#3#

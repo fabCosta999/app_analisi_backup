@@ -1,0 +1,32 @@
+[3]#
+{0}#
+[Testo]#
+Teorema di Fermat: un punto di estremo (massimo o minimo) relativo di
+una funzione interno al dominio (non in uno degli estremi degli intervalli del dominio)
+in cui la derivata esiste è sempre un punto critico ovvero ha sempre la derivata nulla.#
+{1}#
+[Testo]#
+Teorema di Rolle: sia f una funzione <math>continua in [a, b] e derivabile in 
+(a, b) in cui f(a)=f(b)</math> allora esiste almeno un punto critico nell'intervallo
+ovvero esiste almeno un punto c tale che <math>f'(c)=0</math>#
+[Popup]#
+Pensaci|se una funzione in un certo punto ha una certa altezza, tipo 3|
+e in un altro punto pure| beh lì in mezzo o resta costante a 3| e allora tutti
+i punti sono critici| o sale e poi scende è ha il punto di massimo, critico per Fermat|
+o scende e poi sale e ha il punto di minimo, anche sta volta critico| poi può anche salire e 
+poi scendere e poi salire e poi scendere quante volte ti pare|infatti il teorema dice almeno un
+punto critico|non necessariamente un solo punto critico#
+[Immagine]#
+i;12#
+{2}#
+[Testo]#
+Teorema di Lagrange: sia f una funzione <math>continua in [a, b] e
+derivabile in (a, b)</math> allora esiste almeno un punto c in (a, b) tale che
+<math>f'(c) = (f(b)-f(a))/(b-a)</math> ovvero un punto avente come retta tangente una retta parallela 
+a quella che congiunge gli estremi dell'intervallo.#
+[Popup]#
+è una generalizzazione del teorema di Rolle|
+ma vedilo semplicemente come un teorema di Rolle ruotato:|
+guarda l'animazione#
+[Immagine]#
+ia;2#

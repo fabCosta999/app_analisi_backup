@@ -1,0 +1,18 @@
+[3]#
+{0}#
+[Testo]#
+Per comunicare in modo oggettivo, univoco e chiaro in matematica si utilizzano proposizioni,
+predicati e connettivi logici ed è necessario conoscere tavole di verità, tautologie e contraddizioni.#
+{1}#
+[Testo]#
+Una proposizione è una frase che possiamo univocamente classificare come vera o falsa.#
+[Popup]#
+per esempio <math>3 è maggiore di 5</math> è una proposizione falsa|<math>8 è maggiore di 5</math> è proposizione vera|<math>3 è un numero grande</math> non è una proposizione#
+{2}#
+[Testo]#
+I predicati sono frasi contenenti una o più variabili che se sostituite da costanti o quantificate diventano proposizioni.#
+[Popup]#
+<math>x è maggiore di 8</math> è un predicato|se a x sostituisco per esempio la costante 2 diventa la proposizione falsa <math>2 è maggiore di 8</math>|
+oppure potrei quantificare x sostituendolo con un <math>esiste un x in {insieme} tale che</math> oppure <math>per tutti gli x in {insieme} vale che x</math>| 
+trasformando quindi il mio predicato nelle proposizioni, <math>esiste un x nei numeri naturali maggiore di 8</math> (vera) oppure 
+<math>per tutti gli x nei numeri naturali vale che x maggiore di 8</math> (falsa)#

@@ -1,0 +1,9 @@
+answerFixed#
+{6}#
+{fun---}#
+[floor][Immagine]{fun---}#-1#
+[floor][Immagine]{fun---}#-1#
+[mantissa][Immagine]{fun---}#-1#
+[mantissa][Immagine]{fun---}#-1#
+[abs][Immagine]{fun---}#-1#
+[abs][Immagine]{fun---}#-1#

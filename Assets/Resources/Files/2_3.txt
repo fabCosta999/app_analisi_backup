@@ -1,0 +1,24 @@
+[3]#
+{0}#
+[Testo]#
+Definiamo come intorno destro di un punto x<sub>0</sub> un intervallo <math>(x<sub>0</sub>, x<sub>0</sub><sup>+</sup>[delta])</math>
+e come intorno sinistro un intervallo <math>(x<sub>0</sub><sup>-</sup>[delta], x<sub>0</sub>)</math> <math>([delta] > 0 in entrambi i casi)</math>#
+[Popup]#
+Un esempio di intorno destro di 4 è (4, 5)|di intorno sinistro di 2 (1.99, 2)#
+{1}#
+[Testo]#
+Per limite sinistro o destro si intende un limite con definizione analoga a quella
+data in precedenza ma considerando solo l'intorno sinistro o destro invece dell'intorno
+complessivo.#
+[Popup]#
+Il limite sinistro per x che tende a x<sub>0</sub> si indica come <math>lim[x->x<sub>0</sub><sup>-</sup>]</math>|
+quello destro <math>lim[x[->]x<sub>0</sub><sup>+</sup>]</math>#
+{2}#
+[Testo]#
+Può succedere che il limite sinistro e quello destro esistano entrambi
+ma siano diversi tra loro, in tal caso il limite complessivo non esiste.#
+[Popup]#
+pensa ala funzione 1/x: il limite da sinistra fa -infinito, quello da destra +infinito,
+quindi <math>lim[x[->]0]1/x non esiste</math>#
+[Immagine]#
+ga;/;1;x#

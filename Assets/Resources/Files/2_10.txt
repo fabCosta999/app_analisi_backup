@@ -1,0 +1,36 @@
+[5]#
+{0}#
+[Testo]#
+Supponiamo di avere due funzioni f e g e di sapere che
+in un intorno bucato (senza il centro) di x<sub>0</sub> vale sempre che 
+<math>f(x) [<=] g(x)</math>#
+[Popup]#
+Quindi abbiamo una funzione maggiore dell'altra nella zona che ci interessa|
+cioè nella zona in cui vorremo fare il limite| non è molto rigoroso il mio modo di
+spiegare eh?|sorry#
+{1}#
+[Testo]#
+Allora se i limiti di f e g sono finiti varrà necessariamente che
+<math>lim[x[->]x<sub>0</sub>]f(x) [<=] lim[x[->]x<sub>0</sub>]g(x)</math>#
+{2}#
+[Testo]#
+Se sappiamo che <math>lim[x[->]x<sub>0</sub>]g(x) = -[inf]</math> allora anche <math>lim[x[->]x<sub>0</sub>]f(x) = -[inf]</math>#
+[Popup]#
+Ha senso no?| <math>g è -[inf]</math>|ed f deve essere più piccola di g| <math>quindi anche lei -[inf] per forza</math>#
+{3}#
+[Testo]#
+Se sappiamo che <math>lim[x[->]x<sub>0</sub>]f(x) = +[inf]</math> allora anche <math>lim[x[->]x<sub>0</sub>]g(x) = +inf</math>#
+[Popup]#
+Stesso discorso di sopra se la più piccola è +infinito anche la più grande lo sarà#
+{4}#
+[Testo]#
+Da questo teorema deriva anche che se abbiamo in un intorno bucato di x<sub>0</sub>
+<math>f(x) [<=] h(x) [<=] g(x)</math> allora <math>lim[x[->]x<sub>0</sub>]f(x) [<=] lim[x[->x]<sub>0</sub>]h(x) [<=] lim[x[->]x<sub>0</sub>]g(x)</math>#
+[Popup]#
+Molto utile per accerchiare funzioni oscillanti come seno e coseno| per dire metti di dover fare
+il <math>limite per x[->]+[inf] di sin(x)/x</math>|sai che <math>-1[<=]sin(x)[<=]1</math> quindi necessariamente <math>-1/x [<=] sin(x)/x [<=] 1/x</math>|
+ma <math>lim[x[->]+[inf]] -1/x = 0, lim[x[->]+[inf]] 1/x=0 (essendo 1/[inf] entrambi)</math>|quindi <math>0 [<=] lim[x[->]+[inf]]sin(x)/x [<=] 0|
+ma questo ci porta alla conclusione che il risultato è proprio 0|mostro le funzioni -1/x, 1/x e sin(x)/x credo sia molto utile|
+qui metto in rosso 1/x e -1/x e in verde sin(x)/x, vedi come oscilla tra le due# 
+[Immagine]#
+i;9#

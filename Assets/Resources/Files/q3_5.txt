@@ -1,0 +1,19 @@
+standard#
+{8}#
+Calcola la derivata di[Immagine]tf;1;f(x)=x<sup>2</sup>+sin(x)#
+x+cos(x); x-cos(x); 2x+cos(x); 2x-cos(x)#2#
+Calcola la derivata di[Immagine]tf;1;f(x)=x<sup>2</sup>*sin(x)#
+2x[*]cos(x); 2x[*]cos(x)+x<sup>2</sup>[*]sin(x); 2x[*]sin(x)+x<sup>2</sup>[*]cos(x)#2#
+Calcola la derivata di[Immagine]tf;1;f(x)=ln(x)#
+1/(x[*]ln(x)); 1/(x[*]ln(1)); 1/x; (1/x)[*]ln(x); (1/x)[*]ln(1)#2#
+Calcola la derivata di[Immagine]tf;1;f(x)=e<sup>x</sup>#
+e<sup>x</sup>; e<sup>x</sup>[*]ln(x); e<sup>x</sup>[*]ln(1); 1<sup>x</sup>[*]ln(e)#0#
+Calcola la derivata di[Immagine]tf;1;f(x)=sin(cos(x))#
+cos(cos(x)); -cos(cos(x))[*]sin(x); cos(cos(x))[*]sin(x); cos(cos(x))[*]cos(x); cos(cos(x))-sin(x)#1#
+Quanto fa f'(r) se[Immagine]{der}#
+{der}#-1#
+Quanto fa f'(r) se[Immagine]{der}#
+{der}#-1#
+Quanto fa f'(r) se[Immagine]{der}#
+{der}#-1#
+ 

@@ -1,0 +1,19 @@
+standard#
+{8}#
+Date due funzioni f(x) e g(x)=f(x+3) è vero che#
+g(5)=f(2); g(5)=f(5)-2; g(5)=f(5)+3; g(5)=f(8)#3#
+Data la funzione f(x) rappresentata sotto e g(x)=f(x-3) allora g(4)=
+[Immagine]g;^;x;/;1;2#
+0;1;2;3;4#1#
+Data f(x)=x<sup>2</sup>+x g(x)=f(x+2) è#
+g(x)=x<sup>2</sup>+x+4; (x+2)<sup>2</sup>+x+4; x<sup>2</sup>+3x+6; (x+2)<sup>2</sup>+x; x<sup>2</sup>+x+2#2#
+Le operazioni somma e sottrazione in una funzione equivalgono geometricamente nel grafico a#
+Traslazione; Rotazione; Scalamento#0#
+Le operazioni moltiplicazione e divisione in una funzione equivalgono geometricamente nel grafico a#
+Traslazione; Rotazione; Scalamento#2#
+Data f(x)=x è vero che#
+f(x+k)=f(x)+k, cosa sempre vera; f(x+k)=f(x)+k ma esistono alcune funzioni per cui non si verifica; f(x+k)[!=]f(x)+k#1#
+Data f(x)=x è vero che#
+f(k[*]x)=k[*]f(x), cosa sempre vera; f(k[*]x)=k[*]f(x) ma esistono alcune funzioni per cui non si verifica; f(k[*]x)[!=]k[*]f(x)#1#
+Data la funzione f(x)=sin(x) e la funzione g(x)=f([pi]x)#
+g(1)=f(1); g(1)=0; g(1)=1; g(1)=-1#1#

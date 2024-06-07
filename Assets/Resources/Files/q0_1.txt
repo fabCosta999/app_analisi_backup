@@ -1,0 +1,28 @@
+standard#
+{13}#
+la seguente tavola di verità è corretta?[Immagine]{log}#
+Sì; No#-1#
+riempi l'elemento mancante nella tavola di verità[Immagine]{log-}#
+<color=green>V</color>; <color=red>F</color>#-1#
+L'ultima colonna contiene?[Immagine]{log--}#
+p [e] q; p [o] q; [non]p; p [im] q; p [eq] q#-1#
+la seguente tavola di verità è corretta?[Immagine]{log}#
+Sì; No#-1#
+riempi l'elemento mancante nella tavola di verità[Immagine]{log-}#
+<color=green>V</color>; <color=red>F</color>#-1#
+L'ultima colonna contiene?[Immagine]{log--}#
+p [e] q; p [o] q; [non]p; p [im] q; p [eq] q#-1#
+quante righe deve avere la tavola di verità con le colonne: p, q, r, (p [e] q) [o] r#
+2; 4; 6; 8; 10#3#
+quante righe deve avere la tavola di verità con le colonne: p, q, [non]p, ([non]p [e] q) [e] p#
+2; 4; 6; 8; 10#1#
+quante righe deve avere la tavola di verità con le colonne: p, [non]p, [non]p [e] p, p [o] [non]p#
+2; 4; 6; 8; 10#0#
+Qual è il risultato della seguente operazione logica: <color=green>V</color> [e] <color=red>F</color>#
+<color=green>V</color>; <color=red>F</color>#1#
+Qual è il risultato della seguente operazione logica: <color=green>V</color> [o] [non]<color=red>F</color>#
+<color=green>V</color>; <color=red>F</color>#0#
+Qual è il risultato della seguente operazione logica: (<color=green>V</color> [o] [non]<color=red>F</color>) [e] <color=red>F</color>#
+<color=green>V</color>; <color=red>F</color>#1#
+Qual è il risultato della seguente operazione logica: [non]<color=red>F</color> [o] ([non]<color=red>F</color> [e] <color=red>F</color>)#
+<color=green>V</color>; <color=red>F</color>#0#

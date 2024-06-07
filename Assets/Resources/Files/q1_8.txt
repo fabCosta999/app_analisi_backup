@@ -1,0 +1,12 @@
+answerFixed#
+{9}#
+è pari; è dispari; nessuna delle due#
+La funzione[Immagine]tf;1;f(x)=x<sup>p1</sup>#0#
+La funzione[Immagine]tf;1;f(x)=x<sup>d1</sup>#1#
+La funzione[Immagine]tf;1;f(x)=x<sup>d1</sup>+1#2#
+La funzione[Immagine]g;sin;x#1#
+La funzione[Immagine]g;cos;x#0#
+La funzione[Immagine]g;sin;-;x;/;1;2#2#
+La funzione[Immagine]tf;1;f(x)=|x|#0#
+La funzione[Immagine]g;tan;x#1#
+La funzione[Immagine]g;^;e;x#2#

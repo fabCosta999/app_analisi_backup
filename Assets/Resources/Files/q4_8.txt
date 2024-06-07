@@ -1,0 +1,14 @@
+standard#
+{6}#
+Qual è il valor medio assunto dalla funzione f(x)=sin(x) nell'intervallo [0, [pi]]?#
+1; 1/pi; 2; 2/pi; 0#3#
+A occhio quanto ti sembra il valor medio assunto da questa funzione?[Immagine]g;se<={2};se>={-2};-;abs;x;1;NaN;NaN#
+-2; -1; 0; 1; 2#2#
+è possibile che una funzione con immagine I=[1, 10] abbia un intervallo in cui la media integrale è negativa?#
+Sì; No#1#
+Qual è il valore medio che la funzione mostrata assume nell'intervallo [m1]?[Immagine]{int--}#
+{int--}#-1#
+Qual è il valore medio che la funzione mostrata assume nell'intervallo [m1]?[Immagine]{int--}#
+{int--}#-1#
+Qual è il valore medio che la funzione mostrata assume nell'intervallo [m1]?[Immagine]{int--}#
+{int--}#-1#

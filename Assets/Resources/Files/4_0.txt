@@ -1,0 +1,53 @@
+[5]#
+{0}#
+[Testo]#
+Calcolare la derivata ci fa passare da una funzione in input
+f(x) a una funzione in output f'(x), possiamo chiederci se esiste un
+operatore inverso ovvero che ci dato f'(x) ci da ottenre f(x).#
+[Popup]#
+Ovvero supponete di avere una funzione e chiedervi:|se facessi
+la derivata di quale funzione otterei questa?#
+{1}#
+[Testo]#
+Data una funzione f(x) la funzione F(x) tale che 
+<math>F'(x) = f(x)</math> si chiama funzione primitiva di f(x),
+essa può essere calcolata tramite la procedura dell'integrale
+indefinito <math>[int](f(x)dx)</math>#
+[Popup]#
+Però c'è un problema pensateci: sia la funzione x+5 sia la funzione x|
+hanno la stessa derivata: 1| più in generale data una funzione f(x) se
+prendi f(x)+c con c costante|la derivata sarà sempre f'(x) visto che la
+derivata di c è 0#
+{2}#
+[Testo]#
+La funzione primitiva ottenuta dal calcolo dell'integrale è definita a
+meno di una costante visto che due funzioni diverse solo per l'aggiunta
+di una costante hanno la stessa derivata, di conseguenza, per esempio, <math>[int](2xdx)=x<sup>2</sup>+c
+con c[in][R]</math>#
+[Popup]#
+Per calcolare gli integrali di funzioni semplici basta guardare 'al contrario' 
+le derivate notevoli| per esempio l'integrale di <math>x<sup>n</sup></math> sarà <math>x<sup>n+1</sup>/(n+1)+c</math>|
+l'integrale di <math>cos(x)</math> sarà <math>sin(x)+c</math>| e l'integrale di <math>-sin(x)</math> sarà <math>cos(x)+c</math>#
+{3}#
+[Testo]#
+Calcoliamo un integrale: cerchiamo le funzioni la cui derivata è:
+<math>f(x) = sin(x)+e<sup>x</sup>+x<sup>3</sup></math>siccome la derivata di una somma è uguale alla somma
+delle derivate anche l'integrale di una somma è uguale alla somma degli integrali:
+possiamo scrivere quindi <math>[int]((f(x)+g(x))dx)=</math><math>int(f(x)dx)+int(g(x)dx)</math>inoltre vale con 
+k costante che <math>[int](k[*]f(x)dx)=k[*][int](f(x)dx)</math>#
+[Popup]#
+Cerchiamo di far comparire derivate note#
+[Immagine]#
+tf;5;
+int((sin(x)+e<sup>x</sup>+x<sup>3</sup>)dx) =;
+int(sin(x)dx)+int(e<sup>x</sup>dx)+int(x<sup>3</sup>dx) =;
+-int(-sin(x)dx)+e<sup>x</sup>+c<sub>2</sub>+int[4*x<sup>3</sup>dx]/4 =;
+cos(x)+c<sub>1</sub>+e<sup>x</sup>+c<sub>2</sub>+x<sup>4</sup>/4+c<sub>3</sub> =;
+cos(x)+e<sup>x</sup>+x<sup>4</sup>/4+c#
+{4}#
+[Popup]#
+Hai notato come ho espresso le costanti da sommare prima come c<sub>1</sub>, c<sub>2</sub> e c<sub>3</sub>|
+e poi come una c unica?|questo perché tanto la somma <math>c<sub>1</sub>+c<sub>2</sub>+c<sub>3</sub></math> con c<sub>1</sub>, c<sub>2</sub>, c<sub>3</sub> numeri reali qualsiasi|
+ha come risultato a sua volta un numero reale qualsiasi|per esempio con <math>c<sub>1</sub>=1, c<sub>2</sub>=4, c<sub>3</sub>=-2</math> si ottiene <math>c=3</math>|
+non è difficile convincersi che <math>c<sub>1</sub>+c<sub>2</sub>+c<sub>3</sub></math> con una scelta adeguata di c<sub>1</sub> c<sub>2</sub> e c<sub>3</sub> possa dare come risultato
+qualsiasi numero reale|quindi lo esprimiamo come c e via#

@@ -1,0 +1,20 @@
+[2]#
+{0}#
+[Testo]#
+Concludiamo il capitolo con una successione molto importante: quella
+che definisce una delle costanti più famose della matematica: e, il numero
+di nepero.#
+[Popup]#
+Meno famoso del pigreco ma l'avrai già visto da qualche parte no?#
+{1}#
+[Testo]#
+La successione è la seguente:
+<math>a<sub>n</sub>=(1+1/n)<sup>n</sup></math>
+questa successione tende a e (2.718281...) per 'tende' a e intendiamo che considerando n sempre più grandi
+il risultato che otteniamo è sempre più vicino a e#
+[Popup]#
+Prova: per n=1 a<sub>n</sub>=2, n=2 a<sub>n</sub>=2.25, n=3 a<sub>n</sub>=2.37, n=4 a<sub>n/sub>=2.44, n=5 a<sub>n</sub>=2.48|n=10 a<sub>n</sub>=2.59, n=100 a<sub>n/<sub>=2.70, n=1000 a<sub>n</sub>=2.72,
+e così via, più grande il valore di n che inserisci migliore sarà l'approssimazione di e|
+e questa successione non solo approssima ma definsice e: sebbene sia impossibile mettere <math>n=+[inf]</math> nella calcolatrice e calcolare
+quello, esiste un procedimento che ci fa ottenere il risultato che, in un certo senso, otterremmo facendolo|sto 
+parlando di calcolare un limite, ciò di cui tratterà il prossimo capitolo.#

@@ -1,0 +1,64 @@
+{5}#
+Supponiamo di dover trovare il dominio della funzione
+f(x)=rad(|x|-2+rad(x+2)), per dominio intendiamo il sottoinsieme
+dei reali R contenente tutti i numeri per cui il calcolo mostrato ha 
+senso ovvero cerchiamo D={x in R: rad(|x|-2+rad(x+2)) in R}, 
+per prima cosa notiamo che |x| è come dire x se x>=0 e -x se x<0,
+studiamo prima la parte x>=0, il dominio cambia nel seguente modo
+<b>D1={x in R: rad(x-2+rad(x+2)) in R __ x>=0}</b> dove come puoi vedere |x|
+è stato sostituito da x e inoltre è stato aggiunto un __ x>=0.
+<b>Al posto di __ dovrebbe esserci una proposizione logica, quale?</b>
+ricordati che al momento vogliamo limitarci alle x>=0, questo insieme
+non dovrebbe avere nessuna x negativa#
+e#
+La proposizione logica <b>e</b> è quella corretta poiché in questo modo
+forziamo la x ad essere contemporanemante nell'insieme per cui vale
+rad(x-2+rad(x+2)) in R e positiva in questto modo filtriamo via tutte le
+soluzioni negative, non significative per il nostro problema siccome avendo
+sostituito |x| con x stavamo considerando solo le parti positive,
+se avessimo scelto la proposizione logica o avremmo ottenuto un insieme
+in cui vi erano tutte le x positive e in oltre anche le x tali che
+rad(x-2+rad(x+2)) in R poiché perché la proposizione logica o sia considerata
+vera basta che una delle due sottoproposizioni sia valida.#
+Allo stesso modo possiamo studiare la parte negativa trovando
+D2={x in R: rad(-x-2+rad(x+2)) in R e x<0}, in entrambi i casi
+troviamo nell'equazione rad(x+2), <b>per imporre che il risultato
+di questa radice sia un numero reale c'è bisogno che il suo argomento (x+2)
+sia 0 o positivo, quindi a quale intervallo di valori deve appartenere
+la x?</b> utilizza '(' e ')' per indicare estremi esclusi e '[' e ']' per indicare
+estremi inclusi, utilizza una virgola seguita da uno spazio ', ' come separatore
+e '+inf' o '-inf' per indicare intervalli illimitati, un esempio di intervallo
+scritto in modo corretto è: (-inf, 4].#
+[-2, +inf)#
+L'intervallo corretto è <b>[-2, +inf)</b> infatti per tutte le x comprese qui dentro
+x+2 viene maggiore o uguale di 0, infatti x+2>=0 -> x>=-2 e [-2, +inf) contiene proprio
+tutte le x>=-2.#
+Abbiamo ora l'intervallo in cui rad(x+2) ha senso, ma ci servono
+anche quelli in cui rad(x-2+rad(x+2)) e rad(-x-2+rad(x+2)) ne hanno; per risolvere questi
+ultimi si deve di nuovo imporre che l'argomento sia positivo o nullo, non ci interessano
+i calcoli ma il risultato nel primo caso è x>=(5-rad(17))/2 e nel secondo <b>-2<=x<=-1.
+Scrivi l'insieme corrispondente a quest'ultimo risultato</b>, con la stessa notazione utilizzata 
+nell'esercizio precedente.#
+[-2, -1]#
+L'intervallo <b>[-2, -1]</b> contiene tutte le x tali che -2<=x<=-1 nota che 
+abbiamo utilizzato le quadre ovvero compreso gli estremi essendo <= minore <b> o uguale </b>.#
+x>=(5-rad(17))/2 è l'insieme [(5-rad(17))/2, +inf); adesso abbiamo tutti gli insiemi che ci servono 
+per determinare il dominio: <b> D = D1 __ D2 = {x in R: x in D1 __ x in D2} = 
+{x in R: x in ([-2, +inf) __ [(5-rad(17))/2, +inf) __ [0, +inf)) __ ([-2, +inf) __ [-2, -1] __ (-inf, 0))}</b>
+completa gli spazi vuoti: la prima è un'operazione insiemistica tra Unione e Intersezione indicala semplicemente come 'i'
+o 'u', la seconda è un'operazione logica tra e e o, indicala come 'e' o 'o' tutte le seguenti sono anch'esse intersezioni
+o unioni da indicare con 'i' o 'u' per rispondere scrivi le lettere delle risposta separate da uno spazio e nient'altro, esempio di risposta
+in formato corretto: i o u i u i u.#
+u o i i u i i#
+La risposta corretta è: <b> D = D1 u D2 = {x in R: x in D1 o x in D2} = 
+{x in R: x in ([-2, +inf) i [(5-rad(17))/2, +inf) i [0, +inf)) u ([-2, +inf) i [-2, -1] i (-inf, 0))}</b>:
+perché un valore sia soluzione non deve appartenere contemporaneamnte sia a D1 sia a D2, basta che ci sia in almeno uno dei due
+quindi l'operazione corretta è l'unione che si traduce in un 'o' logico nella formulazione seguente, nell'ultima formulazione, quella più
+esplicita abbiamo che l'operazione tra D1 e D2 è sempre l'unione ma quelle interne alle parentesi per definire D1 e D2 sono invece intersezioni
+poiché la x deve rispettare contemporaneamente tutte le condizioni che abbiamo voluto imporre, non basta rispettarne una.#
+Siamo arrivati alla forma <b>{x in R: x in ([-2, +inf) i [(5-rad(17))/2, +inf) i [0, +inf)) u ([-2, +inf) i [-2, -1] i (-inf, 0))}</b> semplifichiamola
+risolvendo intersezioni e unioni: si arriva a una forma del genere <b>{x in R: __<=x<=__ o x>=__} </b> riempi con i valori numerici mancanti,
+separati da spazi.#
+-2 -1 (5-rad(17))/2#
+{x in R: -2<=x<=-1 o x>=(5-rad(17)/2)} anche esprimibile come x in [-2, -1] unito [(5-rad(17))/2, +inf) questo
+risolve la domanda originale e conclude l'esercizio.#

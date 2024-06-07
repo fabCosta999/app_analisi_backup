@@ -1,0 +1,30 @@
+standard#
+{14}#
+Calcola il limite[Immagine]tf;1;lim[x->+inf](2x<sup>2</sup>+n1x+n2)/(x+n3)#
+0;2;+[inf];-[inf];impossibile#2#
+Calcola il limite[Immagine]tf;1;lim[x->+inf](2x+n3)/(x<sup>2</sup>+n1x+n2)#
+0;2;+[inf];-[inf];impossibile#0#
+Calcola il limite[Immagine]tf;1;lim[x->+inf](4x<sup>2</sup>+n4x+n3)/(2x<sup>2</sup>+n1x+n2)#
+0;2;+[inf];-[inf];impossibile#1#
+Devi calcolare il limite di una divisione tra due polinomi dello stesso grado per x[->]+[inf], ti aspetti#
+Un risultato infinito; un risultato finito non nullo; Un risultato nullo; Un limite impossibile#1#
+Devi calcolare il limite di una divisione tra due polinomi con numeratore di grado maggiore, ti aspetti#
+Un risultato infinito; un risultato finito non nullo; Un risultato nullo; Un limite impossibile#0#
+Devi calcolare il limite di una divisione tra due polinomi con numeratore di grado minore, ti aspetti#
+Un risultato infinito; un risultato finito non nullo; Un risultato nullo; Un limite impossibile#2#
+Calcola il limite[Immagine]tf;1;lim[x->0](n1x<sup>2</sup>+x)/(n2x<sup>2</sup>)#
+0;1;+[inf];-[inf];impossibile#4#
+Calcola il limite[Immagine]tf;1;lim[x->0](N1x<sup>3</sup>+x<sup>2</sup>)/(-N2x<sup>4</sup>)#
+0;1;+[inf];-[inf];impossibile#3#
+Calcola il limite[Immagine]tf;1;lim[x->0](n1x<sup>3</sup>+x<sup>2</sup>)/(n2x<sup>4</sup>+x<sup>2</sup>)#
+0;1;+[inf];-[inf];impossibile#1#
+Calcola il limite[Immagine]tf;1;lim[x->+inf](n1x<sup>3</sup>+N1x<sup>2</sup>)/(n3x<sup>4</sup>+N2x)#
+0;2;+[inf];-[inf];impossibile#0#
+Calcola il limite (suggerimento: fai la sostituzione t=x-2)[Immagine]tf;1;lim[x->2](n1(x-2)<sup>3</sup>+3(x-2)<sup>2</sup>)/(x<sup>2</sup>-4x+4)#
+0;1;2;3;+[inf]#3#
+Calcola il limite (suggerimento: fai la sostituzione t=x+1)[Immagine]tf;1;lim[x->-1](n1(x+1)<sup>3</sup>+(x+1)<sup>2</sup>)/(x+1)#
+0;1;2;3;+[inf]#0#
+Calcola il limite (suggerimento: isola il termine sin(x)/x)[Immagine]tf;1;lim[x->0](x*sin(x))/(n1x<sup>3</sup>+x<sup>2</sup>)#
+0;1;2;3;+[inf]#1#
+Calcola il limite (suggerimento: usa il teorema del confronto per sbarazzarti di sin(x))[Immagine]tf;1;lim[x->+inf](x*sin(x))/(n1x<sup>3</sup>+x<sup>2</sup>)#
+0;1;2;3;+[inf]#0#

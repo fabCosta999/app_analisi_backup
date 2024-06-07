@@ -1,0 +1,16 @@
+standard#
+{7}#
+Il seguente integrale è improprio?[Immagine]tf;1;int[1, 3](1/(x-1) dx)#
+Sì; No#0#
+Il seguente integrale è improprio?[Immagine]tf;1;int[1, 3](1/(x+1) dx)#
+Sì; No#1#
+L'integrale della funzione mostrata sull'intervallo [2, +inf) (ovvero l'area sotto il grafico)[Immagine]g;log;e;x#
+Diverge a +[inf]; Diverge a -[inf]; Converge a 0; Converge a un numero finito non nullo; Non esiste#0#
+Solo gli integrali in cui l'intervallo è illimitato sono definiti impropri#
+Vero; Falso#1#
+Il sguente integrale: (consiglio: calcola esplicitamente)[Immagine]tf;1;int[0, 1](1/x dx)#
+Converge a 0; Converge a un numero finito non nullo; Diverge a +[inf]; Diverge a -[inf]; Non esiste#2#
+Il sguente integrale: (consiglio: calcola esplicitamente)[Immagine]tf;1;int[0, 1](1/rad(x) dx)#
+Converge a 0; Converge a un numero finito non nullo; Diverge a +[inf]; Diverge a -[inf]; Non esiste#1#
+Il sguente integrale: (consiglio: calcola esplicitamente)[Immagine]tf;1;int[1, +inf](1/rad(x) dx)#
+Converge a 0; Converge a un numero finito non nullo; Diverge a +[inf]; Diverge a -[inf]; Non esiste#2#

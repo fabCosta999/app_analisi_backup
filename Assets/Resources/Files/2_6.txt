@@ -1,0 +1,34 @@
+[3]#
+{0}#
+[Testo]#
+A volte un limite non esiste perché nei pressi di un punto di accumulazione una funzione (o successione)
+oscilla.#
+[Popup]#
+è il caso per esempio di sin(1/x) in 0#
+[Immagine]#
+ga;sin;/;1;x#
+{1}#
+[Testo]#
+Ma per le funzioni monotone questo non può succedere, concentriamoci prima sulle successioni:
+una successione sempre crescente può avere come limite un numero finito o +infinito, non può avere -infinito
+o non avere limite, una successione sempre decrescente invece può avere come limite un numero
+finito o -infinito, non +infinito o non avere limite.#
+[Popup]#
+Io li sopra te la scrivo così come fosse una regola...|...ma in verità è estremamente sensato no?|
+prova a immaginare una successione sempre decrescente che tende a <math>+[inf]</math> o che non ha limite|
+non ci riuscirai, non puoi farla salire quindi manco farla oscillare per renderla priva di limite#
+{2}#
+[Testo]#
+Per le funzioni monotone in +infinito vale la stessa cosa e in -infinito una simile,
+ma si può dire anche qualcosa nei punti finiti, infatti vale sempre che
+<math>lim[x[->]x<sub>0</sub><sup>-</sup>]f(x) [<=] f(x<sub>0</sub>) <= lim[x[->]x<sub>0</sub><sup>+</sup>]f(x).#
+[Popup]#
+A me sta cosa sembra banale non sapevo se metterla qui nell'app|
+ma mi fido di come mi son stati insegnati sti argomenti|
+d'altronde se non mettessi le cose che trovo banali non metterei quasi niente|
+non fate caso a me è normale non capire tutto in modo ez con tutte ste notazioni e sti concetti astratti|
+io sono un bimbo strano| spero sia tutto chiaro anche a voi|ma se così non fosse il consiglio è sempre quello di sperimentare|
+prendete sta regoletta prendete un grafico e vedete se torna|fatelo ancora un po' di volte finché non vi convincete|
+i matematici fanno tanto i fighi dicendo che dimostrano tutto rigorosamente e seguono solo logica ferrea|
+ma in verità quello viene fatto solo dopo| la comprensione vera viene dall'intuizione che viene da osservazioni fatte così a caso|
+osservazioni che potete fare tutti|scusate il monologo, ho finito#

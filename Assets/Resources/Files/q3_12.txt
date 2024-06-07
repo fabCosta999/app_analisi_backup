@@ -1,0 +1,12 @@
+standard#
+{5}#
+Quanto fa lo sviluppo di MacLaurin di questa funzione, fino al grado 3?[Immagine]tf;1;e<sup>x</sup>#
+1+x+x<sup>2</sup>/2+x<sup>3</sup>/6+o(x<sup>3</sup>); 1+x+x<sup>2</sup>/2+x<sup>3</sup>/6; 1+x+x<sup>2</sup>/2+x<sup>3</sup>/6+o(x<sup>4</sup>); 1+x+x<sup>2</sup>/2+x<sup>3</sup>/3+o(x<sup>3</sup>); x+x<sup>2</sup>/2+x<sup>3</sup>/6+o(x<sup>3</sup>)#0#
+Quanto fa lo sviluppo di MacLaurin di questa funzione, fino al grado 3?[Immagine]tf;1;ln(1+x)#
+x+x<sup>2</sup>/2+x<sup>3</sup>/3+o(x<sup>3</sup>); x-x<sup>2</sup>/2+x<sup>3</sup>/3+o(x<sup>3</sup>); -x+x<sup>2</sup>/2-x<sup>3</sup>/3+o(x<sup>3</sup>); x-x<sup>2</sup>/2+x<sup>3</sup>/6+o(x<sup>3</sup>); -1+x-x<sup>2</sup>/2+x<sup>3</sup>/3+o(x<sup>3</sup>)#1#
+Quanto fa lo sviluppo di MacLaurin di questa funzione, fino al grado 3?[Immagine]tf;1;(1+x)<sup>5</sup>#
+1+5x+10x<sup>2</sup>/2+10x<sup>3</sup>/2+o(x<sup>3</sup>); 1+20x+60x<sup>2</sup>+10x<sup>3</sup>+o(x<sup>3</sup>); 1+5x+10x<sup>2</sup>+10x<sup>3</sup>+o(x<sup>3</sup>); 5+5x+10x<sup>2</sup>+10x<sup>3</sup>+o(x<sup>3</sup>); 1+5x+10x<sup>2</sup>+10x<sup>3</sup>+o(x<sup>4</sup>)#2#
+Quanto fa lo sviluppo di MacLaurin di questa funzione, fino al grado 3?[Immagine]tf;1;sin(x)#
+x-x<sup>3</sup>/6+x<sup>5</sup>/125+o(x<sup>5</sup>); x+x<sup>3</sup>/6+o(x<sup>3</sup>); 1+x+x<sup>3</sup>/6+o(x<sup>3</sup>); x-x<sup>3</sup>/6+o(x<sup>3</sup>); 1-x<sup>2</sup>/2+o(x<sup>3</sup>)#3#
+Quanto fa lo sviluppo di di MacLaurin di questa funzione, fino al grado 3?[Immagine]tf;1;cos(x)#
+1-x<sup>2</sup>/2+x<sup>4</sup>/24+o(x<sup>3</sup>); 1+x<sup>2</sup>/2+o(x^3); 1+x<sup>2</sup>/2+o(x<sup>2</sup>); 1-x<sup>2</sup>/2+o(x<sup>2</sup>); 1-x<sup>2</sup>/2+o(x<sup>3</sup>)#4#

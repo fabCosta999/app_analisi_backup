@@ -1,0 +1,16 @@
+standard#
+{7}#
+Supponi di fare un integrale definito di una funzione ma lasciare uno degli estremi variabili (provati un esempio)[Immagine]tf;1;int[0, x]f(x)#
+Si ottiene un numero; Si ottengono tutte le possibili primitive di f(x), come nell'integrale indefinito; Si ottiene una specifica primitiva di f(x)#2#
+Calcola[Immagine]{int-}#
+{int-}#-1#
+Calcola[Immagine]{int-}#
+{int-}#-1#
+Calcola[Immagine]{int-}#
+{int-}#-1#
+è possibile che un integrale definito di una funzione non nulla faccia 0?#
+Sì, può succedere anche con estremi non coincidenti; Solo se gli estremi coincidono; No impossibile#0#
+Calcola[Immagine]tf;1;int[0, pi](sin(x)dx)#
+-2;-1;0;1;2#4#
+Calcola[Immagine]tf;1;int[0, 1](e<sup>x</sup>dx)#
+e; e-1; e(e-1); 1#1#

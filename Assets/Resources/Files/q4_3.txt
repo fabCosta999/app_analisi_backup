@@ -1,0 +1,12 @@
+standard#
+{5}#
+Quale di queste è una (non tutte) delle primitive di[Immagine]tf;1;f(x)=sin(x)*(cos(x))<sup>3</sup>?#
+(cos(x))<sup>4</sup>/4; (sin(x))<sup>4</sup>/4-3; -cos(x)[*](cos(x))<sup>4</sup>/4; -(cos(x))<sup>4</sup>/4+4#3#
+Calcola[Immagine]tf;1;int(x*e<sup>x<sup>2</sup></sup>dx)#
+(e<sup>x<sup>2</sup></sup>)/2+c; x[*]e<sup>x<sup>2</sup></sup>-e<sup>x<sup>2</sup></sup>+c; x<sup>2</sup>[*]e<sup>x<sup>2</sup></sup>+c#0#
+Date f(x) e g(x) in quali di questi integrali il risultato è G(f(x))+c?#
+[int](g(f(x))dx); [int](g(f(x))[*]f'(x)dx); [int](g(f'(x))dx); [int](G(f'(x))dx); [int](g(f'(x))[*]f(x)dx)#1#
+Quale di queste equazioni è falsa e non può essere usata per affrontare l'integrale di un prodotto?#
+[int](f(x)[*]g(x)dx)=[int](f(x)dx)[*][int](g(x)dx); [int](f'(x)[*]g(x)dx)=f(x)[*]g(x)-[int](f(x)[*]g'(x)dx); [int](f'(x)[*]g(f(x))dx)=[int](g(t)dt) sostituendo t=f(x)#0#
+Qual è una sostituzione adeguata per rendere immediato questo integrale?[Immagine]tf;1;int(ln(x)<sup>4</sup>/x dx)#
+t=1/x; t=x<sup>4</sup>; t=ln(x); t=(ln(x))<sup>4</sup>#2#

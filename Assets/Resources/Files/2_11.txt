@@ -1,0 +1,14 @@
+[2]#
+{0}#
+[Testo]#
+Dato un limite è possibile fare un cambio variabile per semplificarsi la vita,
+per esempio <math>lim[x[->]0]2<sup>sin(x)/x</sup></math> si può semplificare sostituendo <math>t=sin(x)/x</math>#
+[Popup]#
+Attenzione la nuova variabile dovrà sostituire interamente la x| di conseguenza
+serve sapere <math>x[->]0</math> in cosa si traduce rispetto alla variabile t| lo diciamo nella prossima
+pagina ma magari prova a intuirlo da solo/a#
+{1}#
+[Testo]#
+Siccome per <math>x[->]0 sin(x)/x[->]1</math> (come già visto in altre lezioni)|e t è proprio <math>sin(x)/x</math>
+in funzione di t avremo un limite tendente a 1 quindi <math>lim[x[->]0]2<sup>sin(x)/x</sup> = lim[t[->]1]2<sup>t</sup></math>
+che fa 2 semplicemente sostituendo 1 alla t.#

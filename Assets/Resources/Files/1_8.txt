@@ -1,0 +1,25 @@
+[3]#
+{0}#
+[Testo]#
+Una funzione si dice pari se <math>f(x)=f(-x)</math>#
+[Popup]#
+x<sup>2</sup> è una funzione pari infatti x<sup>2</sup>=(-x)<sup>2</sup> pensaci, sostituiamo per esempio a x 2|
+<math>2<sup>2</sup>=4=(-2)<sup>2</sup></math>| le funzioni pari nella loro visualizzazione a grafico sono simmetriche rispetto all'asse
+delle ordinate (y)|in generale le funzioni del tipo <math>x<sup>a</sup></math> sono pari se a è pari#
+[Immagine]#
+g;^;x;2#
+{1}#
+[Testo]#
+Una funzione si dice dispari se <math>f(x)=-f(-x)</math>#
+[Popup]#
+x è una funzione dispari infatti x=-(-x)|le funzioni dispari sono simmetriche rispetto all'origine| le funzioni del tipo <math>x<sup>a</sup></math> sono dispari se a è dispari#
+[Immagine]#
+g;x#
+{2}#
+[Popup]#
+Una funzione può essere né pari né dispari eh, del tipo x+1 non è ne uguale a -x+1 né uguale a -(x+1)|
+o in altre parole non è simmetrica né rispetto all'asse delle y né rispetto all'origine|
+puoi riconoscere immediatamente che una funzione non è dispari se, come in questo caso, f(0) esiste ma non fa 0|
+questo perché per la definizione di funzione dispari deve valere f(0)=-f(0) ma 0 è l'unico numero opposto di se stesso#
+[Immagine]#
+g;+;x;1#

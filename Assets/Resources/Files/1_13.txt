@@ -1,0 +1,7 @@
+[1]#
+{0}#
+[Popup]#
+Buum hai completato il capitolo|
+il test di questa lezione prenderà quiz dai database di tutte le lezioni di questo capitolo|
+quello finale avrà un set di domande diverse da quelle inconctrate fino ad ora, compresi esercizi più lunghi e complessi
+|soldato continua così il prossimo capitolo è sui limiti e si entra davvero nel vivo#

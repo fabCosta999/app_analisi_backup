@@ -1,0 +1,58 @@
+[5]#
+{0}#
+[Testo]#
+Sebbene il procedimento spiegato nella lezione precedente per
+il calcolo dello sviluppo di Taylor sia valido spesso non si usa
+e ci si riconduce ad alcuni sviluppi noti, ecco una lista di sviluppi di McLaurin.#
+[Popup]#
+McLaurin quindi calcolati in x=0#
+[Immagine]#
+tf;14;
+e<sup>x</sup> =1+x+x<sup>2</sup>/2+x<sup>3</sup>/6+;
+...+x<sup>n</sup>/n!+o(x<sup>n</sup>);
+;
+ln(1+x)=x-x<sup>2</sup>/2+x<sup>3</sup>/3+;
+...+(-1)<sup>n+1</sup>x<sup>n</sup>/n+o(x<sup>n</sup>);
+;
+(1+x)<sup>a</sup> =1+ax+a(a-1)x<sup>2</sup>/2+a(a-1)(a-2)x<sup>3</sup>/6+;
+...+a!x<sup>n</sup>/(n!*(a-n)!)+o(x<sup>n</sup>);
+;
+sin(x)=x-x<sup>3</sup>/6+;
+...+(-1)<sup>n</sup>x<sup>2n+1</sup>/(2n+1)!+o(x<sup>2n+1</sup>);
+;
+cos(x)=1-x<sup>2</sup>/2+x<sup>4</sup>/24+;
+...+(-1)<sup>n</sup>x<sup>2n</sup>/(2n)!+o(x<sup>2n</sup>)#
+{1}#
+[Testo]#
+Gli sviluppi di Taylor possono essere usati per dimostrare i limiti notevoli
+e per ampliarli per permettere loro di risolvere più situazioni.#
+[Popup]#
+Ricordi che in 0 sin(x)/x=1|beh è perché sin(x)=x+o(x)| e quindi sin(x)/x = (x+o(x))/x = 1|
+in generale da adesso i limiti risolvili così sostituendo il polinomio di Taylor| non con il limite notevole
+mettiamo per esempio di avere il limite qui sotto: proviamo a risolverlo sostitendo il primo termine di Taylor#
+[Immagine]#
+tf;3;
+lim[x->0](1-x<sup>2</sup>/2-cos(x))/x<sup>3</sup> =;
+lim[x->0](1-x<sup>2</sup>/2-1+x<sup>2</sup>/2+o(x<sup>2</sup>))/x<sup>3</sup> =;
+lim[x->0]o(x<sup>2</sup>)/x<sup>3</sup>#
+{2}#
+[Testo]#
+Siamo arrivati a uno stallo: al numeratore è rimasto solo un termine trascurabile|
+quando succede così basta sostituire più termini dello sviluppo, sostituiamone uno in più#
+[Immagine]#
+tf;4;
+lim[x->0](1-x<sup>2</sup>/2-cos(x))/x<sup>3</sup> =;
+lim[x->0](1-x<sup>2</sup>/2-1+x<sup>2</sup>/2-x<sup>4</sup>/24+o(x<sup>4</sup>))/x<sup>3</sup> =;
+lim[x->0](-x<sup>4</sup>/24+o(x<sup>2</sup>))/x<sup>3</sup> =;
+lim[x->0]-x/24 = 0#
+{3}#
+[Testo]#
+Abbiamo così risolto il nostro stallo, quindi ricordate come regola di base:
+sostituire con lo sviluppo un solo termine (o termini fino ad arrivare a quelli già esistenti nei polinomi
+presenti intorno per non fare casini), se resta una parte principale + una trascurabile a posto, se resta solo
+la trascurabile si sostituiscono più termini.#
+{4}#
+[Popup]#
+Ragazzo/a ti prego|ogni volta che vedi una funzione|che fai un esercizio|sempre|
+prendi un software che sia il mio o un altro|e guarda il grafico|è la cosa più utile
+del mondo|davvero|perdona questa intrusione, ciao#

@@ -1,0 +1,31 @@
+[4]#
+{0}#
+[Testo]#
+Un insieme è una collezione non ordinata di oggetti, un dato oggetto può appartenere o non appartenere a un insieme.#
+[Popup]#
+Per 'oggetto' intendiamo praticamente ogni cosa: un numero, un vettore, una funzione, un insieme esso stesso o altro ancora|
+quando diciamo che è una collezione non ordinata intendiamo che <math>{1, 3} e {3, 1}</math> sono lo stesso insieme|inoltre negli insiemi 
+ci interessa solo se ogni elemento è presente o non lo è, non diamo l'informazione di 'quanto' è presente|di conseguenza non ha 
+senso l'insieme <math>{1, 3, 3}</math>che ha gli stessi elementi dell'insieme sensato <math>{1, 3}</math>#
+{1}#
+[Testo]#
+Alcuni degli insiemi numerici più importanti sono <math>l'insieme dei numeri naturali [N]</math>che contiene i numeri positivi che sappiamo contare
+(senza virgola), <math>quello del numeri interi [Z]</math>contenente anche numeri negativi senza virgola, <math>quello dei numeri razionali [Q]</math> contenente tutti i numeri esprimibili come rapporto di due interi ed infine <math>quello dei numeri reali [R]</math> contenente anche numeri irrazionali.#
+[Popup]#
+Numeri come 1, 10 e 12 appartengono ai numeri naturali|numeri come -1, -9 e -190 appartengono agli interi|
+numeri come 2/3, 10/7 e 6/17 ai razionali|alcuni esempi di numeri irrazionali sono pigreco, rad(2) o e, il numero di nepero#
+{2}#
+[Testo]#
+L'insieme più semplice a cui pensare è l'insieme vuoto ovvero quello che non contiene alcun oggetto.#
+[Popup]#
+L'insieme vuoto <math>[vuoto]</math> è uno strumento molto potente per esprimere alcune idee:| per esempio verrà utilizzato per rappresentare le
+soluzioni di equazioni che non hanno soluzioni#
+{3}#
+[Testo]#
+Un insieme può essere contenuto in un altro, in questo caso il termine che si usa è inclusione:
+un insieme A si dice incluso in (o sottoinsieme di) un insieme B,<math>A[incluso]B</math>se tutti gli oggetti contenuti in A sono
+presenti anche in B, quest'ultimo comunque può contenere elementi non presenti in A.#
+[Popup]#
+I numeri naturali sono inclusi nei numeri interi...|...che sono inclusi nei numeri razionali...|...che sono inclusi nei numeri reali|
+quindi non è sbagliato dire che 3 appartiene all'insieme dei naturali, all'insieme degli interi, all'insieme dei razionali e all'insieme
+dei reali nello stesso tempo#

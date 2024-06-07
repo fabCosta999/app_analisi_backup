@@ -1,0 +1,99 @@
+[5]#
+{0}#
+[Testo]#
+Un'altra tipologia nota di integrali è quella in cui vanno
+integrati quozienti di polinomi, oggetti del tipo f(x)/g(x)
+con f(x) polinomio di grado n e g(x) polinomio di hrado m.#
+[Popup]#
+Questi sono abbastanza tosti ma sono anche l'ultimo argomento con calcoli
+difficili qui in analisi 1 dai| poi gli integrali impropri che vedrai tra un po'
+potrebbero essere concettualmente difficili|ma ci si abitua facilmente, sta
+parte è quella che odierai di più probabilmente#
+{1}#
+[Testo]#
+Se n>m ovvero il grado del numeratore è superiore a quello del denominatore
+<math>si riscrive f(x) come g(x)*q(x)+r(x)</math> (tramite divisione tra polinomi) per poi
+dover risolvere gli integrali di <math>q(x)</math> e di <math>r(x)/g(x)</math> (che è un altro integrale razionale
+ma questa volta con grado al numertore inferiore)#
+[Popup]#
+Sai dividere due polinomi tra loro?|guarda sto esempio potresti capirlo#
+[Immagine]#
+tf;12;
+int((x<sup>3</sup>+2x<sup>2</sup>-1)/(x<sup>2</sup>-5x)dx);
+;
+x<sup>3</sup>+2x<sup>2</sup>-1 - (x<sup>2</sup>-5x) * x = 7x<sup>2</sup>-1;
+7x<sup>2</sup>-1 - (x<sup>2</sup>-5x) * 7 = 35x - 1;
+x<sup>3</sup>+2x<sup>2</sup>-1 = (x<sup>2</sup>-5x)*(x+7) + 35x - 1;
+q(x) = x+7,  r(x) = 35x-1;
+;
+int((x<sup>3</sup>+2x<sup>2</sup>-1)/(x<sup>2</sup>-5x)dx) =;
+int((x<sup>2</sup>-5x)*(x+7) + 35x - 1)/(x<sup>2</sup>-5x) dx) =;
+int((x<sup>2</sup>-5x)*(x+7)/(x<sup>2</sup>-5x) dx) +;
++ int((35x-1)/(x<sup>2</sup>-5x) dx) =;
+int((x+7) dx) + int((35x-1)/(x<sup>2</sup>-5x) dx)#
+{2}#
+[Testo]#
+Se m>n ovvero il gardo del numeratore è inferiore a quello del denominatore
+e è possibile scomporre il denominatore in m termini del tipo (x-x<sub>0</sub>), dove x<sub>0</sub>
+è una radice; allora si ricerca tramite un sistema la somma di frazioni, ognuna
+con un solo termine x-x<sub>0</sub> che sommate danno la frazione complessiva che abbiamo.
+Questo procedimento si chiama metodo dei fratti semplici.#
+[Popup]#
+Molto meglio se guardate direttamente dall'esempio#
+[Immagine]#
+tf;15;
+int((35x-1)/(x<sup>2</sup>-5x)dx);
+;
+x<sup>2</sup>-5x=x(x-5);
+(35x-1)/(x<sup>2</sup>-5x) = a/x + b/(x-5);
+a/x + b/(x-5) = (ax-5a+bx))/x(x-5);
+(35x-1)/(x<sup>2</sup>-5x) = (ax-5a+bx))/x(x-5);
+-5a = -1 -> a=1/5;
+ax+bx = 35x;
+1/5 + b = 35;
+b = 174/5;
+(35x-1)/(x<sup>2</sup>-5x) = 1/5x + 174/(5x-25);
+;
+int((35x-1)/(x<sup>2</sup>-5x)dx) =;
+int(1/5x dx) + int(174/(5x-25) dx) =;
+1/5 ln|x| + 174/5 ln|x-5| + c#
+{3}#
+[Testo]#
+In alcuni casi però non è possibile fattorizzare il denominatore
+(può non avere tante radici reali quanto il grado), nel caso in
+cui le radici combaciano si può risolvere raccogliendo il quadrato (o cubo o potenza con radici ripetute)
+e tramite un cambio variabile.#
+[Immagine]#
+tf;9;
+int((x+1)/(x<sup>2</sup>-2x+1) dx) = int((x+1)/(x-1)<sup>2</sup> dx);
+;
+t = x-1 -> dt = dx, x=t+1;
+;
+int((x+1)/(x-1)<sup>2</sup> dx) =;
+int((t+2)/t<sup>2</sup> dt) =;
+int(t/t<sup>2</sup> dt) + int(2/t<sup>2</sup> dt) =;
+ln(|t|) - 2/t + c =;
+ln(|x-1|) - 2/(x-1) + c#
+{4}#
+[Testo]#
+Infine quando le radici proprio non ci sono è probabile che ci si riesca a riconurre
+a una somma tra una derivata dell'arcotangente (d/dx(arctan(x)) = 1/(1+x<sup>2</sup>)) e
+un quoziente del tipo f'(x)/f(x).#
+[Popup]#
+Quello che devi cercare di far comparire è il termine f'(x)/f(x)|la derivata dell'arctan
+verrà fuori da sola e per scoprirla si dovrà fare il completamento di un quadrato|
+per far 'comparire' f'(x) al numeratore valuta la possibilità di sommare e 
+sottrarre la stessa quantità: | ho x al numeratore  e voglio far comparire 2x+5?|sommo e sotraggo x+5|
+<math>x+x+5-x-5=2x+5-x-5</math>| e la parte che resta|<math>-x-5</math>| la tratterò separatamente| puoi anche dividere e moltiplicare
+per la stessa costante e portare quella che non ti interessa fuori dal simbolo di integrale#
+[Immagine]#
+tf;9;
+int((4x-5)/(x<sup>2</sup>-2x+10) dx);
+;
+d/dx (x<sup>2</sup>-2x+10) = 2x-2;
+;
+int((4x-5)/(x<sup>2</sup>-2x+10) dx) =;
+int((4x-4)/(x<sup>2</sup>-2x+10) dx) - int(1/(x<sup>2</sup>-2x+10) dx) =; 
+2int((2x-2)/(x<sup>2</sup>-2x+10) dx) - int(1/((x-1)<sup>2</sup>+9) dx) =;
+2ln(|x<sup>2</sup>-2x+10|) + c - 1/3*int(1/3 * 1/(((x-1)/3)<sup>2</sup>+1) dx) =;
+2ln(|x<sup>2</sup>-2x+10|) - 1/3 arctan((x-1)/3) + c#

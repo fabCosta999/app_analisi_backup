@@ -1,0 +1,49 @@
+{6}#
+Se ti ricordi nel quiz nel capitolo delle funzioni abbiamo studiato la crescenza di una funzione
+osservandone il grafico; questa volta lo faremo senza grafico, studiando il segno della derivata.
+La funzione in questione è f(x)=x^3-x^2+|x|, per iniziare studiamone la derivata.
+Essendo presente un valore assoluto la funzione può essere considerata come una definita a tratti
+con la seguente definizione: f(x)=x^3-x^2+x se x>=0 f(x)=x^3-x^2-x se x<0, <b>la derivata
+del tratto per x>=0 è</b>? scrivi come risposta solo la funzione senza f'(x)= all'inizio, per
+esempio x^4-2x^2+1 è una risposta nel formato corretto#
+3x^2-2x+1#
+La risposta corretta è <b>3x^2-2x+1</b>, derivare un polinomio non dovrebbe risultare troppo
+difficile, se per te lo fosse basta ricordare: (ax^n)' = anx^(n-1) ovvero moltiplichi l'esponente al
+coefficiente del monomio e poi riduci l'esponente di 1, vedi se ti torna con i risultati#
+La derivata della parte di funzione nella restrizione x<0 invece vale f'(x)=3x^2-2x-1, 
+quando si deriva una cosa definita a tratti l'estremo comune a più tratti inizialmente non si include
+in nessuna derivata, quindi per ora abbiamo f'(x)=3x^2-2x+1 se x>0 e f'(x)=3x^2-2x-1 se x<0 ma non
+abbiamo la definizione di f'(x) in 0, per ottenerla controlliamo se i limiti sinistri e destri coincidono
+e sono finiti, nel caso quella è la derivata, altrimenti si tratta di un punto di non derivabilità.
+<b>Quanto fanno rispettivamente lim[x->0+]f'(x) e lim[x->0-]f'(x)?</b> dare le risposte separate da uno spazio,
+per esempio se facessero entrambi 0 la risposta da scrivere sarebbe 0 0#
+1 -1#
+La risposta esatta è <b>1 -1</b> pensaci questi limiti non arrivano a nessuna forma indeterminata, 
+semplicemente lim[x->0+]f'(x)=lim[x->0+](3x^2-2x+1)=0+0+1=1 e lim[x->0-]f'(x)=lim[x->0-](3x^2-2x-1)=0+0-1=-1#
+Abbiamo ottenuto che la derivata in 0 tende a valori diversi da sinistra e da destra, in particolare a 1 e
+-1, <b>quindi x=0 è un punto di che tipo?</b> scrivere a per rispondere punto angoloso, c per cuspide, t per tangente verticale, N per nessuno dei tre#
+a#
+Si tratta di un <b>punto angoloso</b> ricorda: entrambi finiti ma diversi->punto angoloso.
+Nota che questa funzione era, essendo somma di tre funzioni continue, una funzione continua su tutto il suo dominio, ciò nonostante abbiamo appena dimsotrato che non è anche derivabile su tutto il suo dominio.#
+Studiamo ora il segno della derivata, <b>troviamo innanzitutto i punti critici cercando quando essa si annulla.</b>
+ricorda la derivata è f'(x)=3x^2-2x+1 se x>0 f'(x)=3x^2-2x-1 se x<0 e non esiste in x=0, rispondi con un insieme contenente tutti 
+i punti in cui la derivata si annulla: se non si annulla mai rispondi {} se si annulla in 2 e 3 rispondi {2, 3}#
+{-1/3}#
+La risposta corretta è <b>{-1/3}</b>: la parabola 3x^2-2x+1 non si annulla mai mentre quella 3x^2-2x-1 lo fa in -1/3 e in 1 ma quest'ultima parabola vale solo nella restrizione x<0 dunque l'unico zero della derivata o punto critico della funzione
+è x=-1/3#
+Studiamo ora il segno della derivata: <b>in quali intervalli la derivata è positiva?</b> rispondere utilizzando u per l'unione tra intervalli: per esempio (1, 3] u [9, +inf).#
+(-inf, -1/3) u (0, +inf)#
+La risposta corretta è: <b>(-inf, -1/3) unito (0, +inf)</b> ricorda di tenere conto delle soluzioni che trovi
+solo nelle restrizioni a cui si riferiscono: qui la parabola 3x^2-2x-1 sarebbe positiva in (-inf, -1/3) e anche in (1, +inf) ma ricorda che questa la consideriamo solo per x<0 dunque quello che sappiamo è che f'(x) è positiva in (-inf, -1/3) e negativa in (-1/3, 0) non sappiamo nient'altro, la parabola 3x^2-2x+1 invece è sempre positiva ma dobbiamo considerarla solo in x>0, da questo deduciamo che f'(x) è positiva nell'intervallo (0, +inf). Questo è il grafico di f'(x) (quindi la derivata attenzione non la funzione originale che stiamo studiando)[Immagine]ga;+;*;3;^;x;2;+;-2x;se>{0};1;se!={0};-1;NaN#
+Quindi riepiloghiamo: x=-1/3 è l'unico punto critico ovvero con derivata nulla; x=0 è un punto di non derivabilità, in particolare
+un punto angoloso, nell'intervallo (-inf, -1/3) la derivata è positiva quindi la funzione crescente; in (1/3, 0) la derivata è negativa
+quindi la funzione decrescente e in (0, +inf) derivata positiva e funzione crescente.
+Inoltre sappiamo che la funzione è continua quindi tutte le volte che c'è un cambio di cresenza (crescente->decrescente o viceversa) vi
+è un estremo (massimo o minimo), questo sia nei punti critici sia nei punti di non derivabilità <b>questo implica che -1/3 e 0 sono</b>...
+rispondi con due lettere separate da uno spazio, M indica un massimo locale, m indica un minimo locale, N nessuno dei due, quindi
+se vuoi rispondere che sono entrambi minimi scrivi m m#
+M m#
+La risposta correttà è: <b>-1/3 è un massimo locale, 0 è un minimo locale</b>ora puoi guardare la funzione, conrolla se tutti 
+gli intervalli di crescenza di cui abbiamo parlato tornano, se questi estremi ci sono davvero e se il punto angoloso ha l'aspetto
+che dovrebbe; piccola nota se tu volessi disegnare la funzione potrebbe tornare comodo calcolare f(x) in tutti gli estremi per capire in
+che confini devi stare, qui vale che f(-1/3)=5/27 e f(0)=0[Immagine]ga;+;-;^;x;3;^;x;2;abs;x#

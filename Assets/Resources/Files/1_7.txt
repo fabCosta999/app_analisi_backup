@@ -1,0 +1,33 @@
+[3]#
+{0}#
+[Testo]#
+Date due funzioni f(x) e g(x) si può definire la funzione composta f composto g
+oppure la funzione composta g composto f sostituendo alla variabile della funzione di sinistra
+(della relazione di composizione) la funzione di destra.#
+[Popup]#
+Per esempio se f(x)=x+1 e g(x)=x<sup>2</sup> la funzione f composto g anche indicata come
+f(g(x)) è definira come <math>f(g(x))=x<sup>2</sup>+1</math> potete norare come sia sempre f ma al posto della x abbiamo messo 
+x<sup>2</sup>| per calcolare il risultato di una funzione composta si può sia calcolarla direttamente nella sua forma esplicita:
+x<sup>2</sup>+1, per esempio <math>x=3->f(g(3))=3<sup>2</sup>+1=10</math>| sia calcolare prima <math>g(3)=3<sup>2</sup>=9</math> per poi usare questo come input di f(x): <math>f(9)=9+1=10</math>|
+la visualizzazione a slider di queste funzioni è estremamente utile per vedere l'effetto della funzione intermedia#
+af_g;+;x;1_^;x;2#
+{1}#
+[Testo]#
+Il dominio di una funzione composta è dato dall'intersezione tra il dominio della funzione di destra
+e la controimmagine del dominio della funzione di sinistra nella funzione di destra.#
+[Popup]#
+Per esempio se f(x)=1/x e g(x)=rad(x+1) abbiamo che il dominio di g è <math>x[>=]-1</math> ed il dominio di f è<math>x[!=]0</math>|
+allora il dominio di f(g(x)) sarà, <math>delle x[>=]-1 (dominio di g) solo le x in cui g(x) fa un risultato [!=] 0
+(controimmagine in g del dominio di f)</math>| siccome rad(0)=0 il dominio deve escludere x+1=0 ovvero x=-1|
+quuindi sarà x>-1#
+{2}#
+[Testo]#
+Comporre tra loro due funzioni con la stessa crescenza produce una funzione crescente, comporre funzioni
+con crescenza opposta produce una funzione decrescente.#
+[Popup]#
+Pensala come: +*+=+ -*-=- e +*-=-|questa proprietà è estremamente utile per comprendere la crescenza di una funzione complessa|
+prendi per esempio e<sup>-x<sup>2</sup></sup> a vederla così non si capisce subito quando è crescente e quando no ma se la pensi come e<sup>x</sup> composto
+con -x<sup>2</sup>...|...puoi subito notare che e<sup>x</sup> è sempre crescente, -x<sup>2</sup> è <math>crescente in (-[inf], 0] e decrescente in [0, +[inf])| quindi la funzione
+complessiva sarà<math> crescente in (-[inf], 0] e decrescente in [0, +[inf]) facile no?#
+[Immagine]#
+ga;^;e;*;-1;^;x;2#

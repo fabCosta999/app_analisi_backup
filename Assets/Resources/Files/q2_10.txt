@@ -1,0 +1,19 @@
+standard#
+{7}#
+Calcola sfruttando il teorema del confronto[Immagine]tf;1;lim[x->+inf]sin(x)*e<sup>-x</sup>+2#
+-1;0;1;2;funzione oscillante, non esiste limite#3#
+Calcola sfruttando il teorema del confronto[Immagine]tf;1;lim[x->0]cos(1/x)+e<sup>x</sup>#
+-1;0;1;2;funzione oscillante, non esiste limite#4#
+Per tutte le funzioni f(x) che in (N1, +[inf]) sono maggiori di g(x)=x<sup>2</sup> vale che
+[Immagine]tf;1;lim[x->+inf]f(x)=#
+0; -[inf]; +[inf]; non abbiamo abbastanza informazioni per determinarlo; non esiste#2#
+Per tutte le funzioni f(x) che in (N1, +[inf]) sono minori di g(x)=x<sup>2</sup> vale che
+[Immagine]tf;1;lim[x->+inf]f(x)=#
+0; -[inf]; +[inf]; non abbiamo abbastanza informazioni per determinarlo; non esiste#3#
+Calcola sfruttando il teorema del confronto[Immagine]tf;1;lim[x->+inf]sin(x)+x#
+0;1;+[inf];-[inf];funzione oscillante, non esiste limite#2#
+Calcola sfruttando il teorema del confronto[Immagine]tf;1;lim[x->+inf]N1sin(x)+N2cos(x)-x<sup>3</sup>#
+-[inf];0;1;+[inf];funzione oscillante, non esiste limite#0#
+Supponi che in un intorno di x<sub>0</sub> vale sempre f(x)>g(x) in quale situazione possiamo dedurre
+immediatamente il risultato di lim[x->x<sub>0</sub>]g(x)?#
+Se f(x)=-[inf]; Se f(x)=+[inf]; non possiamo farlo in nessun caso, ci serve una funzione h(x)<g(x)#0#

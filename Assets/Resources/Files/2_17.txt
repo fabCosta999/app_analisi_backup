@@ -1,0 +1,35 @@
+[4]#
+{0}#
+[Testo]#
+Come ultimo elemento di questo capitolo parleremo di asintoti:
+rette a cui può tendere il grafico di una funzione, per esempio prendiamo
+la funzione <math>1/x<sup>2</sup></math> in 0 si avvicina sempre di più alla linea verticale x=0
+e in infinito (+ e -) si avvicina sempre di più alla linea orizzontale y=0.#
+[Immagine]#
+g;/;1;^;x;2#
+{1}#
+[Testo]#
+Gli asintoti verticali sono punti in cui <math>lim[x[->]x<sub>0</sub>]f(x) = [inf]
+e x<sub>0</sub> è finito</math>, può essere che una funzione abbia un asintoto solo da destra
+o solo da sinistra se solo il limite da uno dei due lati è infinito.#
+[Popup]#
+Nell'esempio di 1/x<sup>2</sup> è evidente che in 0 la funzione tende a +infinito|
+e quel 'in 0' ci dice che si tratta dell'asintoto <math>x=0</math>#
+{2}#
+[Testo]#
+Gli asintoti orizzontali esistono se la funzione in infinito tende
+a una costante.#
+[Popup]#
+Nell'esempio dato sia <math>lim[x[->]+[inf]]1/x<sup>2</sup></math> sia <math>lim[x[->]-[inf]]1/x<sup>2</sup></math> fanno 0|
+e quel risultato 0 ci dice che si tratta dell'asintoto <math>y=0</math>#
+{3}#
+[Testo]#
+Gli asintoti obliqui esistono se la funzione in inf tende a una retta,
+si può verificare controllando se <math>lim[x[->][inf]]f(x)/x=m</math> con m costante
+e successivamente se <math>lim[x[->][inf]]f(x)-mx = q</math> con q costante, nel caso
+l'asintoto obliquo è la retta <math>y=mx+q</math>#
+[Popup]#
+Per esempio la funzione <math>(3x<sup>2</sup>+x+2)/(x+5)</math> ha l'asintoto obliquo
+<math>y = 3x-14</math>#
+[Immagine]#
+gt;/;+;*;3;^;x;2;+;x;2;+;x;5;-;3x;14#

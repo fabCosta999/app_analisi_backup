@@ -1,0 +1,50 @@
+[5]#
+{0}#
+[Testo]#
+Se ti ricordi nello scorso capitolo abbiamo definito in
+modo approssimativo le funzioni continue, lasciando la definizione più corretta
+ai capitoli futuri.#
+[Popup]#
+Le funzioni senza 'salti' ricordi?#
+{1}#
+[Testo]#
+Adesso siamo pronti a definire per bene: una funzione è continua in un punto x<sub>0</sub>
+se <math>f(x<sub>0</sub>)=lim[x[->]x<sub>0</sub>]f(x)</math> ovvero, nel caso in cui i limiti destro e sinistro esistano
+se <math>f(x<sub>0</sub>)=lim[x[->]x<sub>0</sub><sup>-</sup>]f(x) = lim[x[->]x<sub>0</sub><sup>+</sup>]f(x)</math>#
+[Popup]#
+Prova a vedere se ti torna con la definizione intuitiva che davamo prima|
+per esempio se prendiamo la funzione sign(x) e la esaminiamo in  x<sub>0</sub>=3|
+notiamo che non solo f(3)=1 ma anche i limiti destri e sinistri fanno 1|
+se invece la consideriamo nel punto x<sub>0</sub>=0 f(0)=0 ma il limite destro fa 1
+e quello sinistro fa -1! qui la funzione è discontinua|sia dalla visualizzazione
+a grafico sia da quella a slider puoi notare come il risultato 'salti' attraversando lo 0#
+[Immagine]#
+ga;sign;x#
+{2}#
+[Testo]#
+Una funzione si dice continua se è continua su tutti i punti
+del suo dominio.#
+[Popup]#
+L'avevamo già detto ma ricordarlo non fa male|
+la funzione 1/x per esempio è continua|
+quello che vedete come 'salto' come punto di discontinuità 
+in verità è 0, non è compreso nel dominio#
+[Immagine]#
+ga;/;1;x#
+{3}#
+[Testo]#
+Un punto in cui <math>lim[x[->]x<sub>0</sub><sup>-</sup>]f(x) != lim[x[->]x<sub>0</sub><sup>+</sup>]f(x)</math> è definito punto di salto (o discontinuità di prima specie).#
+[Popup]#
+La funzione floor(x) ha infiniti punti di salto in corrispondenza dei numeri interi#
+[Immagine]#
+ga;floor;x#
+{4}#
+[Testo]#
+Un punto in cui <math>lim[x[->]x<sub>0</sub><sup>-</sup>]f(x) = lim[x[->]x<sub>0</sub><sup>+</sup>]f(x) [!=] f(x<sub>0</sub>)</mah> è detto punto di discontinuità eliminabile, riassegnando la y di quel punto ovvero ridefinendola non come è attualmente ma 
+ponendola pari a lim[x[->]x<sub>0</sub>]f(x) la funzione diventerebbe continua.#
+[Popup]#
+Non ho un grafico da mostrarti scusa il mio software fa schifo per mostrare punti singoli|
+infatti non mostro manco le successioni|ma vedila così prendi una funzione continua qualsiasi|
+tipo sin(x)| e decidi che <math>f(x)= sin(x) se x[!=]0 ma f(x)=3 se x=0</math>| è una cosa che si può fare
+si chiama funzione definita a tratti| bene se riesci a immaginartela apposto si tratta della funzione 
+seno 'bucata' in 0 con solo quel singolo punto spostato di 3 in alto| quella è una discontinuità eliminabile#

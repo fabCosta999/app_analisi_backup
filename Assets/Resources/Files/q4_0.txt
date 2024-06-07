@@ -1,0 +1,16 @@
+standard#
+{6}#
+Se prendo una funzione, la derivo e poi faccio l'integrale indefinito del risultato, ottengo#
+La funzione stessa; La funzione più una costante c; è un calcolo che non può essere mai fatto#1#
+Risolvi[Immagine]tf;1;int((sin(x)+2x+4)dx)#
+cos(x)+2; cos(x)+2+c; -cos(x)+x<sup>2</sup>+c; -cos(x)+x<sup>2</sup>+4x; -cos(x)+x<sup>2</sup>+4x+c#4#
+La relazione scritta è corretta?[Immagine]tf;1;int(5*e<sup>x</sup> dx)=5*int(e<sup>x</sup> dx)#
+Sì; No#0#
+La relazione scritta è corretta?[Immagine]tf;1;int((5+e<sup>x</sup>) dx)=5+int(e<sup>x</sup> dx)#
+Sì; No#1#
+Data f(x) e indicando F(x) come una sua primitiva, calcola F(m1)-F(m2) (suggerimento: la costante c si semplificherà)[Immagine]{int}#
+{int}#-1#
+Data f(x) e indicando F(x) come una sua primitiva, calcola F(m1)-F(m2) (suggerimento: la costante c si semplificherà)[Immagine]{int}#
+{int}#-1#
+Data f(x) e indicando F(x) come una sua primitiva, calcola F(m1)-F(m2) (suggerimento: la costante c si semplificherà)[Immagine]{int}#
+{int}#-1#

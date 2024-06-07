@@ -1,0 +1,32 @@
+[3]#
+{0}#
+[Testo]#
+In questo capitolo introdurremo le funzioni reali di variabili reale,
+<math>f: D[->][R] con D[incluso][R]</math>ovvero degli operatori che "mappano" un numero reale
+di input x con un numero reale di output (un risultato) y=f(x).#
+[Popup]#
+Per esempio il calcolo <math>f(x) = 2x</math> è una funzione reale di variabile reale|
+infatti sostituendo a x un numero reale otteniamo un numero reale risultante f(x)|
+<math>x=5 [->] f(x) = 10</math> oppure <math>x=-2 [->] f(x)=-4</math>| queste scritture si possono abbreviare sostituendo direttamente
+x dentro alle parentesi ovvero <math>f(5) = 10, f(-2) = -4</math>| ah si le tonde qui non indicano una moltiplicazione:
+non sta succedendo f moltiplicato a x sta succedendo f applicato in x#
+{1}#
+[Testo]#
+Visualizzare graficamente le funzioni permette la formazione di una solida intuizione, per questo
+illustriamo due modi per visualizzarle: come primo proponiamo quello che si trova più comunemente, un grafico
+in cui vediamo R<sup>2</sup>, ovvero R x R (prodotto cartesiano tra due rette reali).
+Su questo piano possiamo individuare tutte le possibili tuple (x, y) e marcare solo quelle plausibili nella nostra funzione.#
+[Popup]#
+Se prendiamo la funzione vista prima f(x)=2x questo è il suo grafico:|
+possiamo vedere che per ogni valore immaginabile in x la variabile y (ovvero f(x)) assume proprio il suo doppio|
+clicca su un punto del grafico per vedere le sue coordinate (approssimate alla prima cifra dopo la virgola)|
+oppure puoi disattivare il pulsante delle coordinate per poter muovere liberamente il grafico#
+[Immagine]#
+g;2x#
+{2}#
+[Testo]#
+Un secondo strumento di visualizzazione sono queste due rette reali, una per l'input una per l'output della funzione.#
+[Popup]#
+Prova a trascinare il cursore della x e vedere come cambia la y (che sarebbe f(x))#
+[Immagine]#
+a;2x#

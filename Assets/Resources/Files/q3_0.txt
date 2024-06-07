@@ -1,0 +1,8 @@
+answerFixed#
+{5}#
+Vero; Falso#
+Fare la derivata di una funzione significa calcolare il limite del rapporto incrementale#0#
+Fare la derivata di una funzione ti permette di calcolare il coefficiente angolare della retta tangente al grafico#0#
+Data la funzione f(x)=x<sup>2</sup> il calcolo da fare per ottenere la derivata è[Immagine]tf;1;lim[h->0](x<sup>2</sup>+2hx+h<sup>2</sup>-x<sup>2</sup>)/h#0#
+Data la funzione f(x)=x<sup>3</sup>+sin(x) il calcolo da fare per ottenere la derivata è[Immagine]tf;1;lim[Deltax->0](x<sup>3</sup>+sin(x)+Deltax-(x<sup>3</sup>+sin(x)))/Deltax#1#
+Fare la derivata di una funzione ti permette di calcolare la quota della retta tangente al grafico#1#

@@ -1,0 +1,21 @@
+standard#
+{7}#
+Qual'è l'immagine della seguente funzione considerando solo
+la sua restrizione del dominio [1, 2]?[Immagine]tf;1;f(x)=2x#
+[1, 4]; [2, 4]; [1, 2]; {2}; (-[inf], +[inf])#1#
+Qual'è l'immagine della seguente funzione considerando solo
+la sua restrizione del dominio [-2, 3]?[Immagine]g;^;x;2#
+[0, 9]; [4, 9]; [0, +[inf])#0#
+Qual'è l'immagine della seguente funzione considerando solo
+la sua restrizione del dominio [-1, 1]?[Immagine]g;^;e;x#
+[0, 1]; (-0.34, 3.12); [0.37, 2.72]; y>0; y[>=]0#2#
+Quella nel grafico è la funzione arcsin(x); è possibile definire una
+funzione identica ad essa nella regione -1[<=]x[<=]1 ma definita anche per
+gli altri valori di x?[Immagine]g;asin;x#
+Sì per esempio con una funzione definita a tratti;No asin(x) è l'unico modo di ottenere quegli esatti valori#0#
+Di norma se parliamo di restringere o estendere una funzione quale insieme stiamo restringendo o estendendo#
+L'immagine, il dominio cambia come effetto collaterale; Il dominio, l'immagine cambia come effetto collaterale#1#
+Il numero di modi in cui si può estendere una funzione che ha dominio diverso da [R]#
+Dipende dalla funzione e può essere infinito; dipende dalla funzione ma è sempre finito; è sempre infinito#2#
+Data una funzione con immagine I=[R] è sempre possibile trovare una restrizione in cui l'immagine è un singolo numero a nostra scelta?#
+Sì; No#0#

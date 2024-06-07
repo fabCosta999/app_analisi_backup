@@ -1,0 +1,32 @@
+[4]#
+{0}#
+[Testo]#
+I punti in cui la funzione è continua ma non derivabile vengono categorizzati
+in base al comportamento della derivata in un intorno del punto.#
+{1}#
+[Testo]#
+Se la derivata fa un salto allora si chiama punto angoloso, è il caso
+per esempio della funzione valore assoluto di x, in cui la derivata salta
+da -1 (coefficiente angolare della retta tangente per x negativi) a 1
+(coefficiente angolare della retta tangente per x positivi).#
+[Popup]#
+L'aspetto del punto angoloso è quello di uno spigolo.#
+[Immagine]#
+g;abs;x#
+{2}#
+[Testo]#
+Se la derivata tende a infinito da sinistra e da destra con segno
+discorde allora si chiama un punto di cuspide.#
+[Popup]#
+Per esempio la radice del modulo di x ha un punto di cuspide in 0|
+vedete questo comportamento con lo spigolo ma formato da linee arrotondate che tendono a essere
+verticali| conm l'angolo in mezzo di 0 gradi| a differenza del punto angoloso#
+[Immagine]#
+g;^;abs;x;/;1;2#
+{3}#
+[Testo]#
+Infine se la derivata tende a infinito da sinista e destra con segno concorde
+si tratta di un punto di flesso a tangente verticale, come quello che troviamo nella radice
+cubica di x.#
+[Immagine]#
+g;^;x;/;1;3#

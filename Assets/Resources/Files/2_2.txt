@@ -1,0 +1,42 @@
+[3]#
+{0}#
+[Testo]#
+Ora siamo pronti a definire cos'è un limite in modo rigoroso.#
+[Popup]#
+Quello che vorremmo è una definizione così:|
+<math>lim[x[->]x<sub>0</sub>]f(x)=l se e solo se f(x) diventa arbitrariamente vicino a l avvicinando
+a sufficienza x a x<sub>0</sub></math>| facciamo un esempio: la funzione <math>f(x)=x[*]ln(x)+1</math>|
+il suo dominio è <math>(0, +[inf])</math> quindi non è possibile calcolare f(0)|
+ma è possibile calcolare <math>lim[x[->]0]f(x)</math> visto che 0 è un punto di accumulazione|
+ecco il risultato di questo limite è 1 infatti possiamo arrivare arbitariamente vicini a 1
+calcolando f(x) con x molto vicine a 0 (il punto in cui calcoli il limite)|
+per esempio se vogliamo valori distanti al massimo 0.1 da 1 basta calcolare f(0.02) che fa 0.92|
+se volessimo valori distanti al massimo 0.001 basta calcolare f(0.0001) che fa 0.9991|
+e così via: non importa quanto stringente sia la richiesta di distanza massima|si troverà sempre un valore x<sub>0</sub>
+vicino a 0 tale per cui f(x<sub>0</sub>) fa un numero che dista da 1 meno della distanza massima richiesta#
+[Immagine]#
+ga;+;*;x;log;e;x;1#
+{1}#
+[Testo]#
+La definizione di limite di una funzione di dominio D è la seguente:
+<math>lim[x[->]x<sub>0</sub>]f(x)=l [eq] [qualsiasi] intorno V di l [esiste] un intorno U di x<sub>0</sub>: 
+x[in]U[intersecato]D-{x<sub>0</sub>} [im] f(x)[in]V</math>
+Il limite di una funzione calcolato in x<sub>0</sub> può non esistere anche se x<sub>0</sub> è punto di accumulazione.#
+[Popup]#
+Bene benvenuto a quello che forse è concetto più complesso dei corsi di analisi|
+o comunque uno molto temuto: la definizione di limite| prova ad analizzarla un pochino e cerca
+di convincerti che fa proprio quello che dicevo nella pagina prima|
+l'intorno V contiene i punti abbastanza vicini a l da essere nella distanza massima accettabile di cui parlavamo|
+l'intorno U contiene punti vicini a x<sub>0</sub>| nota che il valore di f(x<sub>0</sub>) (se esiste) è del tutto indifferente:
+consideriamo solo gli x nell'intersezione tra dominio e intorno ma diversi da x<sub>0</sub> nella definizione#
+[Immagine]#
+i;8#
+{2}#
+[Testo]#
+è opportuno riformulare la definizione in questo modo più esplicito:
+<math>il limite di f per x tendente a x<sub>0</sub> è l [eq]
+[qualsiasi][epsilon]>0 [esiste] [delta]>0: |x-x<sub>0</sub>|<[delta] [im] |f(x)-l|<[epsilon]</math>#
+[Popup]#
+Questa definizione va bene per x<sub>0</sub> ed l finiti, se infiniti l'intorno non è più esprimibile
+come <math>[abs]x-x<sub>0</sub>[abs]<[delta]</math> o <math>[abs](f(x)-l[abs]<[epsilon]| prova a pensare tu una traduzione adeguata della definizione nella pagina prima
+(sempre valida) per questi casi| in ogni caso non la capirai leggendola qui a caso la capirai facendo i quiz|fidati|buona fortuna#
